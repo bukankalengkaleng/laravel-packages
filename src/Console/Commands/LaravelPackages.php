@@ -48,8 +48,13 @@ class LaravelPackages extends Command
             '--provider' => 'Spatie\Permission\PermissionServiceProvider',
         ]);
         $this->info('[DONE ] Publish: Spatie\'s Laravel Permission files.');
+
         $this->line('');
 
-        $this->call('memfis:fresh');
+        $this->info('[START] Rebuild database schema..........');
+        $this->callSilent('migrate:fresh', ['--force' => true]);
+        $this->info('[DONE ] Rebuild database schema.');
+
+        $this->line('');
     }
 }
