@@ -1,5 +1,5 @@
 <?php
 
-Route::get('/halo', function () {
-    return 'halo';
+Route::get('/laravel-packages', function () {
+    return 'BukanKalengKaleng\LaravelPackages installed successfully';
 });
