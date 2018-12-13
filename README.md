@@ -76,12 +76,12 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 
 ## Kontribusi
 
-1. Kirim PR bro
-1. Gak perlu baper kalo PR tertolak, selow
+1. Kirim PR
+1. Gak perlu baper kalo PR tertolak
 
 ## Catatan Revisi
 
-Revisi pada package ini dapat dilihat di file ini.
+Revisi pada package ini dapat dilihat di [file ini](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md).
 
 ## Lisensi
 
