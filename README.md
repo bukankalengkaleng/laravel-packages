@@ -5,8 +5,13 @@
 ![stars](https://img.shields.io/github/stars/bukankalengkaleng/laravel-packages.svg)
 ![license](https://img.shields.io/github/license/bukankalengkaleng/laravel-packages.svg)
 
+## Deskripsi
 
 Kumpulan packages Laravel terbaek menurut aku.
+
+## Motivasi
+
+Package ini aku buat agar aku (dan kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke proyek berbasis Laravel.
 
 ## Instalasi
 
