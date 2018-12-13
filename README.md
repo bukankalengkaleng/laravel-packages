@@ -40,6 +40,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Laravel's Scout
 1. Laravel's Socialite
 1. Laravel's Telescope
+1. Maatwebsite's Laravel Excel
 1. Owen-IT's Laravel Auditing
 1. Spatie's Calendar Links
 1. Spatie's DNS
@@ -78,6 +79,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Slack Slash Command
 1. Spatie's Laravel Sluggable
 1. Spatie's Laravel Stripe Webhooks
+1. Spatie's Laravel Tags
 1. Spatie's Laravel Translatable
 1. Spatie's Laravel Twitter Streaming API
 1. Spatie's Laravel Uptime Monitor
