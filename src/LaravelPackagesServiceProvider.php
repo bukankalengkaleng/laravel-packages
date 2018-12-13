@@ -3,6 +3,7 @@
 namespace BukanKalengKaleng\LaravelPackages;
 
 use Illuminate\Support\ServiceProvider;
+use BukanKalengKaleng\LaravelPackages\Console\Commands\LaravelPackages;
 
 class LaravelPackagesServiceProvider extends ServiceProvider
 {
@@ -13,6 +14,12 @@ class LaravelPackagesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                LaravelPackages::class,
+            ]);
+        }
+
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
     }
 
