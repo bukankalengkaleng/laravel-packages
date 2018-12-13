@@ -1,12 +1,20 @@
 {
     "name": "bukankalengkaleng/laravel-packages",
     "description": "A Laravel must-have packages of my choice",
+    "keywords": [
+        "laravel",
+        "packages",
+        "collection"
+    ],
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/bukankalengkaleng/laravel-packages",
     "authors": [
         {
             "name": "R. Kukuh",
-            "email": "rkukuh@gmail.com"
+            "email": "rkukuh@gmail.com",
+            "homepage": "http://rkukuh.github.io",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
