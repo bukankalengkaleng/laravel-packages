@@ -28,7 +28,9 @@ Package ini aku buat agar aku (dan kalean) tak perlu lagi susah payah masukin sa
 Berikut adalah daftar packages yang tersedia (urut A-Z):
 
 1. Spatie's Calendar Links
+1. Spatie's DNS
 1. Spatie's Emoji
+1. Spatie's Flysystem Dropbox
 1. Spatie's Laravel Activity Log
 1. Spatie's Laravel Analytics
 1. Spatie's Laravel Backup
@@ -38,6 +40,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel CORS
 1. Spatie's Laravel CSP
 1. Spatie's Laravel Demo Mode
+1. Spatie's Laravel Directory CleanUp
 1. Spatie's Laravel Event Projector
 1. Spatie's Laravel Feed
 1. Spatie's Laravel Fractal
@@ -58,9 +61,11 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Robots Middleware
 1. Spatie's Laravel Schemaless Attributes
 1. Spatie's Laravel Sitemap
+1. Spatie's Laravel Slack Slash Command
 1. Spatie's Laravel Sluggable
 1. Spatie's Laravel Stripe Webhooks
 1. Spatie's Laravel Translatable
+1. Spatie's Laravel Twitter Streaming API
 1. Spatie's Laravel Uptime Monitor
 1. Spatie's Laravel View Models
 1. Spatie's Macroable
