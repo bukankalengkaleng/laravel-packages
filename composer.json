@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "spatie/laravel-permission": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "BukanKalengKaleng\\LaravelPackages\\": "src/"
