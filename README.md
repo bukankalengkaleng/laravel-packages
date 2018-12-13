@@ -27,6 +27,15 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 
 Berikut adalah daftar packages yang tersedia (urut A-Z):
 
+1. Algolia's PHP SDK
+1. Doctrine's DBAL
+1. Laravel's Cashier
+1. Laravel's Dusk
+1. Laravel's Horizon
+1. Laravel's Passport
+1. Laravel's Scout
+1. Laravel's Socialite
+1. Laravel's Telescope
 1. Spatie's Calendar Links
 1. Spatie's DNS
 1. Spatie's Emoji
