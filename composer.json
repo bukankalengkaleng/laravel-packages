@@ -15,5 +15,12 @@
         "psr-4": {
             "BukanKalengKaleng\\LaravelPackages\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BukanKalengKaleng\\LaravelPackages\\LaravelPackagesServiceProvider"
+            ]
+        }
     }
 }
