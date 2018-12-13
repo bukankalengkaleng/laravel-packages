@@ -37,15 +37,21 @@ class LaravelPackages extends Command
      */
     public function handle()
     {
+        $this->info('[START] Publish default Laravel vendors files..........');
+        $this->callSilent('vendor:publish', ['--all' => true]);
+        $this->info('[DONE ] Publish default Laravel vendors files.');
+
+        $this->line('');
+
         $this->info('[START] Publish: Spatie\'s Laravel Permission files.....');
-        $this->call('vendor:publish', [
+        $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
-            '--provider' => 'Spatie\Permission\PermissionServiceProvider',
+            '--provider' => Spatie\Permission\PermissionServiceProvider::class,
         ]);
 
-        $this->call('vendor:publish', [
+        $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => 'Spatie\Permission\PermissionServiceProvider',
+            '--provider' => Spatie\Permission\PermissionServiceProvider::class,
         ]);
         $this->info('[DONE ] Publish: Spatie\'s Laravel Permission files.');
 
