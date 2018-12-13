@@ -6,11 +6,11 @@
 
 ## Deskripsi
 
-Kumpulan packages Laravel terbaek menurut aku.
+Kumpulan packages Laravel terbaek, menurut aku.
 
 ## Motivasi
 
-Package ini aku buat agar aku (dan kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke proyek berbasis Laravel.
+Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke proyek berbasis Laravel.
 
 ## Instalasi
 
@@ -73,3 +73,16 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's SSL Certificate
 1. Spatie's URL
 1. Spatie's URL Signer
+
+## Kontribusi
+
+1. Kirim PR bro
+1. Gak perlu baper kalo PR tertolak, selow
+
+## Catatan Revisi
+
+Revisi pada package ini dapat dilihat di file ini.
+
+## Lisensi
+
+The MIT License (MIT). Please see [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) for more information.
