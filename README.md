@@ -28,6 +28,10 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 Berikut adalah daftar packages yang tersedia (urut A-Z):
 
 1. Algolia's PHP SDK
+1. BeyondCode's Dusk Dashboard
+1. BeyondCode's Laravel Self Diagnosis
+1. BeyondCode's Laravel Voucher
+1. BeyondCode's Laravel Websockets
 1. Doctrine's DBAL
 1. Laravel's Cashier
 1. Laravel's Dusk
@@ -36,6 +40,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Laravel's Scout
 1. Laravel's Socialite
 1. Laravel's Telescope
+1. Owen-IT's Laravel Auditing
 1. Spatie's Calendar Links
 1. Spatie's DNS
 1. Spatie's Emoji
