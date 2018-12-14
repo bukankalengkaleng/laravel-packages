@@ -15,7 +15,7 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 ## Instalasi
 
 1. Instal [Laravel](https://laravel.com/docs/5.7/installation)
-1. Configure the database setting on ```.env``` file
+1. Konfigurasi database pada file ```.env```
 1. Buka **terminal**, jalankan perintah:
 
     ```composer require bukankalengkaleng/laravel-packages```
@@ -70,7 +70,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Model CleanUp
 1. Spatie's Laravel Model Status
 1. Spatie's Laravel Newsletter
-1. Spatie's Laravel Permission
+1. [Spatie's Laravel Permission](https://github.com/spatie/laravel-permission)
 1. Spatie's Laravel Query Builder
 1. Spatie's Laravel Response Cache
 1. Spatie's Laravel Robots Middleware
