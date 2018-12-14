@@ -10,7 +10,7 @@ Kumpulan packages Laravel terbaek, menurut aku.
 
 ## Motivasi
 
-Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke proyek berbasis Laravel.
+Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke suatu proyek berbasis Laravel.
 
 ## Instalasi
 
@@ -21,7 +21,7 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
     ```composer require bukankalengkaleng/laravel-packages```
 1. Jalankan perintah:
 
-    ```php artisan laravel-packages:install```
+    ```php artisan bukankalengkaleng:install```
 
 ## Daftar Packages
 
