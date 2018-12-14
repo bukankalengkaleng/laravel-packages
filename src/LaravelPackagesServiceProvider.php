@@ -19,8 +19,6 @@ class LaravelPackagesServiceProvider extends ServiceProvider
                 LaravelPackages::class,
             ]);
         }
-
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
     }
 
     /**
