@@ -1,12 +1,7 @@
 {
     "name": "bukankalengkaleng/laravel-packages",
     "description": "A Laravel must-have packages of my choice",
-    "keywords": [
-        "bukankalengkaleng",
-        "laravel",
-        "packages",
-        "collection"
-    ],
+    "keywords": ["bukankalengkaleng", "laravel", "packages", "collection"],
     "type": "library",
     "license": "MIT",
     "homepage": "https://github.com/bukankalengkaleng/laravel-packages",
@@ -20,6 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "php": "^7.1.3",
         "spatie/laravel-permission": "dev-master"
     },
     "autoload": {

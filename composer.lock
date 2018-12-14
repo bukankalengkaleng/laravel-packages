@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "107360a3345a6dddd07a478765d6c81b",
+    "content-hash": "a978c6e30551cc4a170eeff5c65580ea",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -79,12 +79,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/auth.git",
-                "reference": "e786c3779cf21e55c512979c40f446ed579ef5eb"
+                "reference": "5943c1339f55f2f079cccabc1f1585de43146f9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/auth/zipball/e786c3779cf21e55c512979c40f446ed579ef5eb",
-                "reference": "e786c3779cf21e55c512979c40f446ed579ef5eb",
+                "url": "https://api.github.com/repos/illuminate/auth/zipball/5943c1339f55f2f079cccabc1f1585de43146f9e",
+                "reference": "5943c1339f55f2f079cccabc1f1585de43146f9e",
                 "shasum": ""
             },
             "require": {
@@ -122,7 +122,7 @@
             ],
             "description": "The Illuminate Auth package.",
             "homepage": "https://laravel.com",
-            "time": "2018-12-02T16:40:46+00:00"
+            "time": "2018-12-13T13:51:16+00:00"
         },
         {
             "name": "illuminate/console",
@@ -130,12 +130,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
-                "reference": "65106b5a6e7f4b5daa1e6afacf1c5143057083d7"
+                "reference": "12b5e9844144ce4c72abf527c5b002266ad01e97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/console/zipball/65106b5a6e7f4b5daa1e6afacf1c5143057083d7",
-                "reference": "65106b5a6e7f4b5daa1e6afacf1c5143057083d7",
+                "url": "https://api.github.com/repos/illuminate/console/zipball/12b5e9844144ce4c72abf527c5b002266ad01e97",
+                "reference": "12b5e9844144ce4c72abf527c5b002266ad01e97",
                 "shasum": ""
             },
             "require": {
@@ -172,7 +172,7 @@
             ],
             "description": "The Illuminate Console package.",
             "homepage": "https://laravel.com",
-            "time": "2018-12-07T22:32:52+00:00"
+            "time": "2018-12-13T13:53:32+00:00"
         },
         {
             "name": "illuminate/container",
@@ -534,12 +534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "f8b9387034e11980d3953c814b6ad65e2cd244e3"
+                "reference": "2baa4cc106a6528ca8b8481d1d8dd00ab61929d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/f8b9387034e11980d3953c814b6ad65e2cd244e3",
-                "reference": "f8b9387034e11980d3953c814b6ad65e2cd244e3",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/2baa4cc106a6528ca8b8481d1d8dd00ab61929d1",
+                "reference": "2baa4cc106a6528ca8b8481d1d8dd00ab61929d1",
                 "shasum": ""
             },
             "require": {
@@ -585,7 +585,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2018-12-08T15:33:10+00:00"
+            "time": "2018-12-13T13:54:21+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -856,12 +856,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "1887a5851013bf1a457f2a65477f96e98ae3f53a"
+                "reference": "297af851d1f60cbae8948e3bd7b6fed069985732"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/1887a5851013bf1a457f2a65477f96e98ae3f53a",
-                "reference": "1887a5851013bf1a457f2a65477f96e98ae3f53a",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/297af851d1f60cbae8948e3bd7b6fed069985732",
+                "reference": "297af851d1f60cbae8948e3bd7b6fed069985732",
                 "shasum": ""
             },
             "require": {
@@ -913,7 +913,7 @@
                 "security",
                 "spatie"
             ],
-            "time": "2018-12-11T02:03:59+00:00"
+            "time": "2018-12-14T21:50:02+00:00"
         },
         {
             "name": "symfony/console",
@@ -921,12 +921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d1cea0b804f5f5e76c2ea272dbe7b6d731b748a2"
+                "reference": "7dac0f8df415100d5d4ecd71213d794546d65d0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d1cea0b804f5f5e76c2ea272dbe7b6d731b748a2",
-                "reference": "d1cea0b804f5f5e76c2ea272dbe7b6d731b748a2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/7dac0f8df415100d5d4ecd71213d794546d65d0e",
+                "reference": "7dac0f8df415100d5d4ecd71213d794546d65d0e",
                 "shasum": ""
             },
             "require": {
@@ -982,7 +982,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-10T03:47:54+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -1058,12 +1058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "170e2f8f61733bddabf2379c88ce964dc64da62a"
+                "reference": "7f2f295f386c4b0054cf02099c29655a0c6265b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/170e2f8f61733bddabf2379c88ce964dc64da62a",
-                "reference": "170e2f8f61733bddabf2379c88ce964dc64da62a",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/7f2f295f386c4b0054cf02099c29655a0c6265b8",
+                "reference": "7f2f295f386c4b0054cf02099c29655a0c6265b8",
                 "shasum": ""
             },
             "require": {
@@ -1106,7 +1106,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-01T10:04:56+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1114,12 +1114,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "07f7f377b194a3e1cc466b0f219fcbe3649573a4"
+                "reference": "a6ec602b1c247fd67f9104642f397bc70667df84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/07f7f377b194a3e1cc466b0f219fcbe3649573a4",
-                "reference": "07f7f377b194a3e1cc466b0f219fcbe3649573a4",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a6ec602b1c247fd67f9104642f397bc70667df84",
+                "reference": "a6ec602b1c247fd67f9104642f397bc70667df84",
                 "shasum": ""
             },
             "require": {
@@ -1170,7 +1170,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-01T09:36:31+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1178,12 +1178,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "047be7e3450e5460f14c4a42a02c9811e2eda2cd"
+                "reference": "d2bae4531a8d48ee610ec664d10336c9500e3a64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/047be7e3450e5460f14c4a42a02c9811e2eda2cd",
-                "reference": "047be7e3450e5460f14c4a42a02c9811e2eda2cd",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/d2bae4531a8d48ee610ec664d10336c9500e3a64",
+                "reference": "d2bae4531a8d48ee610ec664d10336c9500e3a64",
                 "shasum": ""
             },
             "require": {
@@ -1219,7 +1219,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-26T16:19:01+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -1227,12 +1227,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "01b77ee93d223db20dd280583eac1490394b5adc"
+                "reference": "1ce8fb2bf91217d2811d5fb2231cb33c97f7a3fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/01b77ee93d223db20dd280583eac1490394b5adc",
-                "reference": "01b77ee93d223db20dd280583eac1490394b5adc",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1ce8fb2bf91217d2811d5fb2231cb33c97f7a3fe",
+                "reference": "1ce8fb2bf91217d2811d5fb2231cb33c97f7a3fe",
                 "shasum": ""
             },
             "require": {
@@ -1273,7 +1273,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-26T16:19:01+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -1281,12 +1281,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "459e211f8ecc89139e68b542b688e36718667d3b"
+                "reference": "a91b2522475ac55a7d312961645cf6a2b57bea0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/459e211f8ecc89139e68b542b688e36718667d3b",
-                "reference": "459e211f8ecc89139e68b542b688e36718667d3b",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/a91b2522475ac55a7d312961645cf6a2b57bea0c",
+                "reference": "a91b2522475ac55a7d312961645cf6a2b57bea0c",
                 "shasum": ""
             },
             "require": {
@@ -1362,7 +1362,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-06T11:00:21+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1487,12 +1487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "1a01d2984ed07841fe3db2da69743f9b2ee14de7"
+                "reference": "d87c6f01ac6dfc4af25c0f4fb7eeecdc03927615"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/1a01d2984ed07841fe3db2da69743f9b2ee14de7",
-                "reference": "1a01d2984ed07841fe3db2da69743f9b2ee14de7",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d87c6f01ac6dfc4af25c0f4fb7eeecdc03927615",
+                "reference": "d87c6f01ac6dfc4af25c0f4fb7eeecdc03927615",
                 "shasum": ""
             },
             "require": {
@@ -1528,7 +1528,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2018-11-26T16:19:01+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1536,12 +1536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "3823b16e6032a57a462c2685708f195d89892699"
+                "reference": "5c111fac40dc3ed9b62e33aa641b35c9b5ef5cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/3823b16e6032a57a462c2685708f195d89892699",
-                "reference": "3823b16e6032a57a462c2685708f195d89892699",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/5c111fac40dc3ed9b62e33aa641b35c9b5ef5cd0",
+                "reference": "5c111fac40dc3ed9b62e33aa641b35c9b5ef5cd0",
                 "shasum": ""
             },
             "require": {
@@ -1601,7 +1601,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-06T11:00:21+00:00"
+            "time": "2018-12-13T12:43:21+00:00"
         }
     ],
     "packages-dev": [],
@@ -1612,6 +1612,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.1.3"
+    },
     "platform-dev": []
 }
