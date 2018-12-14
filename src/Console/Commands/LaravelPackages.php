@@ -37,13 +37,16 @@ class LaravelPackages extends Command
      */
     public function handle()
     {
-        $this->info('[START] Publish default Laravel vendors files..........');
+        $this->copyright();
+
+        $this->info('[START] Publishing vendor files..........');
+
+        $this->comment('Vendor: Laravel');
+
         $this->callSilent('vendor:publish', ['--all' => true]);
-        $this->info('[DONE ] Publish default Laravel vendors files.');
 
-        $this->line('');
+        $this->comment('Vendor: Spatie');
 
-        $this->info('[START] Publish: Spatie\'s Laravel Permission files.....');
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
             '--provider' => Spatie\Permission\PermissionServiceProvider::class,
@@ -53,7 +56,8 @@ class LaravelPackages extends Command
             '--tag'      => 'config',
             '--provider' => Spatie\Permission\PermissionServiceProvider::class,
         ]);
-        $this->info('[DONE ] Publish: Spatie\'s Laravel Permission files.');
+
+        $this->info('[DONE ] Publishing vendor files');
 
         $this->line('');
 
@@ -61,6 +65,21 @@ class LaravelPackages extends Command
         $this->callSilent('migrate:fresh', ['--force' => true]);
         $this->info('[DONE ] Rebuild database schema.');
 
+        $this->line('');
+    }
+
+    /**
+     * Command's copyright'
+     *
+     * @return mixed
+     */
+    protected function copyright()
+    {
+        $this->line('');
+        $this->line('******************************************');
+        $this->line('Laravel-Packages Installer artisan command');
+        $this->line('version 1.0 by @rkukuh');
+        $this->line('******************************************');
         $this->line('');
     }
 }
