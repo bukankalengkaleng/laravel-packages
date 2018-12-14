@@ -40,12 +40,37 @@ class LaravelPackages extends Command
         $this->copyright();
 
         $this->info('[START] Publishing vendor files..........');
+        $this->publishVendorLaravel();
+        $this->publishVendorSpatieLaravelPermission();
+        $this->info('[DONE ] Publishing vendor files');
 
+        $this->line('');
+
+        $this->rebuildDatabaseSchema();
+
+        $this->line('');
+    }
+
+    /**
+     * Publish specific vendor
+     *
+     * @return void
+     */
+    protected function publishVendorLaravel()
+    {
         $this->comment('Vendor: Laravel');
 
         $this->callSilent('vendor:publish', ['--all' => true]);
+    }
 
-        $this->comment('Vendor: Spatie');
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
+    protected function publishVendorSpatieLaravelPermission()
+    {
+        $this->comment('Vendor: Spatie\'s Laravel Permission');
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
@@ -56,16 +81,15 @@ class LaravelPackages extends Command
             '--tag'      => 'config',
             '--provider' => Spatie\Permission\PermissionServiceProvider::class,
         ]);
+    }
 
-        $this->info('[DONE ] Publishing vendor files');
-
-        $this->line('');
-
+    protected function rebuildDatabaseSchema()
+    {
         $this->info('[START] Rebuild database schema..........');
-        $this->callSilent('migrate:fresh', ['--force' => true]);
-        $this->info('[DONE ] Rebuild database schema.');
 
-        $this->line('');
+        $this->callSilent('migrate:fresh', ['--force' => true]);
+
+        $this->info('[DONE ] Rebuild database schema.');
     }
 
     /**
@@ -76,10 +100,10 @@ class LaravelPackages extends Command
     protected function copyright()
     {
         $this->line('');
-        $this->line('******************************************');
-        $this->line('Laravel-Packages Installer artisan command');
+        $this->line('****************************************************');
+        $this->line('"Laravel-Packages Installer" artisan command');
         $this->line('version 1.0 by @rkukuh');
-        $this->line('******************************************');
+        $this->line('****************************************************');
         $this->line('');
     }
 }
