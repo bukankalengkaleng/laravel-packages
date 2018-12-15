@@ -65,7 +65,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel JSON API Paginate
 1. Spatie's Laravel Link Checker
 1. Spatie's Laravel Menu
-1. [Spatie's Laravel Media Library](https://github.com/spatie/laravel-medialibrary)
+1. [Spatie's Laravel Medialibrary](https://github.com/spatie/laravel-medialibrary)
 1. Spatie's Laravel Missing Page Redirector
 1. Spatie's Laravel Model CleanUp
 1. Spatie's Laravel Model Status
