@@ -87,7 +87,9 @@ class LaravelPackages extends Command
      */
     protected function publishVendorSpatieLaravelBladeX()
     {
-        $this->comment('Vendor: Spatie\'s Laravel Blade X..... Not Needed.');
+        $this->comment('Vendor: Spatie\'s Laravel Blade X');
+
+        // No vendor files
     }
 
     /**
