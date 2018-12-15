@@ -45,6 +45,7 @@ class LaravelPackages extends Command
         $this->publishVendorSpatieLaravelBladeX();
         $this->publishVendorSpatieLaravelMedialibrary();
         $this->publishVendorSpatieLaravelPermission();
+        $this->publishVendorSpatieLaravelTags();
         $this->info('[DONE ] Publishing vendor files');
 
         $this->line('');
@@ -132,6 +133,26 @@ class LaravelPackages extends Command
         ]);
     }
 
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
+    protected function publishVendorSpatieLaravelTags()
+    {
+        $this->comment('Vendor: Spatie\'s Laravel Tags');
+
+        $this->callSilent('vendor:publish', [
+            '--tag'      => 'migrations',
+            '--provider' => Spatie\Permission\TagsServiceProvider::class,
+        ]);
+
+        $this->callSilent('vendor:publish', [
+            '--tag'      => 'config',
+            '--provider' => Spatie\Permission\TagsServiceProvider::class,
+        ]);
+    }
+
     protected function rebuildDatabaseSchema()
     {
         $this->info('[START] Rebuild database schema..........');
@@ -151,7 +172,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.6.0 by @rkukuh');
+        $this->line('version 1.7.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
