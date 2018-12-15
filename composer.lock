@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61ba0c76361901a53937b2b9ba40c15e",
+    "content-hash": "6983aa56f9b37b2fe441e7ec8e5a0043",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -334,6 +334,60 @@
                 "parser"
             ],
             "time": "2018-06-11T18:15:32+00:00"
+        },
+        {
+            "name": "graham-campbell/guzzle-factory",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GrahamCampbell/Guzzle-Factory.git",
+                "reference": "e0d4f977fe8d60b7cb600603f01eb863d1aef393"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GrahamCampbell/Guzzle-Factory/zipball/e0d4f977fe8d60b7cb600603f01eb863d1aef393",
+                "reference": "e0d4f977fe8d60b7cb600603f01eb863d1aef393",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "graham-campbell/analyzer": "^2.1",
+                "phpunit/phpunit": "^6.5|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GrahamCampbell\\GuzzleFactory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com"
+                }
+            ],
+            "description": "Provides A Simple Guzzle Factory With Good Defaults",
+            "keywords": [
+                "Graham Campbell",
+                "GrahamCampbell",
+                "Guzzle",
+                "Guzzle Factory",
+                "Guzzle-Factory",
+                "http"
+            ],
+            "time": "2018-10-18T22:38:33+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -3011,6 +3065,112 @@
             "time": "2018-11-29T16:18:01+00:00"
         },
         {
+            "name": "spatie/laravel-uptime-monitor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-uptime-monitor.git",
+                "reference": "3b5112d3d3dd18b9da264bf8aee8430e5b0af760"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-uptime-monitor/zipball/3b5112d3d3dd18b9da264bf8aee8430e5b0af760",
+                "reference": "3b5112d3d3dd18b9da264bf8aee8430e5b0af760",
+                "shasum": ""
+            },
+            "require": {
+                "graham-campbell/guzzle-factory": "^3.0",
+                "guzzlehttp/guzzle": "^6.3",
+                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0",
+                "spatie/ssl-certificate": "^1.5.0",
+                "spatie/url": "^1.0.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.5",
+                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^6.3|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\UptimeMonitor\\UptimeMonitorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\UptimeMonitor\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A powerful, easy to configure uptime monitor",
+            "homepage": "https://github.com/spatie/laravel-uptime-monitor",
+            "keywords": [
+                "laravel-uptime-monitor",
+                "spatie"
+            ],
+            "time": "2018-10-29T10:53:37+00:00"
+        },
+        {
+            "name": "spatie/macroable",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/macroable.git",
+                "reference": "74b0d189ce75142f1706aad834d5a428dfc7c3c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/macroable/zipball/74b0d189ce75142f1706aad834d5a428dfc7c3c3",
+                "reference": "74b0d189ce75142f1706aad834d5a428dfc7c3c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Macroable\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A trait to dynamically add methods to a class",
+            "homepage": "https://github.com/spatie/macroable",
+            "keywords": [
+                "macroable",
+                "spatie"
+            ],
+            "time": "2017-09-18T09:51:20+00:00"
+        },
+        {
             "name": "spatie/pdf-to-image",
             "version": "1.2.2",
             "source": {
@@ -3110,6 +3270,59 @@
             "time": "2018-10-29T08:45:57+00:00"
         },
         {
+            "name": "spatie/ssl-certificate",
+            "version": "1.12.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/ssl-certificate.git",
+                "reference": "7bc8b06c139eb0c766db16a642304b2cfe99ec4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/7bc8b06c139eb0c766db16a642304b2cfe99ec4a",
+                "reference": "7bc8b06c139eb0c766db16a642304b2cfe99ec4a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-intl": "*",
+                "nesbot/carbon": "^1.15|^2.0",
+                "php": "^7.0",
+                "spatie/macroable": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4",
+                "spatie/phpunit-snapshot-assertions": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\SslCertificate\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A class to easily query the properties of an ssl certificate",
+            "homepage": "https://github.com/spatie/ssl-certificate",
+            "keywords": [
+                "spatie",
+                "ssl-certificate"
+            ],
+            "time": "2018-12-06T15:58:34+00:00"
+        },
+        {
             "name": "spatie/string",
             "version": "2.2.2",
             "source": {
@@ -3207,6 +3420,54 @@
                 "temporary-directory"
             ],
             "time": "2018-04-12T09:34:43+00:00"
+        },
+        {
+            "name": "spatie/url",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/url.git",
+                "reference": "d57c19baf1586d335f30c126681a9487da01809b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/url/zipball/d57c19baf1586d335f30c126681a9487da01809b",
+                "reference": "d57c19baf1586d335f30c126681a9487da01809b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/http-message": "^1.0",
+                "spatie/macroable": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Url\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Parse, build and manipulate URL's",
+            "homepage": "https://github.com/spatie/url",
+            "keywords": [
+                "spatie",
+                "url"
+            ],
+            "time": "2018-01-02T20:50:05+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4588,7 +4849,8 @@
         "spatie/laravel-backup": 20,
         "spatie/laravel-tags": 20,
         "spatie/laravel-activitylog": 20,
-        "spatie/laravel-html": 20
+        "spatie/laravel-html": 20,
+        "spatie/laravel-uptime-monitor": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

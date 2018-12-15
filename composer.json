@@ -24,7 +24,8 @@
         "spatie/laravel-event-projector": "^1.0.0",
         "spatie/laravel-activitylog": "dev-master",
         "spatie/laravel-html": "dev-master",
-        "spatie/laravel-server-monitor": "^1.0"
+        "spatie/laravel-server-monitor": "^1.0",
+        "spatie/laravel-uptime-monitor": "dev-master"
     },
     "autoload": {
         "psr-4": {

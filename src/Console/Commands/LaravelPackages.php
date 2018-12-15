@@ -50,6 +50,7 @@ class LaravelPackages extends Command
         $this->publishVendorSpatieLaravelPermission();
         $this->publishVendorSpatieLaravelServerMonitor();
         $this->publishVendorSpatieLaravelTags();
+        $this->publishVendorSpatieLaravelUptimeMonitor();
         $this->info('[DONE ] Publishing vendor files');
 
         $this->line('');
@@ -229,6 +230,20 @@ class LaravelPackages extends Command
         ]);
     }
 
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
+    protected function publishVendorSpatieLaravelUptimeMonitor()
+    {
+        $this->comment('Vendor: Spatie\'s Laravel Uptime Monitor');
+
+        $this->callSilent('vendor:publish', [
+            '--provider' => Spatie\Permission\UptimeMonitorServiceProvider::class,
+        ]);
+    }
+
     protected function rebuildDatabaseSchema()
     {
         $this->info('[START] Rebuild database schema..........');
@@ -248,7 +263,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.11.0 by @rkukuh');
+        $this->line('version 1.12.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
