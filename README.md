@@ -61,6 +61,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Fractal
 1. Spatie's Laravel Google Calendar
 1. Spatie's Laravel Google Tag Manager
+1. [Spatie's Laravel HTML](https://github.com/spatie/laravel-html)
 1. Spatie's Laravel HTTP Logger
 1. Spatie's Laravel JSON API Paginate
 1. Spatie's Laravel Link Checker
