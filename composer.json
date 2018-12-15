@@ -22,7 +22,8 @@
         "spatie/laravel-blade-x": "^2.0.0",
         "spatie/laravel-tags": "dev-master",
         "spatie/laravel-event-projector": "^1.0.0",
-        "spatie/laravel-activitylog": "dev-master"
+        "spatie/laravel-activitylog": "dev-master",
+        "spatie/laravel-html": "dev-master"
     },
     "autoload": {
         "psr-4": {

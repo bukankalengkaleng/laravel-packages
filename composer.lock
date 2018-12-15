@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72456bcd4cae1a0b2e70c3c855b807f3",
+    "content-hash": "58103323f216d9b448a9665d132ce5f0",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -2439,6 +2439,74 @@
             "time": "2018-12-06T10:23:28+00:00"
         },
         {
+            "name": "spatie/laravel-html",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-html.git",
+                "reference": "230d6f8a59c1c2e95a8a0313aae5abaee60275d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-html/zipball/230d6f8a59c1c2e95a8a0313aae5abaee60275d7",
+                "reference": "230d6f8a59c1c2e95a8a0313aae5abaee60275d7",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.0|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Html\\HtmlServiceProvider"
+                    ],
+                    "aliases": {
+                        "Html": "Spatie\\Html\\Facades\\Html"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Html\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A fluent html builder",
+            "homepage": "https://github.com/spatie/laravel-html",
+            "keywords": [
+                "html",
+                "spatie"
+            ],
+            "time": "2018-10-29T12:11:12+00:00"
+        },
+        {
             "name": "spatie/laravel-medialibrary",
             "version": "7.5.2",
             "source": {
@@ -4300,7 +4368,8 @@
         "spatie/laravel-permission": 20,
         "spatie/laravel-backup": 20,
         "spatie/laravel-tags": 20,
-        "spatie/laravel-activitylog": 20
+        "spatie/laravel-activitylog": 20,
+        "spatie/laravel-html": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
