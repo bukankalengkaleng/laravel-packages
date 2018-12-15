@@ -21,7 +21,8 @@
         "spatie/laravel-medialibrary": "^7.0.0",
         "spatie/laravel-blade-x": "^2.0.0",
         "spatie/laravel-tags": "dev-master",
-        "spatie/laravel-event-projector": "^1.0.0"
+        "spatie/laravel-event-projector": "^1.0.0",
+        "spatie/laravel-activitylog": "dev-master"
     },
     "autoload": {
         "psr-4": {
