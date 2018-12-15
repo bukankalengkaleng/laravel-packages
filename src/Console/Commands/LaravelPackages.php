@@ -49,6 +49,7 @@ class LaravelPackages extends Command
         $this->publishVendorSpatieLaravelMedialibrary();
         $this->publishVendorSpatieLaravelPermission();
         $this->publishVendorSpatieLaravelServerMonitor();
+        $this->publishVendorSpatieLaravelSlackSlashCommand();
         $this->publishVendorSpatieLaravelTags();
         $this->publishVendorSpatieLaravelUptimeMonitor();
         $this->info('[DONE ] Publishing vendor files');
@@ -215,6 +216,21 @@ class LaravelPackages extends Command
      *
      * @return void
      */
+    protected function publishVendorSpatieLaravelSlackSlashCommand()
+    {
+        $this->comment('Vendor: Spatie\'s Laravel Slack Slash Command');
+
+        $this->callSilent('vendor:publish', [
+            '--tag'      => 'config',
+            '--provider' => Spatie\Permission\SlashCommandServiceProvider::class,
+        ]);
+    }
+
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
     protected function publishVendorSpatieLaravelTags()
     {
         $this->comment('Vendor: Spatie\'s Laravel Tags');
@@ -263,7 +279,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.12.0 by @rkukuh');
+        $this->line('version 1.13.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }

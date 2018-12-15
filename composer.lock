@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6983aa56f9b37b2fe441e7ec8e5a0043",
+    "content-hash": "3d1522c305f80a379f6161c6bb764d63",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -2936,6 +2936,66 @@
             "time": "2018-08-27T15:03:36+00:00"
         },
         {
+            "name": "spatie/laravel-slack-slash-command",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-slack-slash-command.git",
+                "reference": "789986fddcdd9e8a15c2d178e047b2ad788c0453"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-slack-slash-command/zipball/789986fddcdd9e8a15c2d178e047b2ad788c0453",
+                "reference": "789986fddcdd9e8a15c2d178e047b2ad788c0453",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.2.1",
+                "illuminate/config": "~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/queue": "~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/routing": "~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/support": "~5.2.0|~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "~3.2.0|~3.3.0|~3.4.0|~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "5.*|6.*|7.*"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\SlashCommand\\SlashCommandServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\SlashCommand\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Make a Laravel app respond to a slash command from Slack",
+            "homepage": "https://github.com/spatie/laravel-slack-slash-command",
+            "keywords": [
+                "laravel-slack",
+                "spatie"
+            ],
+            "time": "2018-10-18T21:01:46+00:00"
+        },
+        {
             "name": "spatie/laravel-tags",
             "version": "dev-master",
             "source": {
@@ -4850,7 +4910,8 @@
         "spatie/laravel-tags": 20,
         "spatie/laravel-activitylog": 20,
         "spatie/laravel-html": 20,
-        "spatie/laravel-uptime-monitor": 20
+        "spatie/laravel-uptime-monitor": 20,
+        "spatie/laravel-slack-slash-command": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

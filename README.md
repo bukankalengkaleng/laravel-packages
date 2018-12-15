@@ -78,7 +78,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Schemaless Attributes
 1. [Spatie's Laravel Server Monitor](https://github.com/spatie/laravel-server-monitor)
 1. Spatie's Laravel Sitemap
-1. Spatie's Laravel Slack Slash Command
+1. [Spatie's Laravel Slack Slash Command](https://github.com/spatie/laravel-slack-slash-command)
 1. Spatie's Laravel Sluggable
 1. Spatie's Laravel Stripe Webhooks
 1. [Spatie's Laravel Tags](https://github.com/spatie/laravel-tags)
