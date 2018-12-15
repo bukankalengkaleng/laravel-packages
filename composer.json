@@ -19,7 +19,8 @@
         "spatie/laravel-permission": "dev-master",
         "spatie/laravel-backup": "dev-master",
         "spatie/laravel-medialibrary": "^7.0.0",
-        "spatie/laravel-blade-x": "^2.0.0"
+        "spatie/laravel-blade-x": "^2.0.0",
+        "spatie/laravel-tags": "dev-master"
     },
     "autoload": {
         "psr-4": {
