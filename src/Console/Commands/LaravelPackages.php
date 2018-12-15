@@ -41,6 +41,7 @@ class LaravelPackages extends Command
 
         $this->info('[START] Publishing vendor files..........');
         $this->publishVendorLaravel();
+        $this->publishVendorSpatieLaravelActivitylog();
         $this->publishVendorSpatieLaravelBackup();
         $this->publishVendorSpatieLaravelBladeX();
         $this->publishVendorSpatieLaravelEventProjector();
@@ -66,6 +67,26 @@ class LaravelPackages extends Command
         $this->comment('Vendor: Laravel');
 
         $this->callSilent('vendor:publish', ['--all' => true]);
+    }
+
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
+    protected function publishVendorSpatieLaravelActivitylog()
+    {
+        $this->comment('Vendor: Spatie\'s Laravel Activitylog');
+
+        $this->callSilent('vendor:publish', [
+            '--tag'      => 'migrations',
+            '--provider' => Spatie\Permission\ActivitylogServiceProvider::class,
+        ]);
+
+        $this->callSilent('vendor:publish', [
+            '--tag'      => 'config',
+            '--provider' => Spatie\Permission\ActivitylogServiceProvider::class,
+        ]);
     }
 
     /**
@@ -193,7 +214,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.8.0 by @rkukuh');
+        $this->line('version 1.9.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
