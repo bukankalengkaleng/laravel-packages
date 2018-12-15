@@ -48,7 +48,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Flysystem Dropbox
 1. Spatie's Laravel Activity Log
 1. Spatie's Laravel Analytics
-1. Spatie's Laravel Backup
+1. [Spatie's Laravel Backup](https://github.com/spatie/laravel-backup)
 1. Spatie's Laravel Blade X
 1. Spatie's Laravel Collection Macros
 1. Spatie's Laravel Cookie Consent
