@@ -76,6 +76,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Response Cache
 1. Spatie's Laravel Robots Middleware
 1. Spatie's Laravel Schemaless Attributes
+1. [Spatie's Laravel Server Monitor](https://github.com/spatie/laravel-server-monitor)
 1. Spatie's Laravel Sitemap
 1. Spatie's Laravel Slack Slash Command
 1. Spatie's Laravel Sluggable
