@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "54fe353b047445c98d517d53cc37626f",
+    "content-hash": "004fc147e87dcd0adb7076a3084db488",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -5088,6 +5088,59 @@
             "time": "2018-11-05T12:33:26+00:00"
         },
         {
+            "name": "spatie/once",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/once.git",
+                "reference": "e9c8b0f77d880e23f2ffc8c058f1eee1c929971c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/once/zipball/e9c8b0f77d880e23f2ffc8c058f1eee1c929971c",
+                "reference": "e9c8b0f77d880e23f2ffc8c058f1eee1c929971c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "illuminate/support": "~5.3.0",
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Once\\": "src"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A magic memoization function",
+            "homepage": "https://github.com/spatie/once",
+            "keywords": [
+                "cache",
+                "callable",
+                "memozation",
+                "once",
+                "spatie"
+            ],
+            "time": "2018-10-29T09:04:14+00:00"
+        },
+        {
             "name": "spatie/opening-hours",
             "version": "dev-master",
             "source": {
@@ -8525,7 +8578,8 @@
         "spatie/laravel-blade-javascript": 20,
         "spatie/geocoder": 20,
         "spatie/laravel-feed": 20,
-        "spatie/laravel-translation-loader": 20
+        "spatie/laravel-translation-loader": 20,
+        "spatie/once": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

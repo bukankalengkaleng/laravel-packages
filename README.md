@@ -97,7 +97,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Uptime Monitor](https://github.com/spatie/laravel-uptime-monitor)
 1. [Spatie's Laravel View Models](https://github.com/spatie/laravel-view-models)
 1. Spatie's Macroable
-1. Spatie's Once
+1. [Spatie's Once](https://github.com/spatie/once)
 1. [Spatie's Opening Hours](https://github.com/spatie/opening-hours)
 1. [Spatie's PDF-to-Image](https://github.com/spatie/pdf-to-image)
 1. [Spatie's Regex](https://github.com/spatie/regex)
