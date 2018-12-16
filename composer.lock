@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b08867d6e1dc323e950a4d70df271f45",
+    "content-hash": "54fe353b047445c98d517d53cc37626f",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -4818,6 +4818,67 @@
             "time": "2018-11-29T16:18:01+00:00"
         },
         {
+            "name": "spatie/laravel-translation-loader",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-translation-loader.git",
+                "reference": "e34ce05ac82da14b40717be361286c81d3363300"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-translation-loader/zipball/e34ce05ac82da14b40717be361286c81d3363300",
+                "reference": "e34ce05ac82da14b40717be361286c81d3363300",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/translation": "~5.7.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.7.0",
+                "phpunit/phpunit": "^7.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\TranslationLoader\\TranslationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\TranslationLoader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Store your language lines in the database, yaml or other sources",
+            "homepage": "https://github.com/spatie/laravel-translation-loader",
+            "keywords": [
+                "database",
+                "db",
+                "i8n",
+                "language",
+                "laravel",
+                "laravel-translation-loader",
+                "spatie",
+                "translate"
+            ],
+            "time": "2018-10-25T16:13:56+00:00"
+        },
+        {
             "name": "spatie/laravel-uptime-monitor",
             "version": "dev-master",
             "source": {
@@ -8463,7 +8524,8 @@
         "spatie/laravel-tail": 20,
         "spatie/laravel-blade-javascript": 20,
         "spatie/geocoder": 20,
-        "spatie/laravel-feed": 20
+        "spatie/laravel-feed": 20,
+        "spatie/laravel-translation-loader": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

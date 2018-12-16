@@ -47,7 +47,8 @@
         "spatie/laravel-tail": "dev-master",
         "spatie/laravel-blade-javascript": "dev-master",
         "spatie/geocoder": "dev-master",
-        "spatie/laravel-feed": "dev-master"
+        "spatie/laravel-feed": "dev-master",
+        "spatie/laravel-translation-loader": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.3|^7.0",
