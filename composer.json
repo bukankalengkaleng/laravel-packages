@@ -31,7 +31,8 @@
         "spatie/laravel-analytics": "dev-master",
         "spatie/laravel-menu": "dev-master",
         "spatie/laravel-fractal": "dev-master",
-        "spatie/laravel-query-builder": "dev-master"
+        "spatie/laravel-query-builder": "dev-master",
+        "spatie/laravel-responsecache": "dev-master"
     },
     "autoload": {
         "psr-4": {
