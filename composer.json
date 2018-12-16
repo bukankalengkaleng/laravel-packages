@@ -37,7 +37,8 @@
         "spatie/laravel-collection-macros": "dev-master",
         "spatie/opening-hours": "dev-master",
         "spatie/laravel-image-optimizer": "dev-master",
-        "spatie/laravel-view-models": "dev-master"
+        "spatie/laravel-view-models": "dev-master",
+        "spatie/laravel-cookie-consent": "dev-master"
     },
     "autoload": {
         "psr-4": {
