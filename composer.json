@@ -29,7 +29,8 @@
         "spatie/laravel-slack-slash-command": "dev-master",
         "spatie/browsershot": "dev-master",
         "spatie/laravel-analytics": "dev-master",
-        "spatie/laravel-menu": "dev-master"
+        "spatie/laravel-menu": "dev-master",
+        "spatie/laravel-fractal": "dev-master"
     },
     "autoload": {
         "psr-4": {
