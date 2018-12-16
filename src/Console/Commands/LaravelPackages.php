@@ -72,7 +72,7 @@ class LaravelPackages extends Command
     {
         $this->comment('Vendor: Laravel');
 
-        $this->callSilent('vendor:publish', ['--all' => true]);
+        $this->call('vendor:publish', ['--all' => true]);
     }
 
     /**
@@ -98,12 +98,12 @@ class LaravelPackages extends Command
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
-            '--provider' => Spatie\Permission\ActivitylogServiceProvider::class,
+            '--provider' => Spatie\Activitylog\ActivitylogServiceProvider::class,
         ]);
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => Spatie\Permission\ActivitylogServiceProvider::class,
+            '--provider' => Spatie\Activitylog\ActivitylogServiceProvider::class,
         ]);
     }
 
@@ -131,7 +131,7 @@ class LaravelPackages extends Command
         $this->comment('Vendor: Spatie\'s Laravel Backup');
 
         $this->callSilent('vendor:publish', [
-            '--provider' => Spatie\Permission\BackupServiceProvider::class,
+            '--provider' => Spatie\Backup\BackupServiceProvider::class,
         ]);
     }
 
@@ -158,12 +158,12 @@ class LaravelPackages extends Command
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
-            '--provider' => Spatie\Permission\EventProjectorServiceProvider::class,
+            '--provider' => Spatie\EventProjector\EventProjectorServiceProvider::class,
         ]);
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => Spatie\Permission\EventProjectorServiceProvider::class,
+            '--provider' => Spatie\EventProjector\EventProjectorServiceProvider::class,
         ]);
     }
 
@@ -190,12 +190,12 @@ class LaravelPackages extends Command
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
-            '--provider' => Spatie\Permission\MediaLibraryServiceProvider::class,
+            '--provider' => Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
         ]);
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => Spatie\Permission\MediaLibraryServiceProvider::class,
+            '--provider' => Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
         ]);
     }
 
@@ -230,12 +230,12 @@ class LaravelPackages extends Command
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
-            '--provider' => Spatie\Permission\ServerMonitorServiceProvider::class,
+            '--provider' => Spatie\ServerMonitor\ServerMonitorServiceProvider::class,
         ]);
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => Spatie\Permission\ServerMonitorServiceProvider::class,
+            '--provider' => Spatie\ServerMonitor\ServerMonitorServiceProvider::class,
         ]);
     }
 
@@ -250,7 +250,7 @@ class LaravelPackages extends Command
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => Spatie\Permission\SlashCommandServiceProvider::class,
+            '--provider' => Spatie\SlashCommand\SlashCommandServiceProvider::class,
         ]);
     }
 
@@ -265,12 +265,12 @@ class LaravelPackages extends Command
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'migrations',
-            '--provider' => Spatie\Permission\TagsServiceProvider::class,
+            '--provider' => Spatie\Tags\TagsServiceProvider::class,
         ]);
 
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
-            '--provider' => Spatie\Permission\TagsServiceProvider::class,
+            '--provider' => Spatie\Tags\TagsServiceProvider::class,
         ]);
     }
 
@@ -284,7 +284,7 @@ class LaravelPackages extends Command
         $this->comment('Vendor: Spatie\'s Laravel Uptime Monitor');
 
         $this->callSilent('vendor:publish', [
-            '--provider' => Spatie\Permission\UptimeMonitorServiceProvider::class,
+            '--provider' => Spatie\UptimeMonitor\UptimeMonitorServiceProvider::class,
         ]);
     }
 
@@ -307,7 +307,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.13.0 by @rkukuh');
+        $this->line('version 1.15.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
