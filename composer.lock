@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e2cdcd0ee827c9e07f4a84049133058e",
+    "content-hash": "14f7cc71002c5f02fdfbb9bc1a1b39a2",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -2020,6 +2020,55 @@
                 "uuid"
             ],
             "time": "2018-08-12T15:49:01+00:00"
+        },
+        {
+            "name": "spatie/array-to-xml",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/array-to-xml.git",
+                "reference": "c7dc15c460eeaf0fa8f8f2d0606155d48f93a9bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/array-to-xml/zipball/c7dc15c460eeaf0fa8f8f2d0606155d48f93a9bd",
+                "reference": "c7dc15c460eeaf0fa8f8f2d0606155d48f93a9bd",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.3",
+                "spatie/phpunit-snapshot-assertions": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ArrayToXml\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convert an array to xml",
+            "homepage": "https://github.com/spatie/array-to-xml",
+            "keywords": [
+                "array",
+                "convert",
+                "xml"
+            ],
+            "time": "2018-11-29T16:24:53+00:00"
         },
         {
             "name": "spatie/blink",
@@ -5952,7 +6001,8 @@
         "spatie/laravel-cookie-consent": 20,
         "spatie/laravel-google-calendar": 20,
         "spatie/laravel-db-snapshots": 20,
-        "spatie/laravel-sluggable": 20
+        "spatie/laravel-sluggable": 20,
+        "spatie/array-to-xml": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
