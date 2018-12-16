@@ -62,7 +62,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Event Projector](https://github.com/spatie/laravel-event-projector)
 1. Spatie's Laravel Feed
 1. [Spatie's Laravel Fractal](https://github.com/spatie/laravel-fractal)
-1. Spatie's Laravel Google Calendar
+1. [Spatie's Laravel Google Calendar](https://github.com/spatie/laravel-google-calendar)
 1. Spatie's Laravel Google Tag Manager
 1. [Spatie's Laravel HTML](https://github.com/spatie/laravel-html)
 1. Spatie's Laravel HTTP Logger

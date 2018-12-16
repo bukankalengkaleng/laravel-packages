@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa6410538c23c93b9c42086a78610c1a",
+    "content-hash": "0e90904d2b329214b7bbb4e0697d953b",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -3010,6 +3010,71 @@
             "time": "2018-10-18T20:59:37+00:00"
         },
         {
+            "name": "spatie/laravel-google-calendar",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-google-calendar.git",
+                "reference": "411288185b9df5266ddd2f72bb00a5ee35288915"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-google-calendar/zipball/411288185b9df5266ddd2f72bb00a5ee35288915",
+                "reference": "411288185b9df5266ddd2f72bb00a5ee35288915",
+                "shasum": ""
+            },
+            "require": {
+                "google/apiclient": "^2.2",
+                "illuminate/support": "^5.4.0",
+                "nesbot/carbon": "^1.21",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "~3.4.6",
+                "phpunit/phpunit": "^6.2"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\GoogleCalendar\\GoogleCalendarServiceProvider"
+                    ],
+                    "aliases": {
+                        "GoogleCalendar": "Spatie\\GoogleCalendar\\GoogleCalendarFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\GoogleCalendar\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manage events on a Google Calendar",
+            "homepage": "https://github.com/spatie/laravel-google-calendar",
+            "keywords": [
+                "calendar",
+                "event",
+                "google",
+                "laravel-google-calendar",
+                "schedule",
+                "spatie"
+            ],
+            "time": "2018-11-27T08:52:01+00:00"
+        },
+        {
             "name": "spatie/laravel-html",
             "version": "dev-master",
             "source": {
@@ -5721,7 +5786,8 @@
         "spatie/opening-hours": 20,
         "spatie/laravel-image-optimizer": 20,
         "spatie/laravel-view-models": 20,
-        "spatie/laravel-cookie-consent": 20
+        "spatie/laravel-cookie-consent": 20,
+        "spatie/laravel-google-calendar": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
