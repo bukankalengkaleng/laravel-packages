@@ -41,6 +41,7 @@ class LaravelPackages extends Command
 
         $this->info('[START] Publishing vendor files..........');
         $this->publishVendorLaravel();
+        $this->publishVendorSpatieBrowsershot();
         $this->publishVendorSpatieLaravelActivitylog();
         $this->publishVendorSpatieLaravelBackup();
         $this->publishVendorSpatieLaravelBladeX();
@@ -71,6 +72,18 @@ class LaravelPackages extends Command
         $this->comment('Vendor: Laravel');
 
         $this->callSilent('vendor:publish', ['--all' => true]);
+    }
+
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
+    protected function publishVendorSpatieBrowsershot()
+    {
+        $this->comment('Vendor: Spatie\'s Browsershot');
+
+        // No vendor files
     }
 
     /**

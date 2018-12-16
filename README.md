@@ -42,6 +42,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Laravel's Telescope
 1. Maatwebsite's Laravel Excel
 1. Owen-IT's Laravel Auditing
+1. [Spatie's Browsershot](https://github.com/spatie/browsershot)
 1. Spatie's Calendar Links
 1. Spatie's DNS
 1. Spatie's Emoji

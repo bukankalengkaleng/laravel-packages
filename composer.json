@@ -26,7 +26,8 @@
         "spatie/laravel-html": "dev-master",
         "spatie/laravel-server-monitor": "^1.0",
         "spatie/laravel-uptime-monitor": "dev-master",
-        "spatie/laravel-slack-slash-command": "dev-master"
+        "spatie/laravel-slack-slash-command": "dev-master",
+        "spatie/browsershot": "dev-master"
     },
     "autoload": {
         "psr-4": {

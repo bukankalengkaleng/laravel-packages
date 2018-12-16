@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d1522c305f80a379f6161c6bb764d63",
+    "content-hash": "8427ab409ac8fe5ce9573bfa7af9337c",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -2040,6 +2040,62 @@
                 "spatie"
             ],
             "time": "2018-11-27T08:49:47+00:00"
+        },
+        {
+            "name": "spatie/browsershot",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/browsershot.git",
+                "reference": "8bfb8d2570f1a38d5ce6aff86a12295fd64cd68f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/browsershot/zipball/8bfb8d2570f1a38d5ce6aff86a12295fd64cd68f",
+                "reference": "8bfb8d2570f1a38d5ce6aff86a12295fd64cd68f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "spatie/image": "^1.4",
+                "spatie/temporary-directory": "^1.1",
+                "symfony/process": "^3.0|^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1|^7.0",
+                "spatie/phpunit-snapshot-assertions": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Browsershot\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://github.com/freekmurze",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Convert a webpage to an image or pdf using headless Chrome",
+            "homepage": "https://github.com/spatie/browsershot",
+            "keywords": [
+                "chrome",
+                "convert",
+                "headless",
+                "image",
+                "pdf",
+                "puppeteer",
+                "screenshot",
+                "webpage"
+            ],
+            "time": "2018-10-18T18:08:53+00:00"
         },
         {
             "name": "spatie/db-dumper",
@@ -4911,7 +4967,8 @@
         "spatie/laravel-activitylog": 20,
         "spatie/laravel-html": 20,
         "spatie/laravel-uptime-monitor": 20,
-        "spatie/laravel-slack-slash-command": 20
+        "spatie/laravel-slack-slash-command": 20,
+        "spatie/browsershot": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
