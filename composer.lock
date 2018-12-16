@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14f7cc71002c5f02fdfbb9bc1a1b39a2",
+    "content-hash": "262c1c6c1a77620d54e9652545832cca",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -4038,6 +4038,62 @@
             "time": "2018-11-27T08:37:16+00:00"
         },
         {
+            "name": "spatie/laravel-tail",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-tail.git",
+                "reference": "db4cdb9d5261694841020e9672e61123c86d728e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-tail/zipball/db4cdb9d5261694841020e9672e61123c86d728e",
+                "reference": "db4cdb9d5261694841020e9672e61123c86d728e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0",
+                "symfony/process": "^3.3|^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Tail\\TailServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Tail\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily tail the application log",
+            "homepage": "https://github.com/spatie/laravel-tail",
+            "keywords": [
+                "development",
+                "laravel",
+                "laravel-tail",
+                "log",
+                "tail"
+            ],
+            "time": "2018-08-20T21:25:15+00:00"
+        },
+        {
             "name": "spatie/laravel-translatable",
             "version": "3.1.0",
             "source": {
@@ -6002,7 +6058,8 @@
         "spatie/laravel-google-calendar": 20,
         "spatie/laravel-db-snapshots": 20,
         "spatie/laravel-sluggable": 20,
-        "spatie/array-to-xml": 20
+        "spatie/array-to-xml": 20,
+        "spatie/laravel-tail": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

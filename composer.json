@@ -42,7 +42,8 @@
         "spatie/laravel-google-calendar": "dev-master",
         "spatie/laravel-db-snapshots": "dev-master",
         "spatie/laravel-sluggable": "dev-master",
-        "spatie/array-to-xml": "dev-master"
+        "spatie/array-to-xml": "dev-master",
+        "spatie/laravel-tail": "dev-master"
     },
     "autoload": {
         "psr-4": {
