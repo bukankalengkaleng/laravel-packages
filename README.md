@@ -49,7 +49,6 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Emoji
 1. Spatie's Flysystem Dropbox
 1. [Spatie's Image](https://github.com/spatie/image)
-1. [Spatie's Image Optimizer](https://github.com/spatie/image-optimizer)
 1. [Spatie's Laravel Activitylog](https://github.com/spatie/laravel-activitylog)
 1. [Spatie's Laravel Analytics](https://github.com/spatie/laravel-analytics)
 1. [Spatie's Laravel Backup](https://github.com/spatie/laravel-backup)
@@ -67,6 +66,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Google Tag Manager
 1. [Spatie's Laravel HTML](https://github.com/spatie/laravel-html)
 1. Spatie's Laravel HTTP Logger
+1. [Spatie's Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)
 1. Spatie's Laravel JSON API Paginate
 1. Spatie's Laravel Link Checker
 1. [Spatie's Laravel Menu](https://github.com/spatie/laravel-menu)

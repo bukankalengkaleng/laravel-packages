@@ -35,7 +35,8 @@
         "spatie/laravel-responsecache": "dev-master",
         "spatie/laravel-newsletter": "dev-master",
         "spatie/laravel-collection-macros": "dev-master",
-        "spatie/opening-hours": "dev-master"
+        "spatie/opening-hours": "dev-master",
+        "spatie/laravel-image-optimizer": "dev-master"
     },
     "autoload": {
         "psr-4": {
