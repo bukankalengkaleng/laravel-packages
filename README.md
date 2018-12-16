@@ -48,7 +48,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Emoji
 1. Spatie's Flysystem Dropbox
 1. [Spatie's Laravel Activitylog](https://github.com/spatie/laravel-activitylog)
-1. Spatie's Laravel Analytics
+1. [Spatie's Laravel Analytics](https://github.com/spatie/laravel-analytics)
 1. [Spatie's Laravel Backup](https://github.com/spatie/laravel-backup)
 1. [Spatie's Laravel Blade X](https://github.com/spatie/laravel-blade-x)
 1. Spatie's Laravel Collection Macros

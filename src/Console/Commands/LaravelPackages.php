@@ -43,6 +43,7 @@ class LaravelPackages extends Command
         $this->publishVendorLaravel();
         $this->publishVendorSpatieBrowsershot();
         $this->publishVendorSpatieLaravelActivitylog();
+        $this->publishVendorSpatieLaravelAnalytics();
         $this->publishVendorSpatieLaravelBackup();
         $this->publishVendorSpatieLaravelBladeX();
         $this->publishVendorSpatieLaravelEventProjector();
@@ -103,6 +104,20 @@ class LaravelPackages extends Command
         $this->callSilent('vendor:publish', [
             '--tag'      => 'config',
             '--provider' => Spatie\Permission\ActivitylogServiceProvider::class,
+        ]);
+    }
+
+    /**
+     * Publish specific vendor files
+     *
+     * @return void
+     */
+    protected function publishVendorSpatieLaravelAnalytics()
+    {
+        $this->comment('Vendor: Spatie\'s Laravel Analytics');
+
+        $this->callSilent('vendor:publish', [
+            '--provider' => Spatie\Analytics\AnalyticsServiceProvider::class,
         ]);
     }
 
