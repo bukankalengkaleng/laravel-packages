@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "84239f76239dd77caf37f8c2afb07e79",
+    "content-hash": "ac8afa83eb70a4cf1be850e1c4371603",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -3825,6 +3825,61 @@
             "time": "2018-10-29T10:53:37+00:00"
         },
         {
+            "name": "spatie/laravel-view-models",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-view-models.git",
+                "reference": "adf205e61fc7bd22e99df5c012d976af96eff719"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-view-models/zipball/adf205e61fc7bd22e99df5c012d976af96eff719",
+                "reference": "adf205e61fc7bd22e99df5c012d976af96eff719",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.5|~5.6|~5.7",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.5|~3.6|~3.7",
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\ViewModels\\Providers\\ViewModelsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ViewModels\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Roose",
+                    "email": "brent@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "View models in Laravel",
+            "homepage": "https://github.com/spatie/laravel-view-models",
+            "keywords": [
+                "laravel-view-models",
+                "spatie"
+            ],
+            "time": "2018-10-20T17:10:16+00:00"
+        },
+        {
             "name": "spatie/macroable",
             "version": "1.0.0",
             "source": {
@@ -5596,7 +5651,8 @@
         "spatie/laravel-newsletter": 20,
         "spatie/laravel-collection-macros": 20,
         "spatie/opening-hours": 20,
-        "spatie/laravel-image-optimizer": 20
+        "spatie/laravel-image-optimizer": 20,
+        "spatie/laravel-view-models": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
