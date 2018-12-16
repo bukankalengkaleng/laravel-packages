@@ -93,6 +93,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Macroable
 1. Spatie's Once
 1. [Spatie's Opening Hours](https://github.com/spatie/opening-hours)
+1. [Spatie's PDF-to-Image](https://github.com/spatie/pdf-to-image)
 1. [Spatie's Regex](https://github.com/spatie/regex)
 1. Spatie's SSL Certificate
 1. Spatie's URL
