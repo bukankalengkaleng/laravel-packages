@@ -39,7 +39,8 @@
         "spatie/laravel-image-optimizer": "dev-master",
         "spatie/laravel-view-models": "dev-master",
         "spatie/laravel-cookie-consent": "dev-master",
-        "spatie/laravel-google-calendar": "dev-master"
+        "spatie/laravel-google-calendar": "dev-master",
+        "spatie/laravel-db-snapshots": "dev-master"
     },
     "autoload": {
         "psr-4": {

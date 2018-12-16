@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e90904d2b329214b7bbb4e0697d953b",
+    "content-hash": "fbeecd335a5d59b24a04a7fa029d4907",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -2873,6 +2873,66 @@
             "time": "2018-11-27T08:01:21+00:00"
         },
         {
+            "name": "spatie/laravel-db-snapshots",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-db-snapshots.git",
+                "reference": "473232ae222799dc62d2a56c8cef280be72d8b71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-db-snapshots/zipball/473232ae222799dc62d2a56c8cef280be72d8b71",
+                "reference": "473232ae222799dc62d2a56c8cef280be72d8b71",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.4.30",
+                "league/flysystem": "^1.0.41",
+                "php": "^7.0",
+                "spatie/db-dumper": "^2.7",
+                "spatie/laravel-migrate-fresh": "^1.4.1",
+                "spatie/temporary-directory": "^1.1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.8",
+                "orchestra/testbench": "^3.4.10",
+                "phpunit/phpunit": "^6.2 || ^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\DbSnapshots\\DbSnapshotsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\DbSnapshots\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Quickly dump and load databases",
+            "homepage": "https://github.com/spatie/laravel-db-snapshots",
+            "keywords": [
+                "laravel-db-snapshots",
+                "spatie"
+            ],
+            "time": "2018-10-18T21:03:16+00:00"
+        },
+        {
             "name": "spatie/laravel-event-projector",
             "version": "1.3.1",
             "source": {
@@ -3344,6 +3404,60 @@
                 "spatie"
             ],
             "time": "2018-10-29T12:09:43+00:00"
+        },
+        {
+            "name": "spatie/laravel-migrate-fresh",
+            "version": "1.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-migrate-fresh.git",
+                "reference": "0949340fff1e34f8f004477a4f037598dd5e1352"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-migrate-fresh/zipball/0949340fff1e34f8f004477a4f037598dd5e1352",
+                "reference": "0949340fff1e34f8f004477a4f037598dd5e1352",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^5.3.28",
+                "illuminate/events": "^5.3.28",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^3.3",
+                "phpunit/phpunit": "5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\MigrateFresh\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A command to build up the database from scratch",
+            "homepage": "https://github.com/spatie/laravel-migrate-fresh",
+            "keywords": [
+                "database",
+                "eloquent",
+                "fresh",
+                "laravel-migrate-fresh",
+                "migrate",
+                "spatie"
+            ],
+            "time": "2018-08-27T13:42:54+00:00"
         },
         {
             "name": "spatie/laravel-newsletter",
@@ -5787,7 +5901,8 @@
         "spatie/laravel-image-optimizer": 20,
         "spatie/laravel-view-models": 20,
         "spatie/laravel-cookie-consent": 20,
-        "spatie/laravel-google-calendar": 20
+        "spatie/laravel-google-calendar": 20,
+        "spatie/laravel-db-snapshots": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

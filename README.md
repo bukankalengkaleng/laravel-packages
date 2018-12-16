@@ -57,6 +57,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Cookie Consent](https://github.com/spatie/laravel-cookie-consent)
 1. Spatie's Laravel CORS
 1. Spatie's Laravel CSP
+1. [Spatie's Laravel DB Snapshots](https://github.com/spatie/laravel-db-snapshots)
 1. Spatie's Laravel Demo Mode
 1. Spatie's Laravel Directory CleanUp
 1. [Spatie's Laravel Event Projector](https://github.com/spatie/laravel-event-projector)
