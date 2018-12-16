@@ -84,7 +84,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Server Monitor](https://github.com/spatie/laravel-server-monitor)
 1. [Spatie's Laravel Sitemap](https://github.com/spatie/laravel-sitemap)
 1. [Spatie's Laravel Slack Slash Command](https://github.com/spatie/laravel-slack-slash-command)
-1. Spatie's Laravel Sluggable
+1. [Spatie's Laravel Sluggable](https://github.com/spatie/laravel-sluggable)
 1. Spatie's Laravel Stripe Webhooks
 1. [Spatie's Laravel Tags](https://github.com/spatie/laravel-tags)
 1. [Spatie's Laravel Translatable](https://github.com/spatie/laravel-translatable)
