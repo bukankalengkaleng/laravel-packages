@@ -49,7 +49,8 @@
         "spatie/geocoder": "dev-master",
         "spatie/laravel-feed": "dev-master",
         "spatie/laravel-translation-loader": "dev-master",
-        "spatie/once": "dev-master"
+        "spatie/once": "dev-master",
+        "spatie/laravel-model-status": "dev-master"
     },
     "autoload": {
         "psr-4": {
