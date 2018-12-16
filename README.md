@@ -98,6 +98,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's SSL Certificate
 1. Spatie's URL
 1. Spatie's URL Signer
+1. Yajra's DataTables
 
 ## Kontribusi
 
