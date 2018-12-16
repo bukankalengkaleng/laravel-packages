@@ -85,7 +85,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Sluggable
 1. Spatie's Laravel Stripe Webhooks
 1. [Spatie's Laravel Tags](https://github.com/spatie/laravel-tags)
-1. Spatie's Laravel Translatable
+1. [Spatie's Laravel Translatable](https://github.com/spatie/laravel-translatable)
 1. Spatie's Laravel Twitter Streaming API
 1. [Spatie's Laravel Uptime Monitor](https://github.com/spatie/laravel-uptime-monitor)
 1. Spatie's Laravel View Models
