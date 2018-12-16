@@ -45,7 +45,8 @@
         "spatie/array-to-xml": "dev-master",
         "spatie/laravel-tail": "dev-master",
         "spatie/laravel-blade-javascript": "dev-master",
-        "spatie/geocoder": "dev-master"
+        "spatie/geocoder": "dev-master",
+        "spatie/laravel-feed": "dev-master"
     },
     "autoload": {
         "psr-4": {

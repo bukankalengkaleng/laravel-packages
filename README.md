@@ -64,7 +64,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Demo Mode
 1. Spatie's Laravel Directory CleanUp
 1. [Spatie's Laravel Event Projector](https://github.com/spatie/laravel-event-projector)
-1. Spatie's Laravel Feed
+1. [Spatie's Laravel Feed](https://github.com/spatie/laravel-feed)
 1. [Spatie's Laravel Fractal](https://github.com/spatie/laravel-fractal)
 1. [Spatie's Laravel Google Calendar](https://github.com/spatie/laravel-google-calendar)
 1. Spatie's Laravel Google Tag Manager
