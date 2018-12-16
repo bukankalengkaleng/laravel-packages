@@ -32,7 +32,8 @@
         "spatie/laravel-menu": "dev-master",
         "spatie/laravel-fractal": "dev-master",
         "spatie/laravel-query-builder": "dev-master",
-        "spatie/laravel-responsecache": "dev-master"
+        "spatie/laravel-responsecache": "dev-master",
+        "spatie/laravel-newsletter": "dev-master"
     },
     "autoload": {
         "psr-4": {
