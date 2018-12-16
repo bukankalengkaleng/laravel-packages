@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29edc48de1ae8fa5e38aaf4945639002",
+    "content-hash": "eb023d12361c8c42cc0f18d42cb9f5b8",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -2324,6 +2324,66 @@
                 "transform"
             ],
             "time": "2018-10-08T09:18:33+00:00"
+        },
+        {
+            "name": "spatie/geocoder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/geocoder.git",
+                "reference": "9688d30316aebdaceb8801de933c39e21189cf5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/geocoder/zipball/9688d30316aebdaceb8801de933c39e21189cf5e",
+                "reference": "9688d30316aebdaceb8801de933c39e21189cf5e",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "illuminate/support": "^5.0",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4",
+                "vlucas/phpdotenv": "^2.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Geocoder\\GeocoderServiceProvider"
+                    ],
+                    "aliases": {
+                        "Geocoder": "Spatie\\Geocoder\\Facades\\Geocoder"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Geocoder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be"
+                }
+            ],
+            "description": "Geocoding addresses to coordinates",
+            "homepage": "https://github.com/spatie/geocoder",
+            "keywords": [
+                "coordinate",
+                "geocode",
+                "laravel",
+                "location",
+                "map"
+            ],
+            "time": "2018-11-22T15:39:04+00:00"
         },
         {
             "name": "spatie/image",
@@ -6126,7 +6186,8 @@
         "spatie/laravel-sluggable": 20,
         "spatie/array-to-xml": 20,
         "spatie/laravel-tail": 20,
-        "spatie/laravel-blade-javascript": 20
+        "spatie/laravel-blade-javascript": 20,
+        "spatie/geocoder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
