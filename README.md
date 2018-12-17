@@ -103,7 +103,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Regex](https://github.com/spatie/regex)
 1. [Spatie's SSL Certificate](https://github.com/spatie/ssl-certificate)
 1. [Spatie's Temporary Directory](https://github.com/spatie/temporary-directory)
-1. Spatie's URL
+1. [Spatie's URL](https://github.com/spatie/url)
 1. Spatie's URL Signer
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
 1. Yajra's DataTables
