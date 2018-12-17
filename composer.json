@@ -53,9 +53,7 @@
         "spatie/laravel-model-status": "dev-master",
         "spatie/valuestore": "dev-master",
         "spatie/laravel-cors": "dev-master",
-        "spatie/laravel-missing-page-redirector": "dev-master"
-    },
-    "require-dev": {
+        "spatie/laravel-missing-page-redirector": "dev-master",
         "spatie/phpunit-snapshot-assertions": "dev-master"
     },
     "autoload": {
