@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9127b21135938f4ed18df46a0b980aef",
+    "content-hash": "32f8f25e788f22190ed50dcfa5b298c0",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -3946,6 +3946,53 @@
                 "webpage"
             ],
             "time": "2018-10-18T18:08:53+00:00"
+        },
+        {
+            "name": "spatie/calendar-links",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/calendar-links.git",
+                "reference": "53f14ce66dfb68bb0b4438a604132553d639db8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/calendar-links/zipball/53f14ce66dfb68bb0b4438a604132553d639db8b",
+                "reference": "53f14ce66dfb68bb0b4438a604132553d639db8b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0",
+                "spatie/phpunit-snapshot-assertions": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\CalendarLinks\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Generate add to calendar links for Google, iCal and other calendar systems",
+            "homepage": "https://github.com/spatie/calendar-links",
+            "keywords": [
+                "calendar-links",
+                "spatie"
+            ],
+            "time": "2018-10-18T21:24:06+00:00"
         },
         {
             "name": "spatie/db-dumper",
@@ -8711,7 +8758,8 @@
         "spatie/laravel-missing-page-redirector": 20,
         "spatie/phpunit-snapshot-assertions": 20,
         "spatie/laravel-csp": 20,
-        "spatie/laravel-http-logger": 20
+        "spatie/laravel-http-logger": 20,
+        "spatie/calendar-links": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

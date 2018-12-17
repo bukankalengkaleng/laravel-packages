@@ -56,7 +56,8 @@
         "spatie/laravel-missing-page-redirector": "dev-master",
         "spatie/phpunit-snapshot-assertions": "dev-master",
         "spatie/laravel-csp": "dev-master",
-        "spatie/laravel-http-logger": "dev-master"
+        "spatie/laravel-http-logger": "dev-master",
+        "spatie/calendar-links": "dev-master"
     },
     "autoload": {
         "psr-4": {
