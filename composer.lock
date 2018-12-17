@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5344662809f47c69a3bdb0fcb32f6228",
+    "content-hash": "37b7de14315fca1fe38bf4e47291cf10",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -5550,6 +5550,59 @@
             "time": "2018-01-02T20:50:05+00:00"
         },
         {
+            "name": "spatie/valuestore",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/valuestore.git",
+                "reference": "d86d4ce07b77596a28693d92d967ec16bc7dcfb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/valuestore/zipball/d86d4ce07b77596a28693d92d967ec16bc7dcfb1",
+                "reference": "d86d4ce07b77596a28693d92d967ec16bc7dcfb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Valuestore\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jolita Grazyte",
+                    "email": "jolita@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily store some values",
+            "homepage": "https://github.com/spatie/valuestore",
+            "keywords": [
+                "json",
+                "spatie",
+                "valuestore"
+            ],
+            "time": "2018-12-02T16:13:01+00:00"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "dev-master",
             "source": {
@@ -6954,7 +7007,8 @@
         "spatie/laravel-feed": 20,
         "spatie/laravel-translation-loader": 20,
         "spatie/once": 20,
-        "spatie/laravel-model-status": 20
+        "spatie/laravel-model-status": 20,
+        "spatie/valuestore": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
