@@ -69,7 +69,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Google Calendar](https://github.com/spatie/laravel-google-calendar)
 1. Spatie's Laravel Google Tag Manager
 1. [Spatie's Laravel HTML](https://github.com/spatie/laravel-html)
-1. Spatie's Laravel HTTP Logger
+1. [Spatie's Laravel HTTP Logger](https://github.com/spatie/laravel-http-logger)
 1. [Spatie's Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)
 1. Spatie's Laravel JSON API Paginate
 1. [Spatie's Laravel Menu](https://github.com/spatie/laravel-menu)

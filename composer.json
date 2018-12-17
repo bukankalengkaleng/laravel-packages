@@ -55,7 +55,8 @@
         "spatie/laravel-cors": "dev-master",
         "spatie/laravel-missing-page-redirector": "dev-master",
         "spatie/phpunit-snapshot-assertions": "dev-master",
-        "spatie/laravel-csp": "dev-master"
+        "spatie/laravel-csp": "dev-master",
+        "spatie/laravel-http-logger": "dev-master"
     },
     "autoload": {
         "psr-4": {

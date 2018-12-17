@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53430ce784b71ca25f55b80d81a9a786",
+    "content-hash": "9127b21135938f4ed18df46a0b980aef",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -5352,6 +5352,61 @@
             "time": "2018-10-29T12:11:12+00:00"
         },
         {
+            "name": "spatie/laravel-http-logger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-http-logger.git",
+                "reference": "f852cd34594faaa2ae1bd9bade3da69cce259256"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-http-logger/zipball/f852cd34594faaa2ae1bd9bade3da69cce259256",
+                "reference": "f852cd34594faaa2ae1bd9bade3da69cce259256",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.6.0|~5.7.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\HttpLogger\\HttpLoggerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\HttpLogger\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Roose",
+                    "email": "brent@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Laravel 5 package to log HTTP requests",
+            "homepage": "https://github.com/spatie/laravel-http-logger",
+            "keywords": [
+                "laravel-http-logger",
+                "spatie"
+            ],
+            "time": "2018-09-04T09:00:46+00:00"
+        },
+        {
             "name": "spatie/laravel-image-optimizer",
             "version": "dev-master",
             "source": {
@@ -8655,7 +8710,8 @@
         "spatie/laravel-cors": 20,
         "spatie/laravel-missing-page-redirector": 20,
         "spatie/phpunit-snapshot-assertions": 20,
-        "spatie/laravel-csp": 20
+        "spatie/laravel-csp": 20,
+        "spatie/laravel-http-logger": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
