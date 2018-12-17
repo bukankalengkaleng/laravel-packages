@@ -52,7 +52,8 @@
         "spatie/once": "dev-master",
         "spatie/laravel-model-status": "dev-master",
         "spatie/valuestore": "dev-master",
-        "spatie/laravel-cors": "dev-master"
+        "spatie/laravel-cors": "dev-master",
+        "spatie/laravel-missing-page-redirector": "dev-master"
     },
     "autoload": {
         "psr-4": {

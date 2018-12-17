@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "550b40ca0f7727f50cabef9d901209be",
+    "content-hash": "349cb2c0553044f82a14c2fa7ae92ef3",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -4220,6 +4220,62 @@
             "time": "2018-08-27T13:42:54+00:00"
         },
         {
+            "name": "spatie/laravel-missing-page-redirector",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-missing-page-redirector.git",
+                "reference": "58faaacbc6586747a86fa79a59de6e776ecdfc8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-missing-page-redirector/zipball/58faaacbc6586747a86fa79a59de6e776ecdfc8b",
+                "reference": "58faaacbc6586747a86fa79a59de6e776ecdfc8b",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0",
+                "spatie/url": "^1.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^6.3|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\MissingPageRedirector\\MissingPageRedirectorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\MissingPageRedirector\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Redirect missing pages in your Laravel application",
+            "homepage": "https://github.com/spatie/laravel-missing-page-redirector",
+            "keywords": [
+                "laravel-missing-page-redirector",
+                "spatie"
+            ],
+            "time": "2018-08-27T11:53:28+00:00"
+        },
+        {
             "name": "spatie/laravel-model-status",
             "version": "dev-master",
             "source": {
@@ -7068,7 +7124,8 @@
         "spatie/once": 20,
         "spatie/laravel-model-status": 20,
         "spatie/valuestore": 20,
-        "spatie/laravel-cors": 20
+        "spatie/laravel-cors": 20,
+        "spatie/laravel-missing-page-redirector": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
