@@ -55,6 +55,9 @@
         "spatie/laravel-cors": "dev-master",
         "spatie/laravel-missing-page-redirector": "dev-master"
     },
+    "require-dev": {
+        "spatie/phpunit-snapshot-assertions": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "BukanKalengKaleng\\LaravelPackages\\": "src/"
