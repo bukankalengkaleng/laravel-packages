@@ -101,6 +101,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Once](https://github.com/spatie/once)
 1. [Spatie's Opening Hours](https://github.com/spatie/opening-hours)
 1. [Spatie's PDF-to-Image](https://github.com/spatie/pdf-to-image)
+1. [Spatie's PDF-to-Text](https://github.com/spatie/pdf-to-text)
 1. [Spatie's Regex](https://github.com/spatie/regex)
 1. [Spatie's SSL Certificate](https://github.com/spatie/ssl-certificate)
 1. [Spatie's Temporary Directory](https://github.com/spatie/temporary-directory)

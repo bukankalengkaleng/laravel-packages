@@ -58,7 +58,8 @@
         "spatie/laravel-csp": "dev-master",
         "spatie/laravel-http-logger": "dev-master",
         "spatie/calendar-links": "dev-master",
-        "spatie/laravel-varnish": "dev-master"
+        "spatie/laravel-varnish": "dev-master",
+        "spatie/pdf-to-text": "dev-master"
     },
     "autoload": {
         "psr-4": {
