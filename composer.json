@@ -65,7 +65,8 @@
         "spatie/laravel-googletagmanager": "^1.0@dev",
         "spatie/laravel-demo-mode": "dev-master",
         "spatie/laravel-referer": "dev-master",
-        "spatie/emoji": "dev-master"
+        "spatie/emoji": "dev-master",
+        "spatie/laravel-json-api-paginate": "dev-master"
     },
     "autoload": {
         "psr-4": {

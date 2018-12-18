@@ -71,7 +71,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel HTML](https://github.com/spatie/laravel-html)
 1. [Spatie's Laravel HTTP Logger](https://github.com/spatie/laravel-http-logger)
 1. [Spatie's Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)
-1. Spatie's Laravel JSON API Paginate
+1. [Spatie's Laravel JSON API Paginate](https://github.com/spatie/laravel-json-api-paginate)
 1. [Spatie's Laravel Menu](https://github.com/spatie/laravel-menu)
 1. [Spatie's Laravel Medialibrary](https://github.com/spatie/laravel-medialibrary)
 1. [Spatie's Laravel Missing Page Redirector](https://github.com/spatie/laravel-missing-page-redirector)
