@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f039f7205ec74c41825d9e847a8952c6",
+    "content-hash": "30858cbdee5bce7e2b30e3e69a72cd34",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -6231,6 +6231,63 @@
             "time": "2018-12-11T10:17:26+00:00"
         },
         {
+            "name": "spatie/laravel-referer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-referer.git",
+                "reference": "b3ea363d9ee3833965374639e772c40ba966a897"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-referer/zipball/b3ea363d9ee3833965374639e772c40ba966a897",
+                "reference": "b3ea363d9ee3833965374639e772c40ba966a897",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/contracts": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/http": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/support": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.4.3|~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^5.7|^6.2|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Referer\\RefererServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Referer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Keep a visitor's original referer in session",
+            "homepage": "https://github.com/spatie/laravel-referer",
+            "keywords": [
+                "laravel-referer",
+                "spatie"
+            ],
+            "time": "2018-08-29T07:12:18+00:00"
+        },
+        {
             "name": "spatie/laravel-responsecache",
             "version": "dev-master",
             "source": {
@@ -9199,7 +9256,8 @@
         "spatie/laravel-server-side-rendering": 20,
         "spatie/laravel-model-cleanup": 20,
         "spatie/laravel-googletagmanager": 20,
-        "spatie/laravel-demo-mode": 20
+        "spatie/laravel-demo-mode": 20,
+        "spatie/laravel-referer": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

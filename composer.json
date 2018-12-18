@@ -63,7 +63,8 @@
         "spatie/laravel-server-side-rendering": "dev-master",
         "spatie/laravel-model-cleanup": "dev-master",
         "spatie/laravel-googletagmanager": "^1.0@dev",
-        "spatie/laravel-demo-mode": "dev-master"
+        "spatie/laravel-demo-mode": "dev-master",
+        "spatie/laravel-referer": "dev-master"
     },
     "autoload": {
         "psr-4": {
