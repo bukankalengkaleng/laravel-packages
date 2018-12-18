@@ -67,7 +67,8 @@
         "spatie/laravel-referer": "dev-master",
         "spatie/emoji": "dev-master",
         "spatie/laravel-json-api-paginate": "dev-master",
-        "spatie/laravel-robots-middleware": "dev-master"
+        "spatie/laravel-robots-middleware": "dev-master",
+        "spatie/laravel-view-components": "dev-master"
     },
     "autoload": {
         "psr-4": {

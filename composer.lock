@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acd2ac679feb92e09c2878a92b4a7cdf",
+    "content-hash": "18df0b75aa5e7236f143b884d2069e57",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -7154,6 +7154,61 @@
             "time": "2018-10-18T21:29:58+00:00"
         },
         {
+            "name": "spatie/laravel-view-components",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-view-components.git",
+                "reference": "1b9fa2c08814fa881e41b7562c3e3742bb5857ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-view-components/zipball/1b9fa2c08814fa881e41b7562c3e3742bb5857ed",
+                "reference": "1b9fa2c08814fa881e41b7562c3e3742bb5857ed",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.6.*|5.7.*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.6.*|3.7.*",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\ViewComponents\\ViewComponentsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ViewComponents\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A better way to connect data with view rendering in Laravel",
+            "homepage": "https://github.com/spatie/laravel-view-components",
+            "keywords": [
+                "laravel-view-components",
+                "spatie"
+            ],
+            "time": "2018-10-29T12:09:55+00:00"
+        },
+        {
             "name": "spatie/laravel-view-models",
             "version": "dev-master",
             "source": {
@@ -9411,7 +9466,8 @@
         "spatie/laravel-referer": 20,
         "spatie/emoji": 20,
         "spatie/laravel-json-api-paginate": 20,
-        "spatie/laravel-robots-middleware": 20
+        "spatie/laravel-robots-middleware": 20,
+        "spatie/laravel-view-components": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
