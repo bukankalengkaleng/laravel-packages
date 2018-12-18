@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41dbd0a3e7573e1161b3d4699f80a14f",
+    "content-hash": "acd2ac679feb92e09c2878a92b4a7cdf",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -6453,6 +6453,56 @@
             "time": "2018-10-18T21:09:43+00:00"
         },
         {
+            "name": "spatie/laravel-robots-middleware",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-robots-middleware.git",
+                "reference": "4169629c95fca197601c7f116e5d50631a4a7723"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-robots-middleware/zipball/4169629c95fca197601c7f116e5d50631a4a7723",
+                "reference": "4169629c95fca197601c7f116e5d50631a4a7723",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "^5.1",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.2",
+                "phpunit/phpunit": "4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\RobotsMiddleware\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add an `all` or `none` robots header to your requests via a middleware in Laravel",
+            "homepage": "https://github.com/spatie/laravel-robots-middleware",
+            "keywords": [
+                "index",
+                "robots",
+                "seo",
+                "spatie"
+            ],
+            "time": "2017-10-16T20:29:32+00:00"
+        },
+        {
             "name": "spatie/laravel-schemaless-attributes",
             "version": "1.3.0",
             "source": {
@@ -9360,7 +9410,8 @@
         "spatie/laravel-demo-mode": 20,
         "spatie/laravel-referer": 20,
         "spatie/emoji": 20,
-        "spatie/laravel-json-api-paginate": 20
+        "spatie/laravel-json-api-paginate": 20,
+        "spatie/laravel-robots-middleware": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
