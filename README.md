@@ -84,6 +84,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Spatie's Laravel Robots Middleware
 1. [Spatie's Laravel Schemaless Attributes](https://github.com/spatie/laravel-schemaless-attributes)
 1. [Spatie's Laravel Server Monitor](https://github.com/spatie/laravel-server-monitor)
+1. [Spatie's Laravel Server-Side Rendering](https://github.com/spatie/laravel-server-side-rendering)
 1. [Spatie's Laravel Sitemap](https://github.com/spatie/laravel-sitemap)
 1. [Spatie's Laravel Slack Slash Command](https://github.com/spatie/laravel-slack-slash-command)
 1. [Spatie's Laravel Sluggable](https://github.com/spatie/laravel-sluggable)
