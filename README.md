@@ -61,7 +61,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel CORS](https://github.com/spatie/laravel-cors)
 1. [Spatie's Laravel CSP](https://github.com/spatie/laravel-csp)
 1. [Spatie's Laravel DB Snapshots](https://github.com/spatie/laravel-db-snapshots)
-1. Spatie's Laravel Demo Mode
+1. [Spatie's Laravel Demo Mode](https://github.com/spatie/laravel-demo-mode)
 1. Spatie's Laravel Directory CleanUp
 1. [Spatie's Laravel Event Projector](https://github.com/spatie/laravel-event-projector)
 1. [Spatie's Laravel Feed](https://github.com/spatie/laravel-feed)
