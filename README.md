@@ -75,7 +75,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Menu](https://github.com/spatie/laravel-menu)
 1. [Spatie's Laravel Medialibrary](https://github.com/spatie/laravel-medialibrary)
 1. [Spatie's Laravel Missing Page Redirector](https://github.com/spatie/laravel-missing-page-redirector)
-1. Spatie's Laravel Model CleanUp
+1. [Spatie's Laravel Model CleanUp](https://github.com/spatie/laravel-model-cleanup)
 1. [Spatie's Laravel Model Status](https://github.com/spatie/laravel-model-status)
 1. [Spatie's Laravel Newsletter](https://github.com/spatie/laravel-newsletter)
 1. [Spatie's Laravel Permission](https://github.com/spatie/laravel-permission)

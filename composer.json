@@ -60,7 +60,8 @@
         "spatie/calendar-links": "dev-master",
         "spatie/laravel-varnish": "dev-master",
         "spatie/pdf-to-text": "dev-master",
-        "spatie/laravel-server-side-rendering": "dev-master"
+        "spatie/laravel-server-side-rendering": "dev-master",
+        "spatie/laravel-model-cleanup": "dev-master"
     },
     "autoload": {
         "psr-4": {
