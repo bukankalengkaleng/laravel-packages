@@ -73,7 +73,8 @@
         "spatie/url-signer": "^1.0@dev",
         "spatie/dns": "dev-master",
         "spatie/flysystem-dropbox": "dev-master",
-        "spatie/laravel-directory-cleanup": "dev-master"
+        "spatie/laravel-directory-cleanup": "dev-master",
+        "spatie/laravel-artisan-dd": "dev-master"
     },
     "autoload": {
         "psr-4": {

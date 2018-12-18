@@ -53,6 +53,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Image](https://github.com/spatie/image)
 1. [Spatie's Laravel Activitylog](https://github.com/spatie/laravel-activitylog)
 1. [Spatie's Laravel Analytics](https://github.com/spatie/laravel-analytics)
+1. [Spatie's Laravel Artisan DD](https://github.com/spatie/laravel-artisan-dd)
 1. [Spatie's Laravel Backup](https://github.com/spatie/laravel-backup)
 1. [Spatie's Laravel Blade-Javascript](https://github.com/spatie/laravel-blade-javascript)
 1. [Spatie's Laravel Blade X](https://github.com/spatie/laravel-blade-x)
