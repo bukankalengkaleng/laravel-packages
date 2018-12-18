@@ -71,7 +71,8 @@
         "spatie/laravel-view-components": "dev-master",
         "spatie/laravel-stripe-webhooks": "dev-master",
         "spatie/url-signer": "^1.0@dev",
-        "spatie/dns": "dev-master"
+        "spatie/dns": "dev-master",
+        "spatie/flysystem-dropbox": "dev-master"
     },
     "autoload": {
         "psr-4": {

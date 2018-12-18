@@ -48,7 +48,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's DNS](https://github.com/spatie/dns)
 1. [Spatie's Eloquent Sortable](https://github.com/spatie/eloquent-sortable)
 1. [Spatie's Emoji](https://github.com/spatie/emoji)
-1. Spatie's Flysystem Dropbox
+1. [Spatie's Flysystem Dropbox](https://github.com/spatie/flysystem-dropbox)
 1. [Spatie's Geocoder](https://github.com/spatie/geocoder)
 1. [Spatie's Image](https://github.com/spatie/image)
 1. [Spatie's Laravel Activitylog](https://github.com/spatie/laravel-activitylog)
