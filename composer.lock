@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cda8df7c7d9647b693626df1028389bc",
+    "content-hash": "4394c937e2c19fc07cbab364166a8a52",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -432,50 +432,6 @@
                 "parser"
             ],
             "time": "2018-06-11T18:15:32+00:00"
-        },
-        {
-            "name": "fennb/phirehose",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fennb/phirehose.git",
-                "reference": "405d125db9baa771ac0cd861f0b2b2032434d40c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fennb/phirehose/zipball/405d125db9baa771ac0cd861f0b2b2032434d40c",
-                "reference": "405d125db9baa771ac0cd861f0b2b2032434d40c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "lib"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL"
-            ],
-            "authors": [
-                {
-                    "name": "Fenn Bailey",
-                    "homepage": "http://fennb.com/"
-                }
-            ],
-            "description": "A PHP interface to the Twitter Streaming API.",
-            "homepage": "https://github.com/fennb/phirehose",
-            "keywords": [
-                "api",
-                "phirehose",
-                "php",
-                "streaming",
-                "twitter"
-            ],
-            "time": "2018-03-15T14:09:46+00:00"
         },
         {
             "name": "firebase/php-jwt",
@@ -8284,53 +8240,6 @@
             "time": "2018-04-12T09:34:43+00:00"
         },
         {
-            "name": "spatie/twitter-streaming-api",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/spatie/twitter-streaming-api.git",
-                "reference": "7addd59727e98f92c134fab9f6f02258d5e3943d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/spatie/twitter-streaming-api/zipball/7addd59727e98f92c134fab9f6f02258d5e3943d",
-                "reference": "7addd59727e98f92c134fab9f6f02258d5e3943d",
-                "shasum": ""
-            },
-            "require": {
-                "fennb/phirehose": "dev-master#405d125db9baa771ac0cd861f0b2b2032434d40c",
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Spatie\\TwitterStreamingApi\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Freek Van der Herten",
-                    "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Easily work with the Twitter Streaming API",
-            "homepage": "https://github.com/spatie/twitter-streaming-api",
-            "keywords": [
-                "spatie",
-                "twitter-streaming-api"
-            ],
-            "time": "2018-04-04T11:39:57+00:00"
-        },
-        {
             "name": "spatie/url",
             "version": "1.3.0",
             "source": {
@@ -10106,8 +10015,7 @@
         "spatie/dns": 20,
         "spatie/flysystem-dropbox": 20,
         "spatie/laravel-directory-cleanup": 20,
-        "spatie/laravel-artisan-dd": 20,
-        "spatie/twitter-streaming-api": 20
+        "spatie/laravel-artisan-dd": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
