@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbaf823f54089a5c9fd10733ab003571",
+    "content-hash": "55296dc6465a8d717d1315f0a3a9b7c0",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -4143,6 +4143,54 @@
                 "spatie"
             ],
             "time": "2018-10-18T21:24:06+00:00"
+        },
+        {
+            "name": "spatie/color",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/color.git",
+                "reference": "439e00be193a9ba23b5673f2f0f89f7bb030d654"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/color/zipball/439e00be193a9ba23b5673f2f0f89f7bb030d654",
+                "reference": "439e00be193a9ba23b5673f2f0f89f7bb030d654",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Color\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A little library to handle color conversions",
+            "homepage": "https://github.com/spatie/color",
+            "keywords": [
+                "color",
+                "conversion",
+                "rgb",
+                "spatie"
+            ],
+            "time": "2018-05-04T12:39:04+00:00"
         },
         {
             "name": "spatie/db-dumper",
@@ -10166,7 +10214,8 @@
         "spatie/flysystem-dropbox": 20,
         "spatie/laravel-directory-cleanup": 20,
         "spatie/laravel-artisan-dd": 20,
-        "spatie/laravel-twitter-streaming-api": 20
+        "spatie/laravel-twitter-streaming-api": 20,
+        "spatie/color": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -75,7 +75,8 @@
         "spatie/flysystem-dropbox": "dev-master",
         "spatie/laravel-directory-cleanup": "dev-master",
         "spatie/laravel-artisan-dd": "dev-master",
-        "spatie/laravel-twitter-streaming-api": "dev-master"
+        "spatie/laravel-twitter-streaming-api": "dev-master",
+        "spatie/color": "dev-master"
     },
     "autoload": {
         "psr-4": {
