@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff174a34caf3f790a5d20deaca5c0e78",
+    "content-hash": "3c2170810356a8d9b4e48a15610e27e3",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -4149,6 +4149,59 @@
                 "spatie"
             ],
             "time": "2018-12-10T10:41:18+00:00"
+        },
+        {
+            "name": "spatie/dns",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/dns.git",
+                "reference": "6152f9c95f7c86a873779e99bb0aa5581b6f65dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/dns/zipball/6152f9c95f7c86a873779e99bb0aa5581b6f65dc",
+                "reference": "6152f9c95f7c86a873779e99bb0aa5581b6f65dc",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "symfony/process": "^4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Dns\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Harish Toshniwal",
+                    "email": "harish@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Retrieve DNS records",
+            "homepage": "https://github.com/spatie/dns",
+            "keywords": [
+                "dns",
+                "spatie"
+            ],
+            "time": "2018-12-05T14:35:51+00:00"
         },
         {
             "name": "spatie/eloquent-sortable",
@@ -9736,7 +9789,8 @@
         "spatie/laravel-robots-middleware": 20,
         "spatie/laravel-view-components": 20,
         "spatie/laravel-stripe-webhooks": 20,
-        "spatie/url-signer": 20
+        "spatie/url-signer": 20,
+        "spatie/dns": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
