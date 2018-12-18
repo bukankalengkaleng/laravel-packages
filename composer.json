@@ -57,7 +57,8 @@
         "spatie/phpunit-snapshot-assertions": "dev-master",
         "spatie/laravel-csp": "dev-master",
         "spatie/laravel-http-logger": "dev-master",
-        "spatie/calendar-links": "dev-master"
+        "spatie/calendar-links": "dev-master",
+        "spatie/laravel-varnish": "dev-master"
     },
     "autoload": {
         "psr-4": {

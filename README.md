@@ -95,6 +95,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Translation Loader](https://github.com/spatie/laravel-translation-loader)
 1. Spatie's Laravel Twitter Streaming API
 1. [Spatie's Laravel Uptime Monitor](https://github.com/spatie/laravel-uptime-monitor)
+1. [Spatie's Laravel Varnish](https://github.com/spatie/laravel-varnish)
 1. [Spatie's Laravel View Models](https://github.com/spatie/laravel-view-models)
 1. [Spatie's Macroable](https://github.com/spatie/macroable)
 1. [Spatie's Once](https://github.com/spatie/once)
