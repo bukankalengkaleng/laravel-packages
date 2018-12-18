@@ -59,6 +59,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Backup](https://github.com/spatie/laravel-backup)
 1. [Spatie's Laravel Blade-Javascript](https://github.com/spatie/laravel-blade-javascript)
 1. [Spatie's Laravel Blade X](https://github.com/spatie/laravel-blade-x)
+1. [Spatie's Laravel Blink](https://github.com/spatie/laravel-blink)
 1. [Spatie's Laravel Collection Macros](https://github.com/spatie/laravel-collection-macros)
 1. [Spatie's Laravel Cookie Consent](https://github.com/spatie/laravel-cookie-consent)
 1. [Spatie's Laravel CORS](https://github.com/spatie/laravel-cors)
