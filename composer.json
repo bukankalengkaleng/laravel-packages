@@ -76,7 +76,8 @@
         "spatie/laravel-directory-cleanup": "dev-master",
         "spatie/laravel-artisan-dd": "dev-master",
         "spatie/laravel-twitter-streaming-api": "dev-master",
-        "spatie/color": "dev-master"
+        "spatie/color": "dev-master",
+        "league/uri": "^5.0@dev"
     },
     "autoload": {
         "psr-4": {

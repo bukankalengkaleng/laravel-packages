@@ -40,6 +40,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. Laravel's Scout
 1. Laravel's Socialite
 1. Laravel's Telescope
+1. [League's URI](https://github.com/thephpleague/uri)
 1. Maatwebsite's Laravel Excel
 1. Owen-IT's Laravel Auditing
 1. [Spatie's Array-to-XML](https://github.com/spatie/array-to-xml)
