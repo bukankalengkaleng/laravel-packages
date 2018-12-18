@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30858cbdee5bce7e2b30e3e69a72cd34",
+    "content-hash": "df8727bed4d3ebe02f6ac129113540dd",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -4144,6 +4144,52 @@
                 "sortable"
             ],
             "time": "2018-08-24T09:36:35+00:00"
+        },
+        {
+            "name": "spatie/emoji",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/emoji.git",
+                "reference": "f574f377c4e7271b4f4d39b15577735401b2662f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/emoji/zipball/f574f377c4e7271b4f4d39b15577735401b2662f",
+                "reference": "f574f377c4e7271b4f4d39b15577735401b2662f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Emoji\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Display emoji characters",
+            "homepage": "https://github.com/spatie/emoji",
+            "keywords": [
+                "emoji",
+                "spatie"
+            ],
+            "time": "2018-10-18T21:25:00+00:00"
         },
         {
             "name": "spatie/fractalistic",
@@ -9257,7 +9303,8 @@
         "spatie/laravel-model-cleanup": 20,
         "spatie/laravel-googletagmanager": 20,
         "spatie/laravel-demo-mode": 20,
-        "spatie/laravel-referer": 20
+        "spatie/laravel-referer": 20,
+        "spatie/emoji": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
