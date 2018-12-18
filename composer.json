@@ -68,7 +68,8 @@
         "spatie/emoji": "dev-master",
         "spatie/laravel-json-api-paginate": "dev-master",
         "spatie/laravel-robots-middleware": "dev-master",
-        "spatie/laravel-view-components": "dev-master"
+        "spatie/laravel-view-components": "dev-master",
+        "spatie/laravel-stripe-webhooks": "dev-master"
     },
     "autoload": {
         "psr-4": {

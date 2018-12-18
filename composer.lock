@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "18df0b75aa5e7236f143b884d2069e57",
+    "content-hash": "cd2d5a6663b717dd4fc1d9b9dd91cc25",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -6792,6 +6792,62 @@
             "time": "2018-10-18T20:57:12+00:00"
         },
         {
+            "name": "spatie/laravel-stripe-webhooks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-stripe-webhooks.git",
+                "reference": "3696a9884dcae9d67a3644008cf723a580027c59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-stripe-webhooks/zipball/3696a9884dcae9d67a3644008cf723a580027c59",
+                "reference": "3696a9884dcae9d67a3644008cf723a580027c59",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.0",
+                "stripe/stripe-php": "^5.2|^6.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^6.4|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\StripeWebhooks\\StripeWebhooksServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\StripeWebhooks\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Handle stripe webhooks in a Laravel application",
+            "homepage": "https://github.com/spatie/laravel-stripe-webhooks",
+            "keywords": [
+                "laravel-stripe-webhooks",
+                "spatie"
+            ],
+            "time": "2018-11-05T12:42:25+00:00"
+        },
+        {
             "name": "spatie/laravel-tags",
             "version": "dev-master",
             "source": {
@@ -7953,6 +8009,61 @@
                 "valuestore"
             ],
             "time": "2018-12-02T16:13:01+00:00"
+        },
+        {
+            "name": "stripe/stripe-php",
+            "version": "v6.26.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stripe/stripe-php.git",
+                "reference": "ba85ad7c1618462083a7e9a542ded929232e8bff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/ba85ad7c1618462083a7e9a542ded929232e8bff",
+                "reference": "ba85ad7c1618462083a7e9a542ded929232e8bff",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "1.*",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Stripe\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stripe and contributors",
+                    "homepage": "https://github.com/stripe/stripe-php/contributors"
+                }
+            ],
+            "description": "Stripe PHP Library",
+            "homepage": "https://stripe.com/",
+            "keywords": [
+                "api",
+                "payment processing",
+                "stripe"
+            ],
+            "time": "2018-12-11T21:33:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -9467,7 +9578,8 @@
         "spatie/emoji": 20,
         "spatie/laravel-json-api-paginate": 20,
         "spatie/laravel-robots-middleware": 20,
-        "spatie/laravel-view-components": 20
+        "spatie/laravel-view-components": 20,
+        "spatie/laravel-stripe-webhooks": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
