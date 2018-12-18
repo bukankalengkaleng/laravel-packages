@@ -61,7 +61,8 @@
         "spatie/laravel-varnish": "dev-master",
         "spatie/pdf-to-text": "dev-master",
         "spatie/laravel-server-side-rendering": "dev-master",
-        "spatie/laravel-model-cleanup": "dev-master"
+        "spatie/laravel-model-cleanup": "dev-master",
+        "spatie/laravel-googletagmanager": "^1.0@dev"
     },
     "autoload": {
         "psr-4": {
