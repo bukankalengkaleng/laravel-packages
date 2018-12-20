@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "56a3c7062486b5e408d3965d44da3200",
+    "content-hash": "5a688d0f16b3020e472d24f626726d25",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -983,12 +983,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "fff0728fd4d325945af1633c7f762f7b13731c3f"
+                "reference": "3f1dd8a1a70bbc682052ac330a0e0659d81fb5fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/fff0728fd4d325945af1633c7f762f7b13731c3f",
-                "reference": "fff0728fd4d325945af1633c7f762f7b13731c3f",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3f1dd8a1a70bbc682052ac330a0e0659d81fb5fb",
+                "reference": "3f1dd8a1a70bbc682052ac330a0e0659d81fb5fb",
                 "shasum": ""
             },
             "require": {
@@ -1121,7 +1121,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-17T19:31:59+00:00"
+            "time": "2018-12-20T14:24:37+00:00"
         },
         {
             "name": "laravel/nexmo-notification-channel",
@@ -2309,16 +2309,16 @@
         },
         {
             "name": "nexmo/client",
-            "version": "1.5.2",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nexmo/nexmo-php.git",
-                "reference": "f192c84ec3cc3e2657fc754e0da1a17e39ac5542"
+                "reference": "01809cc1e17a5af275913c49bb5d444eb6cc06d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nexmo/nexmo-php/zipball/f192c84ec3cc3e2657fc754e0da1a17e39ac5542",
-                "reference": "f192c84ec3cc3e2657fc754e0da1a17e39ac5542",
+                "url": "https://api.github.com/repos/Nexmo/nexmo-php/zipball/01809cc1e17a5af275913c49bb5d444eb6cc06d4",
+                "reference": "01809cc1e17a5af275913c49bb5d444eb6cc06d4",
                 "shasum": ""
             },
             "require": {
@@ -2353,7 +2353,7 @@
                 }
             ],
             "description": "PHP Client for using Nexmo's API.",
-            "time": "2018-11-14T14:12:22+00:00"
+            "time": "2018-12-17T10:47:50+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -3089,12 +3089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "3660b2eed90abdf92ac2e9dae9a238d2701bfa77"
+                "reference": "7e272180527c34a97680de85eb5aba0847a664e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/3660b2eed90abdf92ac2e9dae9a238d2701bfa77",
-                "reference": "3660b2eed90abdf92ac2e9dae9a238d2701bfa77",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/7e272180527c34a97680de85eb5aba0847a664e0",
+                "reference": "7e272180527c34a97680de85eb5aba0847a664e0",
                 "shasum": ""
             },
             "require": {
@@ -3115,8 +3115,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Prophecy\\": "src/"
+                "psr-4": {
+                    "Prophecy\\": "src/Prophecy"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3144,7 +3144,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2018-11-04T18:50:11+00:00"
+            "time": "2018-12-18T15:40:51+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -7101,12 +7101,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "7f308806ca051fca42685e4a97a282139a6a7982"
+                "reference": "7253e10114f319c4a88407216250cee56fc5edf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/7f308806ca051fca42685e4a97a282139a6a7982",
-                "reference": "7f308806ca051fca42685e4a97a282139a6a7982",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/7253e10114f319c4a88407216250cee56fc5edf6",
+                "reference": "7253e10114f319c4a88407216250cee56fc5edf6",
                 "shasum": ""
             },
             "require": {
@@ -7158,7 +7158,7 @@
                 "security",
                 "spatie"
             ],
-            "time": "2018-12-16T00:49:22+00:00"
+            "time": "2018-12-18T16:41:25+00:00"
         },
         {
             "name": "spatie/laravel-query-builder",
@@ -7848,16 +7848,16 @@
         },
         {
             "name": "spatie/laravel-translatable",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-translatable.git",
-                "reference": "1c2480f7ac492b40af164b888f1bfce9aeb5c89e"
+                "reference": "7268e499e5ee427d239d678c9065c5a1da6ba659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-translatable/zipball/1c2480f7ac492b40af164b888f1bfce9aeb5c89e",
-                "reference": "1c2480f7ac492b40af164b888f1bfce9aeb5c89e",
+                "url": "https://api.github.com/repos/spatie/laravel-translatable/zipball/7268e499e5ee427d239d678c9065c5a1da6ba659",
+                "reference": "7268e499e5ee427d239d678c9065c5a1da6ba659",
                 "shasum": ""
             },
             "require": {
@@ -7916,7 +7916,7 @@
                 "spatie",
                 "translate"
             ],
-            "time": "2018-11-29T16:18:01+00:00"
+            "time": "2018-12-19T09:46:29+00:00"
         },
         {
             "name": "spatie/laravel-translation-loader",
@@ -8570,12 +8570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/pdf-to-text.git",
-                "reference": "99197885300b9ee214632f8a7f83f45e87561309"
+                "reference": "184907c6723b956f8f9b584587bb0c0665b8f7b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/pdf-to-text/zipball/99197885300b9ee214632f8a7f83f45e87561309",
-                "reference": "99197885300b9ee214632f8a7f83f45e87561309",
+                "url": "https://api.github.com/repos/spatie/pdf-to-text/zipball/184907c6723b956f8f9b584587bb0c0665b8f7b8",
+                "reference": "184907c6723b956f8f9b584587bb0c0665b8f7b8",
                 "shasum": ""
             },
             "require": {
@@ -8609,7 +8609,7 @@
                 "pdf-to-text",
                 "spatie"
             ],
-            "time": "2018-03-07T21:31:19+00:00"
+            "time": "2018-12-18T21:58:07+00:00"
         },
         {
             "name": "spatie/phpunit-snapshot-assertions",
@@ -8617,12 +8617,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/phpunit-snapshot-assertions.git",
-                "reference": "5430ae5ba2565d6b564386cf2a8140b8583ed5d6"
+                "reference": "81aef30aaa2d6ac633940fbffe0c64368d9911cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/phpunit-snapshot-assertions/zipball/5430ae5ba2565d6b564386cf2a8140b8583ed5d6",
-                "reference": "5430ae5ba2565d6b564386cf2a8140b8583ed5d6",
+                "url": "https://api.github.com/repos/spatie/phpunit-snapshot-assertions/zipball/81aef30aaa2d6ac633940fbffe0c64368d9911cb",
+                "reference": "81aef30aaa2d6ac633940fbffe0c64368d9911cb",
                 "shasum": ""
             },
             "require": {
@@ -8657,7 +8657,7 @@
                 "spatie",
                 "testing"
             ],
-            "time": "2018-10-18T18:04:41+00:00"
+            "time": "2018-12-20T12:00:08+00:00"
         },
         {
             "name": "spatie/regex",
@@ -10356,12 +10356,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "7a430697e4a1bea94c5062c4cf4ae93683c54840"
+                "reference": "4ec161b171692c1a4a494dbae5401746fe7ec35e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7a430697e4a1bea94c5062c4cf4ae93683c54840",
-                "reference": "7a430697e4a1bea94c5062c4cf4ae93683c54840",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4ec161b171692c1a4a494dbae5401746fe7ec35e",
+                "reference": "4ec161b171692c1a4a494dbae5401746fe7ec35e",
                 "shasum": ""
             },
             "require": {
@@ -10423,7 +10423,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-12-17T13:49:19+00:00"
+            "time": "2018-12-20T12:55:11+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -10725,65 +10725,65 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "spatie/laravel-permission": 20,
-        "spatie/laravel-backup": 20,
-        "spatie/laravel-tags": 20,
-        "spatie/laravel-activitylog": 20,
-        "spatie/laravel-html": 20,
-        "spatie/laravel-uptime-monitor": 20,
-        "spatie/laravel-slack-slash-command": 20,
+        "league/uri": 20,
+        "spatie/array-to-xml": 20,
         "spatie/browsershot": 20,
+        "spatie/calendar-links": 20,
+        "spatie/color": 20,
+        "spatie/dns": 20,
+        "spatie/emoji": 20,
+        "spatie/flysystem-dropbox": 20,
+        "spatie/geocoder": 20,
+        "spatie/laravel-activitylog": 20,
         "spatie/laravel-analytics": 20,
-        "spatie/laravel-menu": 20,
+        "spatie/laravel-artisan-dd": 20,
+        "spatie/laravel-backup": 20,
+        "spatie/laravel-blade-javascript": 20,
+        "spatie/laravel-collection-macros": 20,
+        "spatie/laravel-cookie-consent": 20,
+        "spatie/laravel-cors": 20,
+        "spatie/laravel-csp": 20,
+        "spatie/laravel-db-snapshots": 20,
+        "spatie/laravel-demo-mode": 20,
+        "spatie/laravel-directory-cleanup": 20,
+        "spatie/laravel-feed": 20,
         "spatie/laravel-fractal": 20,
+        "spatie/laravel-google-calendar": 20,
+        "spatie/laravel-googletagmanager": 20,
+        "spatie/laravel-html": 20,
+        "spatie/laravel-http-logger": 20,
+        "spatie/laravel-image-optimizer": 20,
+        "spatie/laravel-json-api-paginate": 20,
+        "spatie/laravel-menu": 20,
+        "spatie/laravel-missing-page-redirector": 20,
+        "spatie/laravel-model-cleanup": 20,
+        "spatie/laravel-model-status": 20,
+        "spatie/laravel-newsletter": 20,
+        "spatie/laravel-permission": 20,
         "spatie/laravel-query-builder": 20,
         "spatie/laravel-responsecache": 20,
-        "spatie/laravel-newsletter": 20,
-        "spatie/laravel-collection-macros": 20,
-        "spatie/opening-hours": 20,
-        "spatie/laravel-image-optimizer": 20,
-        "spatie/laravel-view-models": 20,
-        "spatie/laravel-cookie-consent": 20,
-        "spatie/laravel-google-calendar": 20,
-        "spatie/laravel-db-snapshots": 20,
-        "spatie/laravel-sluggable": 20,
-        "spatie/array-to-xml": 20,
-        "spatie/laravel-tail": 20,
-        "spatie/laravel-blade-javascript": 20,
-        "spatie/geocoder": 20,
-        "spatie/laravel-feed": 20,
-        "spatie/laravel-translation-loader": 20,
-        "spatie/once": 20,
-        "spatie/laravel-model-status": 20,
-        "spatie/valuestore": 20,
-        "spatie/laravel-cors": 20,
-        "spatie/laravel-missing-page-redirector": 20,
-        "spatie/phpunit-snapshot-assertions": 20,
-        "spatie/laravel-csp": 20,
-        "spatie/laravel-http-logger": 20,
-        "spatie/calendar-links": 20,
-        "spatie/laravel-varnish": 20,
-        "spatie/pdf-to-text": 20,
-        "spatie/laravel-server-side-rendering": 20,
-        "spatie/laravel-model-cleanup": 20,
-        "spatie/laravel-googletagmanager": 20,
-        "spatie/laravel-demo-mode": 20,
         "spatie/laravel-referer": 20,
-        "spatie/emoji": 20,
-        "spatie/laravel-json-api-paginate": 20,
         "spatie/laravel-robots-middleware": 20,
-        "spatie/laravel-view-components": 20,
+        "spatie/robots-txt": 20,
+        "spatie/laravel-server-side-rendering": 20,
+        "spatie/laravel-slack-slash-command": 20,
+        "spatie/laravel-sluggable": 20,
+        "spatie/phpunit-snapshot-assertions": 20,
         "spatie/laravel-stripe-webhooks": 20,
-        "spatie/url-signer": 20,
-        "spatie/dns": 20,
-        "spatie/flysystem-dropbox": 20,
-        "spatie/laravel-directory-cleanup": 20,
-        "spatie/laravel-artisan-dd": 20,
+        "spatie/laravel-tags": 20,
+        "spatie/laravel-tail": 20,
+        "spatie/laravel-translation-loader": 20,
         "spatie/laravel-twitter-streaming-api": 20,
-        "spatie/color": 20,
-        "league/uri": 20,
+        "spatie/laravel-uptime-monitor": 20,
+        "spatie/laravel-varnish": 20,
+        "spatie/laravel-view-components": 20,
+        "spatie/laravel-view-models": 20,
+        "spatie/once": 20,
+        "spatie/opening-hours": 20,
         "spatie/packagist-api": 20,
-        "spatie/robots-txt": 20
+        "spatie/pdf-to-text": 20,
+        "spatie/url-signer": 20,
+        "spatie/valuestore": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
