@@ -80,10 +80,10 @@
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
-        "algolia/algoliasearch-client-php": "^1.27"
+        "algolia/algoliasearch-client-php": "^1.27",
+        "beyondcode/dusk-dashboard": "dev-master"
     },
     "require-dev": {
-        "laravel/dusk": "^5.0@dev"
     },
     "autoload": {
         "psr-4": {
