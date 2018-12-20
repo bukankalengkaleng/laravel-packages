@@ -91,9 +91,9 @@ class LaravelPackages extends Command
 
     protected function runSelfDiagnosis()
     {
-        if ($this->confirm('Do you need to run self-diagnosis?')) {
-            $this->call('self-diagnosis');
-        }
+        $this->info('[START] Run self-diagnosis..........');
+        $this->call('self-diagnosis');
+        $this->info('[DONE ] Run self-diagnosis..........');
     }
 
     /**
