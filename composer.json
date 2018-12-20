@@ -15,8 +15,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/contracts": "~5.7.0",
-        "illuminate/support": "~5.7.0",
+        "illuminate/contracts": "5.7.*",
+        "illuminate/support": "5.7.*",
         "league/uri": "^5.0@dev",
         "spatie/array-to-xml": "dev-master",
         "spatie/browsershot": "dev-master",
