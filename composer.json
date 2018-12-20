@@ -17,6 +17,11 @@
     "require": {
         "illuminate/contracts": "5.7.*",
         "illuminate/support": "5.7.*",
+        "algolia/algoliasearch-client-php": "^1.27",
+        "beyondcode/dusk-dashboard": "dev-master",
+        "beyondcode/laravel-self-diagnosis": "dev-master",
+        "beyondcode/laravel-vouchers": "dev-master",
+        "beyondcode/laravel-websockets": "dev-master",
         "league/uri": "^5.0@dev",
         "spatie/array-to-xml": "dev-master",
         "spatie/browsershot": "dev-master",
@@ -79,12 +84,7 @@
         "spatie/packagist-api": "dev-master",
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
-        "spatie/valuestore": "dev-master",
-        "algolia/algoliasearch-client-php": "^1.27",
-        "beyondcode/dusk-dashboard": "dev-master",
-        "beyondcode/laravel-self-diagnosis": "dev-master",
-        "beyondcode/laravel-vouchers": "dev-master",
-        "beyondcode/laravel-websockets": "dev-master"
+        "spatie/valuestore": "dev-master"
     },
     "require-dev": {
     },
