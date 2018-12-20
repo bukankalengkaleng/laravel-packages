@@ -47,7 +47,7 @@ class LaravelPackages extends Command
     }
 
     /**
-     * Publish specific vendor
+     * Publish all vendor files
      *
      * @return void
      */
@@ -60,6 +60,11 @@ class LaravelPackages extends Command
         $this->info('[DONE ] Publishing all vendor files');
     }
 
+    /**
+     * Rebuild database schema
+     *
+     * @return void
+     */
     protected function rebuildDatabaseSchema()
     {
         $this->info('[START] Rebuild database schema..........');
