@@ -82,6 +82,9 @@
         "spatie/valuestore": "dev-master",
         "algolia/algoliasearch-client-php": "^1.27"
     },
+    "require-dev": {
+        "laravel/dusk": "^5.0@dev"
+    },
     "autoload": {
         "psr-4": {
             "BukanKalengKaleng\\LaravelPackages\\": "src/"
