@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef2da0858eaee57bd79e0deb1a33f4aa",
+    "content-hash": "11b7e89bdeb13a9902444e8ff9330fbb",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -234,6 +234,68 @@
                 "laravel-self-diagnosis"
             ],
             "time": "2018-10-09T19:42:43+00:00"
+        },
+        {
+            "name": "beyondcode/laravel-vouchers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beyondcode/laravel-vouchers.git",
+                "reference": "995ccf2348de65484df2074e415c39cc824edf04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beyondcode/laravel-vouchers/zipball/995ccf2348de65484df2074e415c39cc824edf04",
+                "reference": "995ccf2348de65484df2074e415c39cc824edf04",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/database": "~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "larapack/dd": "^1.0",
+                "mockery/mockery": "^1.1",
+                "orchestra/testbench": "~3.5.0|~3.6.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BeyondCode\\Vouchers\\VouchersServiceProvider"
+                    ],
+                    "aliases": {
+                        "Vouchers": "BeyondCode\\Vouchers\\Facades\\Vouchers"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BeyondCode\\Vouchers\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "marcel@beyondco.de",
+                    "homepage": "https://beyondcode.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allow users to redeem vouchers that are bound to models..",
+            "homepage": "https://github.com/beyondcode/laravel-vouchers",
+            "keywords": [
+                "beyondcode",
+                "laravel-vouchers"
+            ],
+            "time": "2018-12-18T18:16:13+00:00"
         },
         {
             "name": "cboden/ratchet",
@@ -11914,7 +11976,8 @@
         "spatie/url-signer": 20,
         "spatie/valuestore": 20,
         "beyondcode/dusk-dashboard": 20,
-        "beyondcode/laravel-self-diagnosis": 20
+        "beyondcode/laravel-self-diagnosis": 20,
+        "beyondcode/laravel-vouchers": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -82,7 +82,8 @@
         "spatie/valuestore": "dev-master",
         "algolia/algoliasearch-client-php": "^1.27",
         "beyondcode/dusk-dashboard": "dev-master",
-        "beyondcode/laravel-self-diagnosis": "dev-master"
+        "beyondcode/laravel-self-diagnosis": "dev-master",
+        "beyondcode/laravel-vouchers": "dev-master"
     },
     "require-dev": {
     },
