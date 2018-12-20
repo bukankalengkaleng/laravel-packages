@@ -28,13 +28,13 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 Berikut adalah daftar packages yang tersedia (urut A-Z):
 
 1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
-1. BeyondCode's Dusk Dashboard
+1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
 1. BeyondCode's Laravel Self Diagnosis
 1. BeyondCode's Laravel Voucher
 1. BeyondCode's Laravel Websockets
 1. Doctrine's DBAL
 1. Laravel's Cashier
-1. Laravel's Dusk
+1. [Laravel's Dusk](https://laravel.com/docs/5.7/dusk)
 1. Laravel's Horizon
 1. Laravel's Passport
 1. Laravel's Scout
