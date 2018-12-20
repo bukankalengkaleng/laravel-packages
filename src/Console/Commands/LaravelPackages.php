@@ -42,6 +42,9 @@ class LaravelPackages extends Command
         $this->publishAllVendorFiles();
         $this->line('');
 
+        $this->installDusk();
+        $this->line('');
+
         $this->rebuildDatabaseSchema();
         $this->line('');
     }
@@ -58,6 +61,15 @@ class LaravelPackages extends Command
         $this->call('vendor:publish', ['--all' => true]);
 
         $this->info('[DONE ] Publishing all vendor files');
+    }
+
+    protected function installDusk()
+    {
+        $this->info('[START] Laravel Dusk installation..........');
+
+        $this->call('dusk:install');
+
+        $this->info('[DONE ] Laravel Dusk installation');
     }
 
     /**
