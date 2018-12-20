@@ -50,6 +50,9 @@ class LaravelPackages extends Command
 
         $this->runSelfDiagnosis();
         $this->line('');
+
+        $this->printReport();
+        $this->line('');
     }
 
     /**
@@ -89,11 +92,24 @@ class LaravelPackages extends Command
         $this->info('[DONE ] Rebuild database schema.');
     }
 
+    /**
+     * Run BeyondCode's Laravel Self-Diagnosis command
+     *
+     * @return void
+     */
     protected function runSelfDiagnosis()
     {
         $this->info('[START] Run self-diagnosis..........');
         $this->call('self-diagnosis');
         $this->info('[DONE ] Run self-diagnosis..........');
+    }
+
+    protected function printReport()
+    {
+        $this->info('[START] Final report and last instructions..........');
+        $this->line('To run a Websockets server, run this command:');
+        $this->comment('php artisan websockets:serve');
+        $this->info('[DONE ] Final report and last instructions..........');
     }
 
     /**

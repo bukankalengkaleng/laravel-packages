@@ -83,7 +83,8 @@
         "algolia/algoliasearch-client-php": "^1.27",
         "beyondcode/dusk-dashboard": "dev-master",
         "beyondcode/laravel-self-diagnosis": "dev-master",
-        "beyondcode/laravel-vouchers": "dev-master"
+        "beyondcode/laravel-vouchers": "dev-master",
+        "beyondcode/laravel-websockets": "dev-master"
     },
     "require-dev": {
     },
