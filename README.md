@@ -15,10 +15,10 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 ## Instalasi
 
 1. Instal [Laravel](https://laravel.com/docs/5.7/installation)
-1. Konfigurasi database pada file ```.env```
 1. Buka **terminal**, jalankan perintah:
 
     ```composer require bukankalengkaleng/laravel-packages```
+1. Setup database (konfigurasi dulu file ```.env```-nya)
 1. Jalankan perintah:
 
     ```php artisan bukankalengkaleng:install```
