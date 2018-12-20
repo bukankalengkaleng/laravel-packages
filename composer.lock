@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7aba7de224369bee9da7a331f064bff9",
+    "content-hash": "56a3c7062486b5e408d3965d44da3200",
     "packages": [
         {
             "name": "anahkiasen/underscore-php",
@@ -8709,6 +8709,53 @@
             "time": "2018-10-29T08:45:57+00:00"
         },
         {
+            "name": "spatie/robots-txt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/robots-txt.git",
+                "reference": "59cb781a41c50a30985bcc0733c6f49724d2f0ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/robots-txt/zipball/59cb781a41c50a30985bcc0733c6f49724d2f0ca",
+                "reference": "59cb781a41c50a30985bcc0733c6f49724d2f0ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "larapack/dd": "^1.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Robots\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Roose",
+                    "email": "brent@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Determine if a page may be crawled from robots.txt and robots meta tags",
+            "homepage": "https://github.com/spatie/robots-txt",
+            "keywords": [
+                "robots-txt",
+                "spatie"
+            ],
+            "time": "2018-05-09T06:10:57+00:00"
+        },
+        {
             "name": "spatie/server-side-rendering",
             "version": "0.2.5",
             "source": {
@@ -10735,7 +10782,8 @@
         "spatie/laravel-twitter-streaming-api": 20,
         "spatie/color": 20,
         "league/uri": 20,
-        "spatie/packagist-api": 20
+        "spatie/packagist-api": 20,
+        "spatie/robots-txt": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

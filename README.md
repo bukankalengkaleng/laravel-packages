@@ -88,6 +88,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Laravel Response Cache](https://github.com/spatie/laravel-responsecache)
 1. [Spatie's Laravel Referer](https://github.com/spatie/laravel-referer)
 1. [Spatie's Laravel Robots Middleware](https://github.com/spatie/laravel-robots-middleware)
+1. [Spatie's Laravel Robots-txt](https://github.com/spatie/robots-txt)
 1. [Spatie's Laravel Schemaless Attributes](https://github.com/spatie/laravel-schemaless-attributes)
 1. [Spatie's Laravel Server Monitor](https://github.com/spatie/laravel-server-monitor)
 1. [Spatie's Laravel Server-Side Rendering](https://github.com/spatie/laravel-server-side-rendering)

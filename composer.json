@@ -78,7 +78,8 @@
         "spatie/laravel-twitter-streaming-api": "dev-master",
         "spatie/color": "dev-master",
         "league/uri": "^5.0@dev",
-        "spatie/packagist-api": "dev-master"
+        "spatie/packagist-api": "dev-master",
+        "spatie/robots-txt": "dev-master"
     },
     "autoload": {
         "psr-4": {
