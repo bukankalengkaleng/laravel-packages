@@ -47,6 +47,9 @@ class LaravelPackages extends Command
 
         $this->rebuildDatabaseSchema();
         $this->line('');
+
+        $this->runSelfDiagnosis();
+        $this->line('');
     }
 
     /**
@@ -84,6 +87,13 @@ class LaravelPackages extends Command
         $this->callSilent('migrate:fresh', ['--force' => true]);
 
         $this->info('[DONE ] Rebuild database schema.');
+    }
+
+    protected function runSelfDiagnosis()
+    {
+        if ($this->confirm('Do you need to run self-diagnosis?')) {
+            $this->call('self-diagnosis');
+        }
     }
 
     /**

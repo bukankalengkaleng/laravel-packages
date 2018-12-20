@@ -18,7 +18,7 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 1. Buka **terminal**, jalankan perintah:
 
     ```composer require bukankalengkaleng/laravel-packages```
-1. Setup database (konfigurasi dulu file ```.env```-nya)
+1. Setup database (konfigurasi juga file ```.env```-nya)
 1. Jalankan perintah:
 
     ```php artisan bukankalengkaleng:install```
@@ -29,7 +29,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 
 1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
 1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
-1. BeyondCode's Laravel Self Diagnosis
+1. [BeyondCode's Laravel Self-Diagnosis](https://github.com/beyondcode/laravel-self-diagnosis)
 1. BeyondCode's Laravel Voucher
 1. BeyondCode's Laravel Websockets
 1. Doctrine's DBAL

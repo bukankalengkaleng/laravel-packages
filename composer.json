@@ -81,7 +81,8 @@
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
         "algolia/algoliasearch-client-php": "^1.27",
-        "beyondcode/dusk-dashboard": "dev-master"
+        "beyondcode/dusk-dashboard": "dev-master",
+        "beyondcode/laravel-self-diagnosis": "dev-master"
     },
     "require-dev": {
     },
