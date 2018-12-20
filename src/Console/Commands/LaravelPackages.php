@@ -11,7 +11,7 @@ class LaravelPackages extends Command
      *
      * @var string
      */
-    protected $signature = 'bukankalengkaleng:install';
+    protected $signature = 'laravel-packages:install';
 
     /**
      * The console command description.

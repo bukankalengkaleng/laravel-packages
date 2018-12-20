@@ -21,7 +21,7 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 1. Setup database (konfigurasi juga file ```.env```-nya)
 1. Jalankan perintah:
 
-    ```php artisan bukankalengkaleng:install```
+    ```php artisan laravel-packages:install```
 
 ## Daftar Packages
 
