@@ -106,10 +106,8 @@ class LaravelPackages extends Command
 
     protected function printReport()
     {
-        $this->info('[START] Final report and last instructions..........');
-        $this->line('To run a Websockets server, run this command:');
-        $this->comment('php artisan websockets:serve');
-        $this->info('[DONE ] Final report and last instructions..........');
+        $this->info('***** INFORMATION *****');
+        $this->line('- Command to run a Websockets server: "php artisan websockets:serve"');
     }
 
     /**
