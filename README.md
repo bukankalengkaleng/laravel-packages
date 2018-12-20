@@ -27,7 +27,7 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 
 Berikut adalah daftar packages yang tersedia (urut A-Z):
 
-1. Algolia's PHP SDK
+1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
 1. BeyondCode's Dusk Dashboard
 1. BeyondCode's Laravel Self Diagnosis
 1. BeyondCode's Laravel Voucher

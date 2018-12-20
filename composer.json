@@ -79,7 +79,8 @@
         "spatie/packagist-api": "dev-master",
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
-        "spatie/valuestore": "dev-master"
+        "spatie/valuestore": "dev-master",
+        "algolia/algoliasearch-client-php": "^1.27"
     },
     "autoload": {
         "psr-4": {
