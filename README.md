@@ -48,6 +48,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's Calendar Links](https://github.com/spatie/calendar-links)
 1. [Spatie's Color](https://github.com/spatie/color)
 1. [Spatie's DNS](https://github.com/spatie/dns)
+1. [Spatie's Dropbox API](https://github.com/spatie/dropbox-api)
 1. [Spatie's Eloquent Sortable](https://github.com/spatie/eloquent-sortable)
 1. [Spatie's Emoji](https://github.com/spatie/emoji)
 1. [Spatie's Flysystem Dropbox](https://github.com/spatie/flysystem-dropbox)
