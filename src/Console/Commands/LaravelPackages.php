@@ -113,7 +113,7 @@ class LaravelPackages extends Command
     {
         $this->info('[START] Laravel Passport installation..........');
 
-        $this->call('passport:install');
+        $this->call('passport:install', ['--force' => true]);
 
         $this->info('[DONE ] Laravel Passport installation');
     }
@@ -147,9 +147,9 @@ class LaravelPackages extends Command
     protected function printReport()
     {
         $this->info('***** INFORMATION *****');
-        $this->line('1. Start Laravel Horizon using: "php artisan horizon"');
-        $this->line('2. Start Websockets server using: "php artisan websockets:serve"');
-        $this->line('3. Create Laravel Passport\'s client using: "php artisan passport:client"');
+        $this->line('1. You may start Laravel Horizon using: "php artisan horizon"');
+        $this->line('2. You may start Websockets server using: "php artisan websockets:serve"');
+        $this->line('3. You may create Laravel Passport\'s client using: "php artisan passport:client"');
     }
 
     /**
@@ -162,7 +162,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.21.0 by @rkukuh');
+        $this->line('version 1.23.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
