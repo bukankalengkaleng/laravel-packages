@@ -120,7 +120,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.16.0 by @rkukuh');
+        $this->line('version 1.20.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
