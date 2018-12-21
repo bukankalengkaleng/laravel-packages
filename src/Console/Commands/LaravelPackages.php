@@ -39,6 +39,9 @@ class LaravelPackages extends Command
     {
         $this->copyright();
 
+        $this->publishAllVendorFiles();
+        $this->line('');
+
         $this->installLaravelDusk();
         $this->line('');
 
@@ -49,9 +52,6 @@ class LaravelPackages extends Command
         $this->line('');
 
         $this->installLaravelPassport();
-        $this->line('');
-
-        $this->publishAllVendorFiles();
         $this->line('');
 
         $this->runSelfDiagnosis();
