@@ -22,6 +22,10 @@
         "beyondcode/laravel-self-diagnosis": "dev-master",
         "beyondcode/laravel-vouchers": "dev-master",
         "beyondcode/laravel-websockets": "dev-master",
+        "doctrine/dbal": "^2.9@dev",
+        "laravel/cashier": "^10.0@dev",
+        "laravel/horizon": "^3.0@dev",
+        "laravel/passport": "^8.0@dev",
         "league/uri": "^5.0@dev",
         "spatie/array-to-xml": "dev-master",
         "spatie/browsershot": "dev-master",
@@ -84,10 +88,7 @@
         "spatie/packagist-api": "dev-master",
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
-        "spatie/valuestore": "dev-master",
-        "doctrine/dbal": "^2.9@dev",
-        "laravel/cashier": "^10.0@dev",
-        "laravel/horizon": "^3.0@dev"
+        "spatie/valuestore": "dev-master"
     },
     "require-dev": {
     },

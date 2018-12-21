@@ -39,16 +39,19 @@ class LaravelPackages extends Command
     {
         $this->copyright();
 
-        $this->publishAllVendorFiles();
-        $this->line('');
-
         $this->installLaravelDusk();
         $this->line('');
 
         $this->installLaravelHorizon();
         $this->line('');
 
+        $this->installLaravelPassport();
+        $this->line('');
+
         $this->rebuildDatabaseSchema();
+        $this->line('');
+
+        $this->publishAllVendorFiles();
         $this->line('');
 
         $this->runSelfDiagnosis();
@@ -102,6 +105,21 @@ class LaravelPackages extends Command
     }
 
     /**
+     * Install Laravel Passport
+     *
+     * @return void
+     */
+    protected function installLaravelPassport()
+    {
+        $this->info('[START] Laravel Passport installation..........');
+
+        $this->call('passport:install');
+        $this->call('passport:keys');
+
+        $this->info('[DONE ] Laravel Passport installation');
+    }
+
+    /**
      * Rebuild database schema
      *
      * @return void
@@ -130,8 +148,9 @@ class LaravelPackages extends Command
     protected function printReport()
     {
         $this->info('***** INFORMATION *****');
-        $this->line('- You may start Laravel Horizon using: "php artisan horizon"');
-        $this->line('- You may start Websockets server using: "php artisan websockets:serve"');
+        $this->line('1. Start Laravel Horizon using: "php artisan horizon"');
+        $this->line('2. Start Websockets server using: "php artisan websockets:serve"');
+        $this->line('3. Create Laravel Passport\'s client using: "php artisan passport:client"');
     }
 
     /**
@@ -144,7 +163,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.20.0 by @rkukuh');
+        $this->line('version 1.21.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }
