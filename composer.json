@@ -86,7 +86,8 @@
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
         "doctrine/dbal": "^2.9@dev",
-        "laravel/cashier": "^10.0@dev"
+        "laravel/cashier": "^10.0@dev",
+        "laravel/horizon": "^3.0@dev"
     },
     "require-dev": {
     },

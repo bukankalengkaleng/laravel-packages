@@ -42,7 +42,10 @@ class LaravelPackages extends Command
         $this->publishAllVendorFiles();
         $this->line('');
 
-        $this->installDusk();
+        $this->installLaravelDusk();
+        $this->line('');
+
+        $this->installLaravelHorizon();
         $this->line('');
 
         $this->rebuildDatabaseSchema();
@@ -69,13 +72,33 @@ class LaravelPackages extends Command
         $this->info('[DONE ] Publishing all vendor files');
     }
 
-    protected function installDusk()
+    /**
+     * Install Laravel Dusk
+     *
+     * @return void
+     */
+    protected function installLaravelDusk()
     {
         $this->info('[START] Laravel Dusk installation..........');
 
         $this->call('dusk:install');
 
         $this->info('[DONE ] Laravel Dusk installation');
+    }
+
+    /**
+     * Install Laravel Horizon
+     *
+     * @return void
+     */
+    protected function installLaravelHorizon()
+    {
+        $this->info('[START] Laravel Horizon installation..........');
+
+        $this->call('horizon:install');
+        $this->call('queue:failed-table');
+
+        $this->info('[DONE ] Laravel Horizon installation');
     }
 
     /**
@@ -107,7 +130,8 @@ class LaravelPackages extends Command
     protected function printReport()
     {
         $this->info('***** INFORMATION *****');
-        $this->line('- Command to run a Websockets server: "php artisan websockets:serve"');
+        $this->line('- You may start Laravel Horizon using: "php artisan horizon"');
+        $this->line('- You may start Websockets server using: "php artisan websockets:serve"');
     }
 
     /**
