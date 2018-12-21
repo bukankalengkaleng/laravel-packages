@@ -33,13 +33,13 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [BeyondCode's Laravel Vouchers](https://github.com/beyondcode/laravel-vouchers)
 1. [BeyondCode's Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
 1. [Doctrine's DBAL](https://www.doctrine-project.org/projects/dbal.html)
-1. [Laravel's Cashier](https://laravel.com/docs/5.7/billing)
-1. [Laravel's Dusk](https://laravel.com/docs/5.7/dusk)
-1. Laravel's Horizon
-1. Laravel's Passport
-1. Laravel's Scout
-1. Laravel's Socialite
-1. Laravel's Telescope
+1. [Laravel Cashier](https://laravel.com/docs/5.7/billing)
+1. [Laravel Dusk](https://laravel.com/docs/5.7/dusk)
+1. Laravel Horizon
+1. Laravel Passport
+1. Laravel Scout
+1. Laravel Socialite
+1. Laravel Telescope
 1. [League's URI](https://github.com/thephpleague/uri)
 1. Maatwebsite's Laravel Excel
 1. Owen-IT's Laravel Auditing
