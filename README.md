@@ -32,7 +32,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [BeyondCode's Laravel Self-Diagnosis](https://github.com/beyondcode/laravel-self-diagnosis)
 1. [BeyondCode's Laravel Vouchers](https://github.com/beyondcode/laravel-vouchers)
 1. [BeyondCode's Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
-1. Doctrine's DBAL
+1. [Doctrine's DBAL](https://www.doctrine-project.org/projects/dbal.html)
 1. Laravel's Cashier
 1. [Laravel's Dusk](https://laravel.com/docs/5.7/dusk)
 1. Laravel's Horizon

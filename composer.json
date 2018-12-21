@@ -84,7 +84,8 @@
         "spatie/packagist-api": "dev-master",
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
-        "spatie/valuestore": "dev-master"
+        "spatie/valuestore": "dev-master",
+        "doctrine/dbal": "^2.9@dev"
     },
     "require-dev": {
     },
