@@ -114,7 +114,7 @@ class LaravelPackages extends Command
         $this->info('[START] Laravel Passport installation..........');
 
         $this->call('passport:install', ['--force' => true]);
-        $this->call('passport:keys');
+        $this->call('passport:keys', ['--force' => true]);
 
         $this->info('[DONE ] Laravel Passport installation');
     }
