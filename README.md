@@ -37,7 +37,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Laravel Dusk](https://laravel.com/docs/5.7/dusk)
 1. [Laravel Horizon](https://laravel.com/docs/5.7/horizon)
 1. [Laravel Passport](https://laravel.com/docs/5.7/passport)
-1. Laravel Scout
+1. [Laravel Scout](https://laravel.com/docs/5.7/scout)
 1. Laravel Socialite
 1. Laravel Telescope
 1. [League's URI](https://github.com/thephpleague/uri)

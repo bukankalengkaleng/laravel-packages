@@ -88,7 +88,8 @@
         "spatie/packagist-api": "dev-master",
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
-        "spatie/valuestore": "dev-master"
+        "spatie/valuestore": "dev-master",
+        "laravel/scout": "^7.0@dev"
     },
     "require-dev": {
     },
