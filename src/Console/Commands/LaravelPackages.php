@@ -45,10 +45,10 @@ class LaravelPackages extends Command
         $this->installLaravelHorizon();
         $this->line('');
 
-        $this->installLaravelPassport();
+        $this->rebuildDatabaseSchema();
         $this->line('');
 
-        $this->rebuildDatabaseSchema();
+        $this->installLaravelPassport();
         $this->line('');
 
         $this->publishAllVendorFiles();
@@ -113,7 +113,8 @@ class LaravelPackages extends Command
     {
         $this->info('[START] Laravel Passport installation..........');
 
-        $this->call('passport:install');
+        $this->call('passport:install', ['--force' => true]);
+        $this->call('passport:keys');
 
         $this->info('[DONE ] Laravel Passport installation');
     }
