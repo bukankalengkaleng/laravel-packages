@@ -4,6 +4,7 @@
 
 Here is the incoming packages on the next release (sorted by priority).
 
+1. [Charts](https://github.com/ConsoleTVs/Charts)
 1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
 1. [Laravel Localization](https://github.com/mcamara/laravel-localization)
 1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
