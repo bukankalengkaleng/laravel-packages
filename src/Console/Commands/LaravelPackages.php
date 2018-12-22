@@ -168,7 +168,8 @@ class LaravelPackages extends Command
         $this->line('2. You may start Websockets server using: "php artisan websockets:serve"');
         $this->line('3. You may create Laravel Passport\'s client using: "php artisan passport:client"');
         $this->line('4. A premium license is required to be able to use DataTables Editor library');
-        $this->line('5. Laravel Socialite providers: https://socialiteproviders.github.io/providers/digital-ocean.html');
+        $this->line('5. Laravel Notification channels: http://laravel-notification-channels.com/');
+        $this->line('6. Laravel Socialite providers: https://socialiteproviders.github.io/providers/digital-ocean.html');
     }
 
     /**
