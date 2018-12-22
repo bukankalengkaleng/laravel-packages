@@ -23,7 +23,7 @@ Here is the incoming packages on the next release (A-Z).
 
 ## Buggy Packages
 
-Here is the packages that are planned to coming on the next release. These packages are not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
+Here is the packages that are planned to coming on the next release(s). These packages are not there yet because currently they are: still buggy, causing an issue, or not compatible with the latest Laravel (v5.7.x).
 
 1. [Algolia's Scout Extended](https://github.com/algolia/scout-extended)
 1. [Hootlex's Laravel Friendship](https://github.com/hootlex/laravel-friendships)
@@ -31,6 +31,6 @@ Here is the packages that are planned to coming on the next release. These packa
 
 ## Packages that can not / will not coming
 
-Here is the packages that will not added. The reasons are because they are: Dev-environment only, Substituted, Unmaintained, or Abandoned.
+Here is the packages that can not / will not added. The reason is that they are: dev-env only, substituted, unmaintained, or abandoned.
 
 - [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-env only
