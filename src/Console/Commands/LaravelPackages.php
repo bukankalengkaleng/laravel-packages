@@ -51,10 +51,10 @@ class LaravelPackages extends Command
         $this->installLaravelTelescope();
         $this->line('');
 
-        $this->installLaravelPassport();
+        $this->rebuildDatabaseSchema();
         $this->line('');
 
-        $this->rebuildDatabaseSchema();
+        $this->installLaravelPassport();
         $this->line('');
 
         $this->runSelfDiagnosis();
@@ -142,11 +142,13 @@ class LaravelPackages extends Command
      */
     protected function rebuildDatabaseSchema()
     {
-        $this->info('[START] Rebuild database schema..........');
+        if ($this->confirm('Rebuild database schema?')) {
+            $this->info('[START] Rebuild database schema..........');
 
-        $this->call('migrate:fresh');
+            $this->call('migrate:fresh');
 
-        $this->info('[DONE ] Rebuild database schema.');
+            $this->info('[DONE ] Rebuild database schema.');
+        }
     }
 
     /**
