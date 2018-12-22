@@ -75,7 +75,7 @@ class LaravelPackages extends Command
 
         $this->call('vendor:publish', ['--all' => true]);
 
-        $this->info('[DONE ] Publishing all vendor files');
+        $this->info('[DONE ] Publishing all vendor files.');
     }
 
     /**
@@ -89,7 +89,7 @@ class LaravelPackages extends Command
 
         $this->call('dusk:install');
 
-        $this->info('[DONE ] Laravel Dusk installation');
+        $this->info('[DONE ] Laravel Dusk installation.');
     }
 
     /**
@@ -104,7 +104,7 @@ class LaravelPackages extends Command
         $this->call('horizon:install');
         $this->call('queue:failed-table');
 
-        $this->info('[DONE ] Laravel Horizon installation');
+        $this->info('[DONE ] Laravel Horizon installation.');
     }
 
     /**
@@ -118,7 +118,7 @@ class LaravelPackages extends Command
 
         $this->call('passport:install', ['--force' => true]);
 
-        $this->info('[DONE ] Laravel Passport installation');
+        $this->info('[DONE ] Laravel Passport installation.');
     }
 
     /**
@@ -132,7 +132,7 @@ class LaravelPackages extends Command
 
         $this->call('telescope:install');
 
-        $this->info('[DONE ] Laravel Telescope installation');
+        $this->info('[DONE ] Laravel Telescope installation.');
     }
 
     /**
@@ -158,7 +158,7 @@ class LaravelPackages extends Command
     {
         $this->info('[START] Run self-diagnosis..........');
         $this->call('self-diagnosis');
-        $this->info('[DONE ] Run self-diagnosis..........');
+        $this->info('[DONE ] Run self-diagnosis.');
     }
 
     protected function printReport()
