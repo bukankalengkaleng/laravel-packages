@@ -150,5 +150,4 @@ Catatan revisi dapat dilihat di [Changelog](https://github.com/bukankalengkaleng
 
 ## Lisensi
 
-Lisensi dari open-source ini adalah MIT License (MIT).  
-Silahkan lihat bagian [Lisensi](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) ini untuk lebih jelasnya.
+Lisensi dari package ini adalah MIT License (MIT). Silahkan lihat bagian [Lisensi](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) ini untuk lebih jelasnya.
