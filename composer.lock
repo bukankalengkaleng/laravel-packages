@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a779d71df326f267ea2032042f1bd052",
+    "content-hash": "2449020fd599300de1801eee0b0cfa7e",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2044,64 +2044,6 @@
                 "url"
             ],
             "time": "2018-12-07T15:04:46+00:00"
-        },
-        {
-            "name": "hootlex/laravel-friendships",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hootlex/laravel-friendships.git",
-                "reference": "0100718545bad757006737c21a7b35dc5c52b443"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hootlex/laravel-friendships/zipball/0100718545bad757006737c21a7b35dc5c52b443",
-                "reference": "0100718545bad757006737c21a7b35dc5c52b443",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "^0.3.2",
-                "doctrine/dbal": "^2.5",
-                "fzaninotto/faker": "~1.4",
-                "laravel/laravel": "5.*",
-                "mockery/mockery": "^0.9.5",
-                "phpunit/phpunit": "5.*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Hootlex\\Friendships\\FriendshipsServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Hootlex\\Friendships\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hootlex",
-                    "email": "hootlex@icloud.com"
-                }
-            ],
-            "description": "This package gives Eloquent models the ability to manage their friendships.",
-            "keywords": [
-                "eloquent",
-                "friend-system",
-                "friends",
-                "friendships",
-                "laravel"
-            ],
-            "time": "2018-07-03T09:16:10+00:00"
         },
         {
             "name": "intervention/image",
@@ -14524,8 +14466,7 @@
         "spatie/packagist-api": 20,
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
-        "spatie/valuestore": 20,
-        "hootlex/laravel-friendships": 20
+        "spatie/valuestore": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

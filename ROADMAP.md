@@ -26,6 +26,7 @@ Here is the incoming packages on the next release (A-Z).
 Here is the packages that are planned to coming on the next release. These packages are not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
 
 1. [Algolia's Scout Extended](https://github.com/algolia/scout-extended)
+1. [Hootlex's Laravel Friendship](https://github.com/hootlex/laravel-friendships)
 1. [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
 
 ## Packages that can not / will not coming

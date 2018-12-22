@@ -23,7 +23,6 @@
         "beyondcode/laravel-vouchers": "dev-master",
         "beyondcode/laravel-websockets": "dev-master",
         "doctrine/dbal": "^2.9@dev",
-        "hootlex/laravel-friendships": "dev-master",
         "laravel/cashier": "^10.0@dev",
         "laravel/horizon": "^3.0@dev",
         "laravel/passport": "^8.0@dev",
