@@ -29,6 +29,8 @@ Just so I (and hopefully you guys also) doesn't need to pull every packages you 
 
 Here is the list of a must-have, mostly my favorite, Laravel packages that comes with this package (A-Z):
 
+### Main packages
+
 1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
 1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
 1. [BeyondCode's Laravel Self-Diagnosis](https://github.com/beyondcode/laravel-self-diagnosis)
@@ -121,6 +123,13 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [Spatie's URL Signer](https://github.com/spatie/url-signer)
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
 1. [Yajra's DataTables](https://github.com/yajra/laravel-datatables)
+
+### Main packages' plugins / libraries
+
+1. [Yajra's DataTables Editor](https://github.com/yajra/laravel-datatables-editor)
+1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
+1. [Yajra's DataTables Button](https://github.com/yajra/laravel-datatables-buttons)
+1. [Yajra's DataTables Fractal](https://github.com/yajra/laravel-datatables-fractal)
 
 ## Contributing
 
