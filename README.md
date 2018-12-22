@@ -4,6 +4,8 @@
 ![issues](https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg)
 ![license](https://img.shields.io/github/license/bukankalengkaleng/laravel-packages.svg)
 
+> This readme is written in Bahasa. [English version is here](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md).
+
 ## Deskripsi
 
 Kumpulan packages Laravel terbaek, menurut aku.
@@ -122,6 +124,8 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 ## Kontribusi
 
+Punya packages favorit yang belum ada disini?
+
 1. Kirim PR
 1. Gak perlu baper kalo PR tertolak
 
@@ -131,4 +135,5 @@ Revisi pada package ini dapat dilihat di [file ini](https://github.com/bukankale
 
 ## Lisensi
 
-Lisensi package ini MIT License (MIT). Silahkan lihat [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) untuk lebih jelasnya.
+Lisensi dari open-source ini adalah MIT License (MIT).  
+Silahkan lihat [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) untuk lebih jelasnya.
