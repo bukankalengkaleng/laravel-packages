@@ -142,13 +142,11 @@ class LaravelPackages extends Command
      */
     protected function rebuildDatabaseSchema()
     {
-        if ($this->confirm('Rebuild database schema?')) {
-            $this->info('[START] Rebuild database schema..........');
+        $this->info('[START] Rebuild database schema..........');
 
-            $this->call('migrate:fresh');
+        $this->call('migrate:fresh');
 
-            $this->info('[DONE ] Rebuild database schema.');
-        }
+        $this->info('[DONE ] Rebuild database schema.');
     }
 
     /**
