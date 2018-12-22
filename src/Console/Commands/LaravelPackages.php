@@ -144,7 +144,7 @@ class LaravelPackages extends Command
     {
         $this->info('[START] Rebuild database schema..........');
 
-        $this->callSilent('migrate:fresh', ['--force' => true]);
+        $this->call('migrate:fresh', ['--force' => true]);
 
         $this->info('[DONE ] Rebuild database schema.');
     }
