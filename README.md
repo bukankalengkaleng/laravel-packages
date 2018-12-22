@@ -133,34 +133,9 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 1. [Yajra's DataTables Button](https://github.com/yajra/laravel-datatables-buttons)
 1. [Yajra's DataTables Fractal](https://github.com/yajra/laravel-datatables-fractal)
 
-### Incoming packages
+### Packages yang lain?
 
-Berikut adalah daftar packages yang akan ditambahkan kemudian / dalam rilis berikutnya (diurutkan prioritas).
-
-1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
-1. [Laravel Localization](https://github.com/mcamara/laravel-localization)
-1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
-1. [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
-1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
-1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
-1. [SEO Helper](https://github.com/ARCANEDEV/SEO-Helper)
-1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
-1. [Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
-1. [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
-1. [Lighthouse](https://github.com/nuwave/lighthouse)
-
-### Buggy packages
-
-Berikut adalah daftar packages yang akan ditambahkan kemudian. Alasan kenapa belum bisa ada untuk saat ini adalah karena masih *buggy* atau belum kompatibel dengan Laravel terbaru (v5.7.x).
-
-1. [Algolia's Scout Extended](https://github.com/algolia/scout-extended)
-1. [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
-
-### Packages yang tidak bisa / tidak akan ditambahkan
-
-Berikut adalah daftar pacakges yang tidak akan ditambahkan disini. Alasannya beragam, antara lain: Hanya untuk *dev environment*, *Substituted*, *Unmaintened*, *Abandoned*, dsb.
-
-- [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : *dev-env only*
+Bagaimana dengan packages yang tidak ada dalam daftar di atas? Silahkan lihat dalam [Roadmap](https://github.com/bukankalengkaleng/laravel-packages/blob/master/ROADMAP.md) ini.
 
 ## Kontribusi
 
