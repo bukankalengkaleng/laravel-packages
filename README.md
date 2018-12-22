@@ -137,7 +137,7 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 Berikut adalah daftar packages yang akan ditambahkan kemudian.  
 Alasan kenapa belum bisa ada untuk saat ini adalah karena masih *buggy* atau belum kompatibel dengan Laravel terbaru (v5.7.x).
 
-1. PHP-FFMpeg's PHP-FFMpeg
+1. [Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
 
 ## Kontribusi
 

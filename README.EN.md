@@ -137,7 +137,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 Here is the packages that planned to coming on the next release.  
 These packages is not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
 
-1. PHP-FFMpeg's PHP-FFMpeg
+1. [Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
 
 ## Contributing
 
