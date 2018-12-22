@@ -126,9 +126,10 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 ### Main packages' plugins / libraries
 
+1. [Yajra's DataTables Editor](https://github.com/yajra/laravel-datatables-editor)
 1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
+1. [Yajra's DataTables Button](https://github.com/yajra/laravel-datatables-buttons)
 1. [Yajra's DataTables Fractal](https://github.com/yajra/laravel-datatables-fractal)
-1. Yajra's DataTables Button (on next release)
 
 ## Kontribusi
 
