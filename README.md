@@ -42,7 +42,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
 1. [League's URI](https://github.com/thephpleague/uri)
 1. [Maatwebsite's Laravel Excel](https://github.com/maatwebsite/Laravel-Excel)
-1. Owen-IT's Laravel Auditing
+1. [Owen-IT's Laravel Auditing](https://github.com/owen-it/laravel-auditing)
 1. [Spatie's Array-to-XML](https://github.com/spatie/array-to-xml)
 1. [Spatie's Browsershot](https://github.com/spatie/browsershot)
 1. [Spatie's Calendar Links](https://github.com/spatie/calendar-links)
