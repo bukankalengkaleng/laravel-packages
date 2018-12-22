@@ -142,6 +142,8 @@ Here is the incoming packages on the next release (sorted by priority).
 1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
 1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
 1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
+1. [Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
+1. [Lighthouse](https://github.com/nuwave/lighthouse)
 
 ### Buggy packages
 
