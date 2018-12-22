@@ -29,6 +29,7 @@
         "laravel/scout": "^7.0@dev",
         "laravel/socialite": "^5.0@dev",
         "laravel/telescope": "^2.0@dev",
+        "league/flysystem-aws-s3-v3": "^1.0@dev",
         "league/uri": "^5.0@dev",
         "maatwebsite/excel": "3.1.x-dev",
         "nwidart/laravel-modules": "^4.0@dev",
@@ -98,8 +99,7 @@
         "yajra/laravel-datatables-oracle": "~8.0",
         "yajra/laravel-datatables-editor": "^1.0",
         "yajra/laravel-datatables-fractal": "^1.0",
-        "yajra/laravel-datatables-html": "^4.0",
-        "league/flysystem-aws-s3-v3": "^1.0@dev"
+        "yajra/laravel-datatables-html": "^4.0"
     },
     "require-dev": {
     },
