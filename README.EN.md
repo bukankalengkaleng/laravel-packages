@@ -135,11 +135,17 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 
 ### Incoming packages
 
+Here is the incoming packages on next release.
+
+- [Laravel Notification Channels](https://github.com/laravel-notification-channels)
+
+### Buggy packages
+
 Here is the packages that are planned to coming on the next release. These packages are not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
 
 - [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
 
-### Not installed packages
+### Packages that can not / will not coming
 
 Here is the packages that will not added, even in the next release. The reasons are because they are: Dev-environment only, Substituted, Unmaintained, Abandoned, etc.
 
