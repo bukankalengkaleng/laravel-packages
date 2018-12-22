@@ -125,7 +125,7 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
 1. [Yajra's DataTables](https://github.com/yajra/laravel-datatables)
 
-### Main packages' plugins / libraries
+### Main package's plugins / libraries
 
 1. [Yajra's DataTables Editor](https://github.com/yajra/laravel-datatables-editor)
 1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
@@ -134,10 +134,15 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 ### Packages yang akan datang
 
-Berikut adalah daftar packages yang akan ditambahkan kemudian.  
-Alasan kenapa belum bisa ada untuk saat ini adalah karena masih *buggy* atau belum kompatibel dengan Laravel terbaru (v5.7.x).
+Berikut adalah daftar packages yang akan ditambahkan kemudian. Alasan kenapa belum bisa ada untuk saat ini adalah karena masih *buggy* atau belum kompatibel dengan Laravel terbaru (v5.7.x).
 
-1. [Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
+- [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
+
+### Package yang tidak akan ditambahkan
+
+Berikut adalah daftar pacakges yang tidak akan ditambahkan disini. Alasannya beragam, antara lain: *Subtituted*, *Unmaintened*, *Abandoned*, dsb.
+
+- [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) digantikan oleh [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
 
 ## Kontribusi
 

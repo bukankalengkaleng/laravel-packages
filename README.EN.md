@@ -125,7 +125,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
 1. [Yajra's DataTables](https://github.com/yajra/laravel-datatables)
 
-### Main packages' plugins / libraries
+### Main package's plugins / libraries
 
 1. [Yajra's DataTables Editor](https://github.com/yajra/laravel-datatables-editor)
 1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
@@ -135,9 +135,15 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 ### Incoming packages
 
 Here is the packages that planned to coming on the next release.  
-These packages is not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
+These packages are not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
 
-1. [Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
+- [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
+
+### Not installed packages
+
+Here is the packages that will not added. The reasons are because they are: Subtituted, Unmaintained, Abandoned, etc.
+
+- [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) digantikan oleh [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
 
 ## Contributing
 
