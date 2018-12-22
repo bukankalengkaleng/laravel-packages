@@ -1,4 +1,4 @@
-# Laravel Packages
+# Laravel Packages 📦
 
 ![stars](https://img.shields.io/github/stars/bukankalengkaleng/laravel-packages.svg)
 ![issues](https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg)
