@@ -2,21 +2,22 @@
 
 ## Incoming Packages
 
-Here is the incoming packages on the next release (sorted by priority).
+Here is the incoming packages on the next release (A-Z).
 
-1. [Charts](https://github.com/ConsoleTVs/Charts)
-1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
-1. [Laravel Localization](https://github.com/mcamara/laravel-localization)
+1. [Arcanedev's SEO Helper](https://github.com/ARCANEDEV/SEO-Helper)
+1. [Artesaos' SEO Tools](https://github.com/artesaos/seotools)
+1. [Barryvdh's Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
+1. [ConsoleTVs' Charts](https://github.com/ConsoleTVs/Charts)
+1. [Dimsav's Laravel Translatable](https://github.com/dimsav/laravel-translatable)
+1. [Hyn's Multi-Tenant](https://github.com/hyn/multi-tenant)
+1. [Imanghafoori1's Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
+1. [Imanghafoori1's Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
 1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
-1. [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
-1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
-1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
-1. [SEO Helper](https://github.com/ARCANEDEV/SEO-Helper)
-1. [SEO Tools](https://github.com/artesaos/seotools)
-1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
-1. [Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
-1. [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
-1. [Lighthouse](https://github.com/nuwave/lighthouse)
+1. [Mcamara's Laravel Localization](https://github.com/mcamara/laravel-localization)
+1. [Nickurt's Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
+1. [Nuwave's Lighthouse](https://github.com/nuwave/lighthouse)
+1. [PHPJunior's Laravel Video Chat](https://github.com/PHPJunior/laravel-video-chat)
+1. [SimpleSoftwareIO's SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
 
 ## Buggy Packages
 
