@@ -44,6 +44,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [Laravel Scout](https://laravel.com/docs/5.7/scout)
 1. [Laravel Socialite](https://laravel.com/docs/5.7/socialite)
 1. [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
+1. [League's Flysystem AWS S3](https://github.com/thephpleague/flysystem-aws-s3-v3)
 1. [League's URI](https://github.com/thephpleague/uri)
 1. [Maatwebsite's Laravel Excel](https://github.com/maatwebsite/Laravel-Excel)
 1. [nWidart's Laravel Modules](https://github.com/nWidart/laravel-modules)
