@@ -146,9 +146,9 @@ Punya packages favorit yang belum ada disini?
 
 ## Catatan Revisi
 
-Revisi pada package ini dapat dilihat di [file ini](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md).
+Catatan revisi dapat dilihat di [Changelog](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md) ini.
 
 ## Lisensi
 
 Lisensi dari open-source ini adalah MIT License (MIT).  
-Silahkan lihat [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) untuk lebih jelasnya.
+Silahkan lihat bagian [Lisensi](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) ini untuk lebih jelasnya.

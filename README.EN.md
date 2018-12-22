@@ -146,8 +146,8 @@ Am I missing other good packages?
 
 ## Changelog
 
-To see notable changes on this package go to [the Changelog file](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md).
+Notable changes are documented in [Changelog](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md) file.
 
 ## License
 
-The MIT License (MIT). Please see [License file](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) file for more information.
