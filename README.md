@@ -37,6 +37,7 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 1. [BeyondCode's Laravel Vouchers](https://github.com/beyondcode/laravel-vouchers)
 1. [BeyondCode's Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
 1. [Doctrine's DBAL](https://www.doctrine-project.org/projects/dbal.html)
+1. [Hootlex's Laravel Friendship](https://github.com/hootlex/laravel-friendships)
 1. [Laravel Cashier](https://laravel.com/docs/5.7/billing)
 1. [Laravel Dusk](https://laravel.com/docs/5.7/dusk)
 1. [Laravel Horizon](https://laravel.com/docs/5.7/horizon)

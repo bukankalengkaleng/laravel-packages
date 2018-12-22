@@ -23,6 +23,7 @@
         "beyondcode/laravel-vouchers": "dev-master",
         "beyondcode/laravel-websockets": "dev-master",
         "doctrine/dbal": "^2.9@dev",
+        "hootlex/laravel-friendships": "dev-master",
         "laravel/cashier": "^10.0@dev",
         "laravel/horizon": "^3.0@dev",
         "laravel/passport": "^8.0@dev",
@@ -96,10 +97,10 @@
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
-        "yajra/laravel-datatables-oracle": "~8.0",
         "yajra/laravel-datatables-editor": "^1.0",
         "yajra/laravel-datatables-fractal": "^1.0",
-        "yajra/laravel-datatables-html": "^4.0"
+        "yajra/laravel-datatables-html": "^4.0",
+        "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
     },
