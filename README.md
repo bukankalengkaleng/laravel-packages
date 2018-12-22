@@ -1,12 +1,8 @@
-<p align="center"><img src="https://seeklogo.com/images/L/laravel-logo-9B01588B1F-seeklogo.com.png" width="40px"> <span style="font-size: 40px">📦</span></p>
+# <img src="https://seeklogo.com/images/L/laravel-logo-9B01588B1F-seeklogo.com.png" width="24px"> Laravel Packages 📦
 
-<p align="center">
-<img src="https://img.shields.io/github/stars/bukankalengkaleng/laravel-packages.svg">
-<img src="https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg">
-<img src="https://img.shields.io/github/license/bukankalengkaleng/laravel-packages.svg">
-</p>
-
-# Laravel Packages
+![stars](https://img.shields.io/github/stars/bukankalengkaleng/laravel-packages.svg)
+![issues](https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg)
+![license](https://img.shields.io/github/license/bukankalengkaleng/laravel-packages.svg)
 
 > This readme is written in Bahasa. [English version is here](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md).
 
