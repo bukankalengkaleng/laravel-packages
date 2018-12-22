@@ -42,9 +42,6 @@ class LaravelPackages extends Command
         $this->publishAllVendorFiles();
         $this->line('');
 
-        $this->rebuildDatabaseSchema();
-        $this->line('');
-
         $this->installLaravelDusk();
         $this->line('');
 
@@ -55,6 +52,9 @@ class LaravelPackages extends Command
         $this->line('');
 
         $this->installLaravelPassport();
+        $this->line('');
+
+        $this->rebuildDatabaseSchema();
         $this->line('');
 
         $this->runSelfDiagnosis();
@@ -144,7 +144,7 @@ class LaravelPackages extends Command
     {
         $this->info('[START] Rebuild database schema..........');
 
-        $this->call('migrate:fresh', ['--force' => true]);
+        $this->call('migrate:fresh');
 
         $this->info('[DONE ] Rebuild database schema.');
     }
