@@ -157,7 +157,7 @@ Here is the packages that are planned to coming on the next release. These packa
 
 ### Packages that can not / will not coming
 
-Here is the packages that will not added, even in the next release. The reasons are because they are: Dev-environment only, Substituted, Unmaintained, Abandoned, etc.
+Here is the packages that will not added. The reasons are because they are: Dev-environment only, Substituted, Unmaintained, Abandoned, etc.
 
 - [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-env only
 
