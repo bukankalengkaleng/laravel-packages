@@ -2,6 +2,12 @@
 
 All notable changes will be documented in this file.
 
+## 1.2.0 (2018-12-22)
+
+### Added
+
+- Yajra's DataTables plugins.
+
 ## 1.1.0 (2018-12-22)
 
 ### Added
