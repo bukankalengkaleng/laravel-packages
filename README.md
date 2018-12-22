@@ -135,9 +135,13 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 ### Incoming packages
 
-Berikut adalah daftar packages yang akan ditambahkan kemudian / dirilis berikutnya.
+Berikut adalah daftar packages yang akan ditambahkan kemudian / dalam rilis berikutnya (diurutkan prioritas).
 
+- [Multi-Tenant](https://github.com/hyn/multi-tenant)
 - [Laravel Notification Channels](https://github.com/laravel-notification-channels)
+- [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
+- [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
+- [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
 
 ### Buggy packages
 
