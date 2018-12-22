@@ -2,7 +2,7 @@
 
 All notable changes will be documented in this file.
 
-## [1.3.0 (2018-12-22)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.2.1...1.3.0)
+## [1.3.0 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.2.1...1.3.0)
 
 ### Removed
 
