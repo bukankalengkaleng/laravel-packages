@@ -117,7 +117,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Spatie's URL](https://github.com/spatie/url)
 1. [Spatie's URL Signer](https://github.com/spatie/url-signer)
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
-1. Yajra's DataTables
+1. [Yajra's DataTables](https://github.com/yajra/laravel-datatables)
 
 ## Kontribusi
 
