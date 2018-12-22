@@ -138,7 +138,9 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 Here is the incoming packages on the next release (sorted by priority).
 
 1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
+1. [Laravel Localization](https://github.com/mcamara/laravel-localization)
 1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
+1. [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
 1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
 1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
 1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)

@@ -138,7 +138,9 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 Berikut adalah daftar packages yang akan ditambahkan kemudian / dalam rilis berikutnya (diurutkan prioritas).
 
 1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
+1. [Laravel Localization](https://github.com/mcamara/laravel-localization)
 1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
+1. [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
 1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
 1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
 1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
