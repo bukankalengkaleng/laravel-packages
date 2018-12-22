@@ -16,7 +16,7 @@ Just so I (hopefully you guys also) doesn't need to pull every packages you like
 
 ## Installation
 
-1. Install Laravel
+1. Install fresh Laravel project
 1. Run this following command:
 
     ```composer require bukankalengkaleng/laravel-packages```
@@ -124,15 +124,15 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 
 ## Contributing
 
-Am I missing a good packages?
+Am I missing other good packages?
 
 1. Send PR
-1. Please do not take it personal if your PR rejected
+1. Please do not take it personal if your PR got rejected
 
 ## Changelog
 
-To see notable changes about this package go to see [this file](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md).
+To see notable changes on this package go to [the Changelog file](https://github.com/bukankalengkaleng/laravel-packages/blob/master/CHANGELOG.md).
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License file](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) for more information.

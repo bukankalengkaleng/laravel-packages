@@ -16,7 +16,7 @@ Package ini kubuat agar aku (ato kalean) tak perlu lagi susah payah masukin satu
 
 ## Instalasi
 
-1. Instal Laravel
+1. Instal fresh Laravel
 1. Jalankan perintah:
 
     ```composer require bukankalengkaleng/laravel-packages```
