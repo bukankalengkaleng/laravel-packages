@@ -14,8 +14,8 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 
 ## Instalasi
 
-1. Instal [Laravel](https://laravel.com/docs/5.7/installation)
-1. Buka **terminal**, jalankan perintah:
+1. Instal Laravel
+1. Jalankan perintah:
 
     ```composer require bukankalengkaleng/laravel-packages```
 1. Setup database (konfigurasi juga file ```.env```-nya)

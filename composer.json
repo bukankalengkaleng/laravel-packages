@@ -26,7 +26,13 @@
         "laravel/cashier": "^10.0@dev",
         "laravel/horizon": "^3.0@dev",
         "laravel/passport": "^8.0@dev",
+        "laravel/scout": "^7.0@dev",
+        "laravel/socialite": "^5.0@dev",
+        "laravel/telescope": "^2.0@dev",
         "league/uri": "^5.0@dev",
+        "maatwebsite/excel": "3.1.x-dev",
+        "nwidart/laravel-modules": "^4.0@dev",
+        "owen-it/laravel-auditing": "^8.0@dev",
         "spatie/array-to-xml": "dev-master",
         "spatie/browsershot": "dev-master",
         "spatie/calendar-links": "dev-master",
@@ -89,13 +95,7 @@
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
-        "laravel/scout": "^7.0@dev",
-        "laravel/socialite": "^5.0@dev",
-        "laravel/telescope": "^2.0@dev",
-        "maatwebsite/excel": "3.1.x-dev",
-        "owen-it/laravel-auditing": "^8.0@dev",
-        "yajra/laravel-datatables-oracle": "~8.0",
-        "nwidart/laravel-modules": "^4.0@dev"
+        "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
     },
