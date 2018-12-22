@@ -12,7 +12,7 @@ A Laravel must-have packages collection.
 
 ## Motivation
 
-Just so I (hopefully you guys also) doesn't need to pull every packages you like one-by-one, over and over again.
+Just so I (and hopefully you guys also) doesn't need to pull every packages you like one-by-one, over and over again.
 
 ## Installation
 
