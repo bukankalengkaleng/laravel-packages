@@ -29,6 +29,8 @@ Package ini kubuat agar aku (ato kalean) tak perlu lagi susah payah masukin satu
 
 Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
+### Main packages
+
 1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
 1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
 1. [BeyondCode's Laravel Self-Diagnosis](https://github.com/beyondcode/laravel-self-diagnosis)
@@ -121,6 +123,11 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 1. [Spatie's URL Signer](https://github.com/spatie/url-signer)
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
 1. [Yajra's DataTables](https://github.com/yajra/laravel-datatables)
+
+### Main packages' plugins / libraries
+
+1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
+1. Yajra's DataTables Button (on next release)
 
 ## Kontribusi
 
