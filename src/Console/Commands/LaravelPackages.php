@@ -42,14 +42,14 @@ class LaravelPackages extends Command
         $this->publishAllVendorFiles();
         $this->line('');
 
-        $this->installLaravelDusk();
-        $this->line('');
+        // $this->installLaravelDusk();
+        // $this->line('');
 
-        $this->installLaravelHorizon();
-        $this->line('');
+        // $this->installLaravelHorizon();
+        // $this->line('');
 
-        $this->installLaravelTelescope();
-        $this->line('');
+        // $this->installLaravelTelescope();
+        // $this->line('');
 
         $this->rebuildDatabaseSchema();
         $this->line('');
