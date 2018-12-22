@@ -167,6 +167,7 @@ class LaravelPackages extends Command
         $this->line('1. You may start Laravel Horizon using: "php artisan horizon"');
         $this->line('2. You may start Websockets server using: "php artisan websockets:serve"');
         $this->line('3. You may create Laravel Passport\'s client using: "php artisan passport:client"');
+        $this->line('4. A premium license is required to be able to use DataTables Editor library');
     }
 
     /**
