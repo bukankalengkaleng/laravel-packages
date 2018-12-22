@@ -51,11 +51,11 @@ class LaravelPackages extends Command
         // $this->installLaravelTelescope();
         // $this->line('');
 
-        $this->rebuildDatabaseSchema();
-        $this->line('');
+        // $this->rebuildDatabaseSchema();
+        // $this->line('');
 
-        $this->installLaravelPassport();
-        $this->line('');
+        // $this->installLaravelPassport();
+        // $this->line('');
 
         $this->runSelfDiagnosis();
         $this->line('');
