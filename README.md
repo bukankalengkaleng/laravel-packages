@@ -137,17 +137,18 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 Berikut adalah daftar packages yang akan ditambahkan kemudian / dalam rilis berikutnya (diurutkan prioritas).
 
-- [Multi-Tenant](https://github.com/hyn/multi-tenant)
-- [Laravel Notification Channels](https://github.com/laravel-notification-channels)
-- [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
-- [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
-- [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
+1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
+1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
+1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
+1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
+1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
 
 ### Buggy packages
 
 Berikut adalah daftar packages yang akan ditambahkan kemudian. Alasan kenapa belum bisa ada untuk saat ini adalah karena masih *buggy* atau belum kompatibel dengan Laravel terbaru (v5.7.x).
 
-- [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
+1. [Algolia's Scout Extended](https://github.com/algolia/scout-extended)
+1. [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
 
 ### Packages yang tidak bisa / tidak akan ditambahkan
 

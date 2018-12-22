@@ -137,17 +137,18 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 
 Here is the incoming packages on the next release (sorted by priority).
 
-- [Multi-Tenant](https://github.com/hyn/multi-tenant)
-- [Laravel Notification Channels](https://github.com/laravel-notification-channels)
-- [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
-- [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
-- [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
+1. [Multi-Tenant](https://github.com/hyn/multi-tenant)
+1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
+1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
+1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
+1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
 
 ### Buggy packages
 
 Here is the packages that are planned to coming on the next release. These packages are not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
 
-- [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
+1. [Algolia's Scout Extended](https://github.com/algolia/scout-extended)
+1. [Pbmedia's Laravel FFMpeg](https://github.com/pascalbaljetmedia/laravel-ffmpeg)
 
 ### Packages that can not / will not coming
 
