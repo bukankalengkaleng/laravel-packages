@@ -8,7 +8,7 @@
 
 ## Description
 
-A Laravel must-have packages collection.
+A collection of Laravel must-have packages.
 
 ## Motivation
 
