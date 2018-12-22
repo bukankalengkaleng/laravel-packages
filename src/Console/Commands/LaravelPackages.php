@@ -48,6 +48,9 @@ class LaravelPackages extends Command
         $this->installLaravelHorizon();
         $this->line('');
 
+        $this->installLaravelTelescope();
+        $this->line('');
+
         $this->rebuildDatabaseSchema();
         $this->line('');
 
@@ -119,6 +122,20 @@ class LaravelPackages extends Command
     }
 
     /**
+     * Install Laravel Telescope
+     *
+     * @return void
+     */
+    protected function installLaravelTelescope()
+    {
+        $this->info('[START] Laravel Telescope installation..........');
+
+        $this->call('telescope:install');
+
+        $this->info('[DONE ] Laravel Telescope installation');
+    }
+
+    /**
      * Rebuild database schema
      *
      * @return void
@@ -162,7 +179,7 @@ class LaravelPackages extends Command
         $this->line('');
         $this->line('****************************************************');
         $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.23.0 by @rkukuh');
+        $this->line('version 1.24.0 by @rkukuh');
         $this->line('****************************************************');
         $this->line('');
     }

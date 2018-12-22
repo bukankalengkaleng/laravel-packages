@@ -39,7 +39,7 @@ Berikut adalah daftar packages yang tersedia (urut A-Z):
 1. [Laravel Passport](https://laravel.com/docs/5.7/passport)
 1. [Laravel Scout](https://laravel.com/docs/5.7/scout)
 1. [Laravel Socialite](https://laravel.com/docs/5.7/socialite)
-1. Laravel Telescope
+1. [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
 1. [League's URI](https://github.com/thephpleague/uri)
 1. Maatwebsite's Laravel Excel
 1. Owen-IT's Laravel Auditing

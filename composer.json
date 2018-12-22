@@ -90,7 +90,8 @@
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
         "laravel/scout": "^7.0@dev",
-        "laravel/socialite": "^5.0@dev"
+        "laravel/socialite": "^5.0@dev",
+        "laravel/telescope": "^2.0@dev"
     },
     "require-dev": {
     },
