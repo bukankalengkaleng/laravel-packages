@@ -91,7 +91,8 @@
         "spatie/valuestore": "dev-master",
         "laravel/scout": "^7.0@dev",
         "laravel/socialite": "^5.0@dev",
-        "laravel/telescope": "^2.0@dev"
+        "laravel/telescope": "^2.0@dev",
+        "maatwebsite/excel": "3.1.x-dev"
     },
     "require-dev": {
     },
