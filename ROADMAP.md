@@ -6,6 +6,7 @@ Here is the incoming packages on the next release (A-Z).
 
 1. [Arcanedev's SEO Helper](https://github.com/ARCANEDEV/SEO-Helper)
 1. [Artesaos' SEO Tools](https://github.com/artesaos/seotools)
+1. [Babenkoivan's Scout ElasticSearch Driver](https://github.com/babenkoivan/scout-elasticsearch-driver)
 1. [Barryvdh's Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
 1. [ConsoleTVs' Charts](https://github.com/ConsoleTVs/Charts)
 1. [Dimsav's Laravel Translatable](https://github.com/dimsav/laravel-translatable)
@@ -16,6 +17,7 @@ Here is the incoming packages on the next release (A-Z).
 1. [Mcamara's Laravel Localization](https://github.com/mcamara/laravel-localization)
 1. [Nickurt's Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
 1. [Nuwave's Lighthouse](https://github.com/nuwave/lighthouse)
+1. [Overtrue's Laravel Follow](https://github.com/overtrue/laravel-follow)
 1. [PHPJunior's Laravel Video Chat](https://github.com/PHPJunior/laravel-video-chat)
 1. [SimpleSoftwareIO's SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
 
