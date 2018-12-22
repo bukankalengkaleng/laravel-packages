@@ -140,9 +140,9 @@ Here is the packages that are planned to coming on the next release. These packa
 
 ### Not installed packages
 
-Here is the packages that will not added. The reasons are because they are: Subtituted, Unmaintained, Abandoned, etc.
+Here is the packages that will not added, even in the next release. The reasons are because they are: Substituted, Unmaintained, Abandoned, etc.
 
-- [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) digantikan oleh [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
+- [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) substituted by [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
 
 ## Contributing
 

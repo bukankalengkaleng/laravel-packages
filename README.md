@@ -140,7 +140,7 @@ Berikut adalah daftar packages yang akan ditambahkan kemudian. Alasan kenapa bel
 
 ### Package yang tidak akan ditambahkan
 
-Berikut adalah daftar pacakges yang tidak akan ditambahkan disini. Alasannya beragam, antara lain: *Subtituted*, *Unmaintened*, *Abandoned*, dsb.
+Berikut adalah daftar pacakges yang tidak akan ditambahkan disini. Alasannya beragam, antara lain: *Substituted*, *Unmaintened*, *Abandoned*, dsb.
 
 - [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) digantikan oleh [Laravel Telescope](https://laravel.com/docs/5.7/telescope)
 
