@@ -1,7 +1,7 @@
 # Laravel Packages
 
-![issues](https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg)
 ![stars](https://img.shields.io/github/stars/bukankalengkaleng/laravel-packages.svg)
+![issues](https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg)
 ![license](https://img.shields.io/github/license/bukankalengkaleng/laravel-packages.svg)
 
 ## Deskripsi
@@ -10,7 +10,7 @@ Kumpulan packages Laravel terbaek, menurut aku.
 
 ## Motivasi
 
-Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke suatu proyek berbasis Laravel.
+Package ini kubuat agar aku (ato kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke suatu proyek berbasis Laravel.
 
 ## Instalasi
 
@@ -25,7 +25,7 @@ Package ini aku buat agar aku (ato kalean) tak perlu lagi susah payah masukin sa
 
 ## Daftar Packages
 
-Berikut adalah daftar packages yang tersedia (urut A-Z):
+Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
 1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
