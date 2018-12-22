@@ -131,4 +131,4 @@ Revisi pada package ini dapat dilihat di [file ini](https://github.com/bukankale
 
 ## Lisensi
 
-The MIT License (MIT). Please see [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) for more information.
+Lisensi package ini MIT License (MIT). Silahkan lihat [License File](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) untuk lebih jelasnya.
