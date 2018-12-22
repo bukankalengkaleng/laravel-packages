@@ -143,6 +143,7 @@ Berikut adalah daftar packages yang akan ditambahkan kemudian / dalam rilis beri
 1. [Laravel Translatable](https://github.com/dimsav/laravel-translatable)
 1. [Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
 1. [SimpleQrCode](https://github.com/SimpleSoftwareIO/simple-qrcode)
+1. [SEO Helper](https://github.com/ARCANEDEV/SEO-Helper)
 1. [Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
 1. [Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
 1. [Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
