@@ -94,7 +94,8 @@
         "laravel/telescope": "^2.0@dev",
         "maatwebsite/excel": "3.1.x-dev",
         "owen-it/laravel-auditing": "^8.0@dev",
-        "yajra/laravel-datatables-oracle": "~8.0"
+        "yajra/laravel-datatables-oracle": "~8.0",
+        "nwidart/laravel-modules": "^4.0@dev"
     },
     "require-dev": {
     },
