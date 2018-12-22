@@ -132,6 +132,13 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 1. [Yajra's DataTables Button](https://github.com/yajra/laravel-datatables-buttons)
 1. [Yajra's DataTables Fractal](https://github.com/yajra/laravel-datatables-fractal)
 
+### Packages yang akan datang
+
+Berikut adalah daftar packages yang akan ditambahkan kemudian.  
+Alasan kenapa belum bisa ada untuk saat ini adalah karena masih *buggy* atau belum kompatibel dengan Laravel terbaru (v5.7.x).
+
+1. PHP-FFMpeg's PHP-FFMpeg
+
 ## Kontribusi
 
 Punya packages favorit yang belum ada disini?

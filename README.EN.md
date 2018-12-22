@@ -132,6 +132,13 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [Yajra's DataTables Button](https://github.com/yajra/laravel-datatables-buttons)
 1. [Yajra's DataTables Fractal](https://github.com/yajra/laravel-datatables-fractal)
 
+### Incoming packages
+
+Here is the packages that planned to coming on the next release.  
+These packages is not there yet mostly because currently they are still buggy or not compatible with the latest Laravel (v5.7.x).
+
+1. PHP-FFMpeg's PHP-FFMpeg
+
 ## Contributing
 
 Am I missing other good packages?
