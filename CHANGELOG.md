@@ -2,6 +2,14 @@
 
 All notable changes will be documented in this file.
 
+## [1.4.0 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.3.0...1.4.0)
+
+### Added
+
+- AWS' Laravel PHP SDK
+- AWS' PHP SNS Message Validator
+- Barryvdh's Laravel Snappy
+
 ## [1.3.0 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.2.1...1.3.0)
 
 ### Removed
