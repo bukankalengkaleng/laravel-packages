@@ -2,6 +2,12 @@
 
 All notable changes will be documented in this file.
 
+## [1.5.0 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.4.0...1.5.0)
+
+### Added
+
+- Hyn's Multi-Tenant
+
 ## [1.4.0 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.3.0...1.4.0)
 
 ### Added
