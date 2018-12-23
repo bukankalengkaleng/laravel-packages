@@ -115,6 +115,11 @@
             "BukanKalengKaleng\\LaravelPackages\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "BukanKalengKaleng\\LaravelPackages\\Tests\\": "tests/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
