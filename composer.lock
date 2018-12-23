@@ -1864,12 +1864,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9799bbcb90ed2df488adb0924169163156483e52"
+                "reference": "c5da4c3128db9f892f0911043cfffb6c559bd6da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9799bbcb90ed2df488adb0924169163156483e52",
-                "reference": "9799bbcb90ed2df488adb0924169163156483e52",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/c5da4c3128db9f892f0911043cfffb6c559bd6da",
+                "reference": "c5da4c3128db9f892f0911043cfffb6c559bd6da",
                 "shasum": ""
             },
             "require": {
@@ -1922,7 +1922,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-12-07T08:18:25+00:00"
+            "time": "2018-12-21T16:46:01+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -2186,12 +2186,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/dusk.git",
-                "reference": "3b2df334d92b6215400ddd183253eb4bcc07debb"
+                "reference": "91684be9991270e375e78e134a2020302f3029d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/dusk/zipball/3b2df334d92b6215400ddd183253eb4bcc07debb",
-                "reference": "3b2df334d92b6215400ddd183253eb4bcc07debb",
+                "url": "https://api.github.com/repos/laravel/dusk/zipball/91684be9991270e375e78e134a2020302f3029d3",
+                "reference": "91684be9991270e375e78e134a2020302f3029d3",
                 "shasum": ""
             },
             "require": {
@@ -2239,7 +2239,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-12-19T13:55:39+00:00"
+            "time": "2018-12-21T20:10:11+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2247,12 +2247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3f1dd8a1a70bbc682052ac330a0e0659d81fb5fb"
+                "reference": "6e0c87d2322172e4066530303db06ca79e9a3572"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3f1dd8a1a70bbc682052ac330a0e0659d81fb5fb",
-                "reference": "3f1dd8a1a70bbc682052ac330a0e0659d81fb5fb",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6e0c87d2322172e4066530303db06ca79e9a3572",
+                "reference": "6e0c87d2322172e4066530303db06ca79e9a3572",
                 "shasum": ""
             },
             "require": {
@@ -2385,7 +2385,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-20T14:24:37+00:00"
+            "time": "2018-12-21T20:09:25+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -2461,12 +2461,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/nexmo-notification-channel.git",
-                "reference": "03edd42a55b306ff980c9950899d5a2b03260d48"
+                "reference": "a06621922078c419f3535e85a0d933f38a0f2306"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/nexmo-notification-channel/zipball/03edd42a55b306ff980c9950899d5a2b03260d48",
-                "reference": "03edd42a55b306ff980c9950899d5a2b03260d48",
+                "url": "https://api.github.com/repos/laravel/nexmo-notification-channel/zipball/a06621922078c419f3535e85a0d933f38a0f2306",
+                "reference": "a06621922078c419f3535e85a0d933f38a0f2306",
                 "shasum": ""
             },
             "require": {
@@ -2510,7 +2510,7 @@
                 "nexmo",
                 "notifications"
             ],
-            "time": "2018-12-04T12:57:08+00:00"
+            "time": "2018-12-21T20:06:39+00:00"
         },
         {
             "name": "laravel/passport",
@@ -2518,12 +2518,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/passport.git",
-                "reference": "554b199346ab6b6fa2b9b5a45dd0dabf1887c88c"
+                "reference": "5886c7af918478c5a398b303aa174d0e10bb1a45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/passport/zipball/554b199346ab6b6fa2b9b5a45dd0dabf1887c88c",
-                "reference": "554b199346ab6b6fa2b9b5a45dd0dabf1887c88c",
+                "url": "https://api.github.com/repos/laravel/passport/zipball/5886c7af918478c5a398b303aa174d0e10bb1a45",
+                "reference": "5886c7af918478c5a398b303aa174d0e10bb1a45",
                 "shasum": ""
             },
             "require": {
@@ -2579,7 +2579,7 @@
                 "oauth",
                 "passport"
             ],
-            "time": "2018-12-20T20:58:21+00:00"
+            "time": "2018-12-21T15:50:18+00:00"
         },
         {
             "name": "laravel/scout",
@@ -2652,12 +2652,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/slack-notification-channel.git",
-                "reference": "6e164293b754a95f246faf50ab2bbea3e4923cc9"
+                "reference": "b9a76c5f1b0655439aaba44c91af95b317cdc88f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/slack-notification-channel/zipball/6e164293b754a95f246faf50ab2bbea3e4923cc9",
-                "reference": "6e164293b754a95f246faf50ab2bbea3e4923cc9",
+                "url": "https://api.github.com/repos/laravel/slack-notification-channel/zipball/b9a76c5f1b0655439aaba44c91af95b317cdc88f",
+                "reference": "b9a76c5f1b0655439aaba44c91af95b317cdc88f",
                 "shasum": ""
             },
             "require": {
@@ -2701,7 +2701,7 @@
                 "notifications",
                 "slack"
             ],
-            "time": "2018-12-12T13:12:06+00:00"
+            "time": "2018-12-21T20:07:15+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -3203,20 +3203,20 @@
         },
         {
             "name": "league/glide",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/glide.git",
-                "reference": "bd29f65c9666abd72e66916e0573801e435ca878"
+                "reference": "72430fbdb446c754910f0bab97e1ef14baab1e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/glide/zipball/bd29f65c9666abd72e66916e0573801e435ca878",
-                "reference": "bd29f65c9666abd72e66916e0573801e435ca878",
+                "url": "https://api.github.com/repos/thephpleague/glide/zipball/72430fbdb446c754910f0bab97e1ef14baab1e80",
+                "reference": "72430fbdb446c754910f0bab97e1ef14baab1e80",
                 "shasum": ""
             },
             "require": {
-                "intervention/image": "^2.1",
+                "intervention/image": "^2.4",
                 "league/flysystem": "^1.0",
                 "php": "^5.4 | ^7.0",
                 "psr/http-message": "^1.0"
@@ -3260,7 +3260,7 @@
                 "manipulation",
                 "processing"
             ],
-            "time": "2018-02-12T23:28:25+00:00"
+            "time": "2018-12-22T17:56:55+00:00"
         },
         {
             "name": "league/oauth1-client",
@@ -11047,23 +11047,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-tags.git",
-                "reference": "3ae25e213d374f7e9205dc9d515e90242e46f1d0"
+                "reference": "e76a3430b24623ddbee60ad525b1c055ba598a0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/3ae25e213d374f7e9205dc9d515e90242e46f1d0",
-                "reference": "3ae25e213d374f7e9205dc9d515e90242e46f1d0",
+                "url": "https://api.github.com/repos/spatie/laravel-tags/zipball/e76a3430b24623ddbee60ad525b1c055ba598a0e",
+                "reference": "e76a3430b24623ddbee60ad525b1c055ba598a0e",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
-                "php": "^7.0",
-                "spatie/eloquent-sortable": "^3.0",
-                "spatie/laravel-translatable": "^2.0|^3.0"
+                "laravel/framework": "~5.7.13",
+                "php": "^7.1",
+                "spatie/eloquent-sortable": "^3.4",
+                "spatie/laravel-translatable": "^3.0"
             },
             "require-dev": {
-                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
-                "phpunit/phpunit": "^6.2|^7.0"
+                "orchestra/testbench": "~3.7.0",
+                "phpunit/phpunit": "^7.4"
             },
             "type": "library",
             "extra": {
@@ -11096,7 +11096,7 @@
                 "laravel-tags",
                 "spatie"
             ],
-            "time": "2018-11-27T08:37:16+00:00"
+            "time": "2018-12-21T12:26:24+00:00"
         },
         {
             "name": "spatie/laravel-tail",
@@ -12468,16 +12468,16 @@
         },
         {
             "name": "stripe/stripe-php",
-            "version": "v6.26.0",
+            "version": "v6.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stripe/stripe-php.git",
-                "reference": "ba85ad7c1618462083a7e9a542ded929232e8bff"
+                "reference": "e6be31eb114a0dbcbf50686d106464ab90926c85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/ba85ad7c1618462083a7e9a542ded929232e8bff",
-                "reference": "ba85ad7c1618462083a7e9a542ded929232e8bff",
+                "url": "https://api.github.com/repos/stripe/stripe-php/zipball/e6be31eb114a0dbcbf50686d106464ab90926c85",
+                "reference": "e6be31eb114a0dbcbf50686d106464ab90926c85",
                 "shasum": ""
             },
             "require": {
@@ -12519,7 +12519,7 @@
                 "payment processing",
                 "stripe"
             ],
-            "time": "2018-12-11T21:33:24+00:00"
+            "time": "2018-12-21T08:38:55+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
