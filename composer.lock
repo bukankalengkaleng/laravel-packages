@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0fb32c7674fd41ad6385fc09e4202853",
+    "content-hash": "210655e94dd651e4f0c6aad006a7d213",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -4124,6 +4124,17 @@
         {
             "name": "league/uri",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/uri.git",
+                "reference": "2bf92b1bcd78bc50d89b4f98a5929faad3bade08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/uri/zipball/2bf92b1bcd78bc50d89b4f98a5929faad3bade08",
+                "reference": "2bf92b1bcd78bc50d89b4f98a5929faad3bade08",
+                "shasum": ""
+            },
             "require": {
                 "ext-fileinfo": "*",
                 "ext-intl": "*",
@@ -15108,10 +15119,289 @@
             "time": "2018-09-27T19:45:25+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "fzaninotto/faker",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "06ac73da6517f58afe998ed46f93825d7a277d8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/06ac73da6517f58afe998ed46f93825d7a277d8d",
+                "reference": "06ac73da6517f58afe998ed46f93825d7a277d8d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
+                "squizlabs/php_codesniffer": "^1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2018-11-22T13:56:51+00:00"
+        },
+        {
+            "name": "hamcrest/hamcrest-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hamcrest/hamcrest-php.git",
+                "reference": "a8c1c7b982c989ad16c8f17f1834fa5df744b689"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hamcrest/hamcrest-php/zipball/a8c1c7b982c989ad16c8f17f1834fa5df744b689",
+                "reference": "a8c1c7b982c989ad16c8f17f1834fa5df744b689",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3|^7.0"
+            },
+            "replace": {
+                "cordoval/hamcrest-php": "*",
+                "davedevelopment/hamcrest-php": "*",
+                "kodova/hamcrest-php": "*"
+            },
+            "require-dev": {
+                "phpunit/php-file-iterator": "^1.4",
+                "phpunit/phpunit": ">=4.8.35 <5|>=5.4.3 <6",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "hamcrest"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "This is the PHP port of Hamcrest Matchers",
+            "keywords": [
+                "test"
+            ],
+            "time": "2018-11-01T08:19:18+00:00"
+        },
+        {
+            "name": "mockery/mockery",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mockery/mockery.git",
+                "reference": "100633629bf76d57430b86b7098cd6beb996a35a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/100633629bf76d57430b86b7098cd6beb996a35a",
+                "reference": "100633629bf76d57430b86b7098cd6beb996a35a",
+                "shasum": ""
+            },
+            "require": {
+                "hamcrest/hamcrest-php": "~2.0",
+                "lib-pcre": ">=7.0",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.7.10|~6.5|~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Mockery": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Pádraic Brady",
+                    "email": "padraic.brady@gmail.com",
+                    "homepage": "http://blog.astrumfutura.com"
+                },
+                {
+                    "name": "Dave Marshall",
+                    "email": "dave.marshall@atstsolutions.co.uk",
+                    "homepage": "http://davedevelopment.co.uk"
+                }
+            ],
+            "description": "Mockery is a simple yet flexible PHP mock object framework",
+            "homepage": "https://github.com/mockery/mockery",
+            "keywords": [
+                "BDD",
+                "TDD",
+                "library",
+                "mock",
+                "mock objects",
+                "mockery",
+                "stub",
+                "test",
+                "test double",
+                "testing"
+            ],
+            "time": "2018-10-02T21:52:37+00:00"
+        },
+        {
+            "name": "orchestra/testbench",
+            "version": "3.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testbench.git",
+                "reference": "57c9dc9271e60421b8402f477c44589156fb67b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/57c9dc9271e60421b8402f477c44589156fb67b6",
+                "reference": "57c9dc9271e60421b8402f477c44589156fb67b6",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.7.14",
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench-core": "~3.7.7",
+                "php": ">=7.1",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Laravel Testing Helper for Packages Development",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/testbench/",
+            "keywords": [
+                "BDD",
+                "TDD",
+                "laravel",
+                "orchestra-platform",
+                "orchestral",
+                "testing"
+            ],
+            "time": "2018-12-04T01:01:32+00:00"
+        },
+        {
+            "name": "orchestra/testbench-core",
+            "version": "3.7.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testbench-core.git",
+                "reference": "b5c97f3f3ae488c9e92196c2a7fcf3def9d23e36"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/b5c97f3f3ae488c9e92196c2a7fcf3def9d23e36",
+                "reference": "b5c97f3f3ae488c9e92196c2a7fcf3def9d23e36",
+                "shasum": ""
+            },
+            "require": {
+                "fzaninotto/faker": "^1.4",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.7.14",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^7.0"
+            },
+            "suggest": {
+                "laravel/framework": "Required for testing (~5.7.14).",
+                "mockery/mockery": "Allow to use Mockery for testing (^1.0).",
+                "orchestra/testbench-browser-kit": "Allow to use legacy Laravel BrowserKit for testing (~3.7).",
+                "orchestra/testbench-dusk": "Allow to use Laravel Dusk for testing (~3.7).",
+                "phpunit/phpunit": "Allow to use PHPUnit for testing (^7.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Testbench\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Testing Helper for Laravel Development",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/testbench/",
+            "keywords": [
+                "BDD",
+                "TDD",
+                "laravel",
+                "orchestra-platform",
+                "orchestral",
+                "testing"
+            ],
+            "time": "2018-12-04T00:47:44+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "aws/aws-php-sns-message-validator": 20,
         "amphp/parallel-functions": 20,
         "barryvdh/laravel-snappy": 20,
         "beyondcode/dusk-dashboard": 20,
@@ -15119,6 +15409,7 @@
         "beyondcode/laravel-vouchers": 20,
         "beyondcode/laravel-websockets": 20,
         "doctrine/dbal": 20,
+        "hyn/multi-tenant": 20,
         "laravel/cashier": 20,
         "laravel/horizon": 20,
         "laravel/passport": 20,
@@ -15187,9 +15478,7 @@
         "spatie/packagist-api": 20,
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
-        "spatie/valuestore": 20,
-        "aws/aws-php-sns-message-validator": 20,
-        "hyn/multi-tenant": 20
+        "spatie/valuestore": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
