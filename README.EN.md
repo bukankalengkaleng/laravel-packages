@@ -38,6 +38,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [BeyondCode's Laravel Vouchers](https://github.com/beyondcode/laravel-vouchers)
 1. [BeyondCode's Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
 1. [Doctrine's DBAL](https://www.doctrine-project.org/projects/dbal.html)
+1. [Hyn's Multi-Tenant](https://github.com/hyn/multi-tenant)
 1. [Laravel Cashier](https://laravel.com/docs/5.7/billing)
 1. [Laravel Dusk](https://laravel.com/docs/5.7/dusk)
 1. [Laravel Horizon](https://laravel.com/docs/5.7/horizon)

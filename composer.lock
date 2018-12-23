@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "145af03aa4480bc749714081eb071e19",
+    "content-hash": "0fb32c7674fd41ad6385fc09e4202853",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -2631,6 +2631,72 @@
                 "url"
             ],
             "time": "2018-12-07T15:04:46+00:00"
+        },
+        {
+            "name": "hyn/multi-tenant",
+            "version": "5.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyn/multi-tenant.git",
+                "reference": "d73f03f11bb46a8700ae71798b00be0dda8c4c67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyn/multi-tenant/zipball/d73f03f11bb46a8700ae71798b00be0dda8c4c67",
+                "reference": "d73f03f11bb46a8700ae71798b00be0dda8c4c67",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.5",
+                "laravel/framework": "5.6.* | 5.7.*",
+                "php": "7.*",
+                "phpseclib/phpseclib": "~2.0",
+                "ramsey/uuid": "^3.5"
+            },
+            "require-dev": {
+                "laravel/laravel": "5.6.* | 5.7.*",
+                "mockery/mockery": "^0.9.9",
+                "phpunit/phpunit": "~7.0",
+                "symfony/dom-crawler": "~3.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hyn\\Tenancy\\Providers\\TenancyProvider",
+                        "Hyn\\Tenancy\\Providers\\WebserverProvider"
+                    ],
+                    "aliases": {
+                        "Tenancy": "Hyn\\Tenancy\\Facades\\TenancyFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hyn\\Tenancy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+hyn@klabbers.email",
+                    "homepage": "https://luceos.com"
+                }
+            ],
+            "description": "Run multiple websites using the same laravel installation while keeping tenant specific data separated for fully independant multi-domain setups.",
+            "keywords": [
+                "hyn",
+                "laravel",
+                "multi-tenancy",
+                "multi-tenant",
+                "saas",
+                "tenancy"
+            ],
+            "time": "2018-12-12T14:06:53+00:00"
         },
         {
             "name": "intervention/image",
@@ -15122,7 +15188,8 @@
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
         "spatie/valuestore": 20,
-        "aws/aws-php-sns-message-validator": 20
+        "aws/aws-php-sns-message-validator": 20,
+        "hyn/multi-tenant": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

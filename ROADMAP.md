@@ -10,7 +10,6 @@ Here is the incoming packages on the next release (A-Z).
 1. [Barryvdh's Laravel Translation Manager](https://github.com/barryvdh/laravel-translation-manager)
 1. [ConsoleTVs' Charts](https://github.com/ConsoleTVs/Charts)
 1. [Dimsav's Laravel Translatable](https://github.com/dimsav/laravel-translatable)
-1. [Hyn's Multi-Tenant](https://github.com/hyn/multi-tenant)
 1. [Imanghafoori1's Laravel HeyMan](https://github.com/imanghafoori1/laravel-heyman)
 1. [Imanghafoori1's Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
 1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
