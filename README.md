@@ -17,13 +17,31 @@ Package ini kubuat agar aku (ato kalean) tak perlu lagi susah payah masukin satu
 ## Instalasi
 
 1. Instal fresh Laravel
+1. Tambahkan kode berikut dalam file `config/database.php`, bagian `connections`:
+    ```php
+    'system' => [
+        'driver' => 'mysql',
+        'host' => env('TENANCY_HOST', '127.0.0.1'),
+        'port' => env('TENANCY_PORT', '3306'),
+        'database' => env('TENANCY_DATABASE', 'tenancy'),
+        'username' => env('TENANCY_USERNAME', 'tenancy'),
+        'password' => env('TENANCY_PASSWORD', ''),
+        'unix_socket' => env('DB_SOCKET', ''),
+        'charset' => 'utf8mb4',
+        'collation' => 'utf8mb4_unicode_ci',
+        'prefix' => '',
+        'strict' => true,
+        'engine' => null,
+    ]
+    ```
+    > Kode diatas dibutuhkan oleh package **Multi-Tenant**. Dokumentasi resminya [disini](https://laravel-tenancy.com/docs/hyn/5.3/installation).
+1. Setup database (konfigurasi juga file `.env`)
 1. Jalankan perintah:
 
-    ```composer require bukankalengkaleng/laravel-packages```
-1. Setup database (konfigurasi juga file ```.env```-nya)
+    `composer require bukankalengkaleng/laravel-packages`
 1. Jalankan perintah:
 
-    ```php artisan laravel-packages:install```
+    `php artisan laravel-packages:install`
 
 ## Daftar Packages
 

@@ -17,13 +17,31 @@ Just so I (and hopefully you guys also) doesn't need to pull every packages you 
 ## Installation
 
 1. Install fresh Laravel project
+1. Add this code in `config/database.php`, on `connections` section:
+    ```php
+    'system' => [
+        'driver' => 'mysql',
+        'host' => env('TENANCY_HOST', '127.0.0.1'),
+        'port' => env('TENANCY_PORT', '3306'),
+        'database' => env('TENANCY_DATABASE', 'tenancy'),
+        'username' => env('TENANCY_USERNAME', 'tenancy'),
+        'password' => env('TENANCY_PASSWORD', ''),
+        'unix_socket' => env('DB_SOCKET', ''),
+        'charset' => 'utf8mb4',
+        'collation' => 'utf8mb4_unicode_ci',
+        'prefix' => '',
+        'strict' => true,
+        'engine' => null,
+    ]
+    ```
+    > That configuration is required by **Multi-Tenant** package. See its official docs [here](https://laravel-tenancy.com/docs/hyn/5.3/installation).
+1. Setup database (also configure the `.env` file)
 1. Run this following command:
 
-    ```composer require bukankalengkaleng/laravel-packages```
-1. Setup database (also configure the ```.env``` file)
+    `composer require bukankalengkaleng/laravel-packages`
 1. Run this following command:
 
-    ```php artisan laravel-packages:install```
+    `php artisan laravel-packages:install`
 
 ## Packages List
 
