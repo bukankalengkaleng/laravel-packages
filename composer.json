@@ -99,8 +99,7 @@
         "yajra/laravel-datatables-editor": "^1.0",
         "yajra/laravel-datatables-fractal": "^1.0",
         "yajra/laravel-datatables-html": "^4.0",
-        "yajra/laravel-datatables-oracle": "~8.0",
-        "pagerfanta/pagerfanta": "^1.0@dev"
+        "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
     },
