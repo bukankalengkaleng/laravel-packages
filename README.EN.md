@@ -128,6 +128,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 
 ### Main package's plugins / libraries
 
+1. [AWS' PHP SNS Message Validator](https://github.com/aws/aws-php-sns-message-validator)
 1. [Barryvdh's Laravel Snappy](https://github.com/barryvdh/laravel-snappy)
 1. [Yajra's DataTables Editor](https://github.com/yajra/laravel-datatables-editor)
 1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
