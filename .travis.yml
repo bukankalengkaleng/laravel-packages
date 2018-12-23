@@ -6,6 +6,3 @@ php:
 before_script:
   - composer self-update
   - composer install
-
-script:
-  - php artisan laravel-packages:install
