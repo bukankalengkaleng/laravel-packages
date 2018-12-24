@@ -18,7 +18,7 @@ class LaravelPackages extends Command
      *
      * @var string
      */
-    protected $description = 'Install anything required';
+    protected $description = 'Publish all vendor files, Install other packages, and rebuild DB schema';
 
     /**
      * Create a new command instance.
