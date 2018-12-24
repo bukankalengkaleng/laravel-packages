@@ -172,4 +172,4 @@ Notable changes are documented in [Changelog](https://github.com/bukankalengkale
 
 ## License
 
-The MIT License (MIT). Please see [License](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE) file for more information.
+The MIT License (MIT). Please see [License](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE.md) file for more information.
