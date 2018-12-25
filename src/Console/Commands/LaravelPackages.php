@@ -37,7 +37,7 @@ class LaravelPackages extends Command
      */
     public function handle()
     {
-        $this->copyright();
+        $this->line('');
 
         $this->publishAllVendorFiles();
         $this->line('');
@@ -170,20 +170,5 @@ class LaravelPackages extends Command
         $this->line('4. A premium license is required to be able to use DataTables Editor library');
         $this->line('5. Laravel Notification channels: http://laravel-notification-channels.com');
         $this->line('6. Laravel Socialite providers: https://socialiteproviders.github.io/providers/digital-ocean.html');
-    }
-
-    /**
-     * Command's copyright'
-     *
-     * @return mixed
-     */
-    protected function copyright()
-    {
-        $this->line('');
-        $this->line('****************************************************');
-        $this->line('"Laravel-Packages Installer" artisan command');
-        $this->line('version 1.24.0 by @rkukuh');
-        $this->line('****************************************************');
-        $this->line('');
     }
 }
