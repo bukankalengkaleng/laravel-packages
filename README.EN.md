@@ -35,11 +35,13 @@ Just so I (and hopefully you guys also) doesn't need to pull every packages you 
     > That configuration is required by **Multi-Tenant** package. See its official docs [here](https://laravel-tenancy.com/docs/hyn/5.3/installation).
 1. Setup database (also configure the `.env` file)
 1. Run this following command:
-
-    `composer require bukankalengkaleng/laravel-packages`
+    ```
+    composer require bukankalengkaleng/laravel-packages
+    ```
 1. Run this following command:
-
-    `php artisan laravel-packages:install`
+    ```
+    php artisan laravel-packages:install
+    ```
 
 ## Packages List
 

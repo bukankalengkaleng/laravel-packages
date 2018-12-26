@@ -35,11 +35,13 @@ Package ini kubuat agar aku (ato kalean) tak perlu lagi susah payah masukin satu
     > Kode diatas dibutuhkan oleh package **Multi-Tenant**. Dokumentasi resminya [disini](https://laravel-tenancy.com/docs/hyn/5.3/installation).
 1. Setup database (konfigurasi juga file `.env`)
 1. Jalankan perintah:
-
-    `composer require bukankalengkaleng/laravel-packages`
+    ```
+    composer require bukankalengkaleng/laravel-packages
+    ```
 1. Jalankan perintah:
-
-    `php artisan laravel-packages:install`
+    ```
+    php artisan laravel-packages:install
+    ```
 
 ## Daftar Packages
 
