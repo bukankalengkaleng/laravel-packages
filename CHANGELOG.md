@@ -2,13 +2,13 @@
 
 All notable changes will be documented in this file.
 
-## [v1.6.0 (2018-12-24)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.5.1...1.6.0)
+## [1.6.0 (2018-12-24)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.5.1...1.6.0)
 
 ### Added
 
 - Add (dummy) tests suite
 
-## [v1.5.1 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.5.0...1.5.1)
+## [1.5.1 (2018-12-23)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.5.0...1.5.1)
 
 ### Added
 
