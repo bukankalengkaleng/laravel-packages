@@ -1,8 +1,5 @@
 # <img src="https://seeklogo.com/images/L/laravel-logo-9B01588B1F-seeklogo.com.png" width="24px"> Laravel Packages 📦
 
-![stars](https://img.shields.io/github/stars/bukankalengkaleng/laravel-packages.svg)
-![issues](https://img.shields.io/github/issues/bukankalengkaleng/laravel-packages.svg)
-![license](https://img.shields.io/github/license/bukankalengkaleng/laravel-packages.svg)
 [![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages)
 
 > Readme ini ditulis dalam bahasa Inggris. [Versi bahasa Indonesianya ada disini](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.md).
