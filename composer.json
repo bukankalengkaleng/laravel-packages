@@ -83,7 +83,6 @@
         "spatie/laravel-server-side-rendering": "dev-master",
         "spatie/laravel-slack-slash-command": "dev-master",
         "spatie/laravel-sluggable": "dev-master",
-        "spatie/phpunit-snapshot-assertions": "dev-master",
         "spatie/laravel-stripe-webhooks": "dev-master",
         "spatie/laravel-tags": "dev-master",
         "spatie/laravel-tail": "dev-master",

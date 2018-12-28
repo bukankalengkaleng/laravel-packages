@@ -33,3 +33,6 @@ Here is the packages that are planned to coming on the next release(s). These pa
 Here is the packages that can not / will not added. The reason is that they are: dev-env only, substituted, unmaintained, or abandoned.
 
 - [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-env only
+- [Spatie's Snapshot Assertion](https://github.com/spatie/phpunit-snapshot-assertions) : dev-env only
+
+spatie/phpunit-snapshot-assertions: ^1.3
