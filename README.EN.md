@@ -96,6 +96,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [Spatie's Laravel Fractal](https://github.com/spatie/laravel-fractal)
 1. [Spatie's Laravel Google Calendar](https://github.com/spatie/laravel-google-calendar)
 1. [Spatie's Laravel Google Tag Manager](https://github.com/spatie/laravel-googletagmanager)
+1. [Spatie's Laravel Honeypot](https://github.com/spatie/laravel-honeypot)
 1. [Spatie's Laravel HTML](https://github.com/spatie/laravel-html)
 1. [Spatie's Laravel HTTP Logger](https://github.com/spatie/laravel-http-logger)
 1. [Spatie's Laravel Image Optimizer](https://github.com/spatie/laravel-image-optimizer)

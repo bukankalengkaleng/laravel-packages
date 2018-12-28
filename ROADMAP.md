@@ -14,7 +14,6 @@ Here is the incoming packages on the next release (A-Z).
 1. [Imanghafoori1's Laravel Widgetize](https://github.com/imanghafoori1/laravel-widgetize)
 1. [Laravel Notification Channels](https://github.com/laravel-notification-channels)
 1. [Mcamara's Laravel Localization](https://github.com/mcamara/laravel-localization)
-1. [Nickurt's Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam)
 1. [Nuwave's Lighthouse](https://github.com/nuwave/lighthouse)
 1. [Overtrue's Laravel Follow](https://github.com/overtrue/laravel-follow)
 1. [PHPJunior's Laravel Video Chat](https://github.com/PHPJunior/laravel-video-chat)
@@ -32,7 +31,8 @@ Here is the packages that are planned to coming on the next release(s). These pa
 
 Here is the packages that can not / will not added. The reason is that they are: dev-env only, substituted, unmaintained, or abandoned.
 
-- [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-env only
-- [Spatie's Snapshot Assertion](https://github.com/spatie/phpunit-snapshot-assertions) : dev-env only
+1. [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-env only
+1. [Nickurt's Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam) substituted by [Spatie's Laravel Honeypot](https://github.com/spatie/laravel-honeypot)
+1. [Spatie's Snapshot Assertion](https://github.com/spatie/phpunit-snapshot-assertions) : dev-env only
 
 spatie/phpunit-snapshot-assertions: ^1.3
