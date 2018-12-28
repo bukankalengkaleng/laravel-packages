@@ -34,7 +34,6 @@
         "laravel/socialite": "^5.0@dev",
         "laravel/telescope": "^2.0@dev",
         "league/flysystem-aws-s3-v3": "^1.0@dev",
-        "league/uri": "^5.0@dev",
         "maatwebsite/excel": "3.1.x-dev",
         "nwidart/laravel-modules": "^4.0@dev",
         "owen-it/laravel-auditing": "^8.0@dev",
