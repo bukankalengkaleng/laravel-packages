@@ -2,6 +2,20 @@
 
 All notable changes will be documented in this file.
 
+## [v1.7.0 (2018-12-29)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.6.0...v1.7.0)
+
+### Added
+
+- Add spatie/laravel-searchable
+- Add spatie/laravel-honeypot
+- Prefix 'v' on version number
+
+### Changed
+
+- Remove league/uri (no use)
+- Remove spatie/phpunit-snapshot-assertions (see [Roadmap](https://github.com/bukankalengkaleng/laravel-packages/blob/master/ROADMAP.md))
+- Remove beyondcode/laravel-self-diagnosis (moved to [bukankalengkaleng/laravel-rebuild](https://github.com/bukankalengkaleng/laravel-rebuild))
+
 ## [1.6.0 (2018-12-24)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.5.1...1.6.0)
 
 ### Added
