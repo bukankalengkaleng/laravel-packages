@@ -57,9 +57,6 @@ class LaravelPackages extends Command
         $this->installLaravelPassport();
         $this->line('');
 
-        $this->runSelfDiagnosis();
-        $this->line('');
-
         $this->printReport();
         $this->line('');
     }
@@ -147,18 +144,6 @@ class LaravelPackages extends Command
         $this->call('migrate:fresh');
 
         $this->info('[DONE ] Rebuild database schema.');
-    }
-
-    /**
-     * Run BeyondCode's Laravel Self-Diagnosis command
-     *
-     * @return void
-     */
-    protected function runSelfDiagnosis()
-    {
-        $this->info('[START] Run self-diagnosis..........');
-        $this->call('self-diagnosis');
-        $this->info('[DONE ] Run self-diagnosis.');
     }
 
     protected function printReport()

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "210655e94dd651e4f0c6aad006a7d213",
+    "content-hash": "d1394c9308765de09669adfa66f29619",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -844,68 +844,6 @@
             "time": "2018-12-18T11:42:25+00:00"
         },
         {
-            "name": "beyondcode/laravel-self-diagnosis",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/beyondcode/laravel-self-diagnosis.git",
-                "reference": "8e347949fd78675980425fb88e1f400128eedeba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/beyondcode/laravel-self-diagnosis/zipball/8e347949fd78675980425fb88e1f400128eedeba",
-                "reference": "8e347949fd78675980425fb88e1f400128eedeba",
-                "shasum": ""
-            },
-            "require": {
-                "composer/semver": "^1.4",
-                "geerlingguy/ping": "^1.1",
-                "illuminate/support": "5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
-                "php": "^7.1",
-                "vlucas/phpdotenv": "~2.5"
-            },
-            "require-dev": {
-                "larapack/dd": "^1.0",
-                "mockery/mockery": "^1.0",
-                "orchestra/testbench": "~3.5",
-                "phpunit/phpunit": "^7.0",
-                "predis/predis": "^1.1",
-                "scrutinizer/ocular": "^1.5"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "BeyondCode\\SelfDiagnosis\\SelfDiagnosisServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "BeyondCode\\SelfDiagnosis\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marcel Pociot",
-                    "email": "marcel@beyondco.de",
-                    "homepage": "https://beyondcode.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Perform various self diagnosis tests on your Laravel application.",
-            "homepage": "https://github.com/beyondcode/laravel-self-diagnosis",
-            "keywords": [
-                "beyondcode",
-                "laravel-self-diagnosis"
-            ],
-            "time": "2018-10-09T19:42:43+00:00"
-        },
-        {
             "name": "beyondcode/laravel-vouchers",
             "version": "dev-master",
             "source": {
@@ -1212,68 +1150,6 @@
                 "reactphp"
             ],
             "time": "2018-10-24T07:47:33+00:00"
-        },
-        {
-            "name": "composer/semver",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/semver.git",
-                "reference": "2b303e43d14d15cc90c8e8db4a1cdb6259f1a5c5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/2b303e43d14d15cc90c8e8db4a1cdb6259f1a5c5",
-                "reference": "2b303e43d14d15cc90c8e8db4a1cdb6259f1a5c5",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.3.2 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.5 || ^5.0.5",
-                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Composer\\Semver\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nils Adermann",
-                    "email": "naderman@naderman.de",
-                    "homepage": "http://www.naderman.de"
-                },
-                {
-                    "name": "Jordi Boggiano",
-                    "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be"
-                },
-                {
-                    "name": "Rob Bast",
-                    "email": "rob.bast@gmail.com",
-                    "homepage": "http://robbast.nl"
-                }
-            ],
-            "description": "Semver library that offers utilities, version constraint parsing and validation.",
-            "keywords": [
-                "semantic",
-                "semver",
-                "validation",
-                "versioning"
-            ],
-            "time": "2017-11-06T09:05:54+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -2216,39 +2092,6 @@
             "time": "2017-06-27T22:17:23+00:00"
         },
         {
-            "name": "geerlingguy/ping",
-            "version": "1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/geerlingguy/Ping.git",
-                "reference": "b16248c0a59a6555437744db8b78c0589cfc32f9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/geerlingguy/Ping/zipball/b16248c0a59a6555437744db8b78c0589cfc32f9",
-                "reference": "b16248c0a59a6555437744db8b78c0589cfc32f9",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "JJG/Ping.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jeff Geerling",
-                    "email": "jeff@jeffgeerling.com"
-                }
-            ],
-            "description": "A PHP class to ping hosts.",
-            "time": "2017-02-02T15:38:40+00:00"
-        },
-        {
             "name": "google/apiclient",
             "version": "dev-master",
             "source": {
@@ -2568,12 +2411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "5e61346ab1e1ca7d01d2f633bad9574d35717781"
+                "reference": "ae7949ee7b865f0eb8b191c438cda63cad59d437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5e61346ab1e1ca7d01d2f633bad9574d35717781",
-                "reference": "5e61346ab1e1ca7d01d2f633bad9574d35717781",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/ae7949ee7b865f0eb8b191c438cda63cad59d437",
+                "reference": "ae7949ee7b865f0eb8b191c438cda63cad59d437",
                 "shasum": ""
             },
             "require": {
@@ -2630,7 +2473,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-07T15:04:46+00:00"
+            "time": "2018-12-28T01:59:01+00:00"
         },
         {
             "name": "hyn/multi-tenant",
@@ -2966,12 +2809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "6e0c87d2322172e4066530303db06ca79e9a3572"
+                "reference": "6f0991b94b767029400034abaf8ea193fb6fbeb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/6e0c87d2322172e4066530303db06ca79e9a3572",
-                "reference": "6e0c87d2322172e4066530303db06ca79e9a3572",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/6f0991b94b767029400034abaf8ea193fb6fbeb0",
+                "reference": "6f0991b94b767029400034abaf8ea193fb6fbeb0",
                 "shasum": ""
             },
             "require": {
@@ -3104,7 +2947,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-21T20:09:25+00:00"
+            "time": "2018-12-28T14:33:46+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -4918,12 +4761,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "68f536105f1e4fe439ccabac105bb1c90dee8b92"
+                "reference": "4d5b7e6ba1127789c7ff59d6f762298eaa29787f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/68f536105f1e4fe439ccabac105bb1c90dee8b92",
-                "reference": "68f536105f1e4fe439ccabac105bb1c90dee8b92",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4d5b7e6ba1127789c7ff59d6f762298eaa29787f",
+                "reference": "4d5b7e6ba1127789c7ff59d6f762298eaa29787f",
                 "shasum": ""
             },
             "require": {
@@ -4988,7 +4831,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2018-12-11T10:11:11+00:00"
+            "time": "2018-12-26T14:24:03+00:00"
         },
         {
             "name": "moontoast/math",
@@ -5144,16 +4987,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.36.1",
+            "version": "1.36.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "63da8cdf89d7a5efe43aabc794365f6e7b7b8983"
+                "reference": "cd324b98bc30290f233dd0e75e6ce49f7ab2a6c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/63da8cdf89d7a5efe43aabc794365f6e7b7b8983",
-                "reference": "63da8cdf89d7a5efe43aabc794365f6e7b7b8983",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/cd324b98bc30290f233dd0e75e6ce49f7ab2a6c9",
+                "reference": "cd324b98bc30290f233dd0e75e6ce49f7ab2a6c9",
                 "shasum": ""
             },
             "require": {
@@ -5198,7 +5041,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-11-22T18:23:02+00:00"
+            "time": "2018-12-28T10:07:33+00:00"
         },
         {
             "name": "nexmo/client",
@@ -13247,12 +13090,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3f8a62ad1763ab3a43b1e30d90a6f443bab15fa5"
+                "reference": "79a050b2acd61a655000208873ed9ff33320fc19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3f8a62ad1763ab3a43b1e30d90a6f443bab15fa5",
-                "reference": "3f8a62ad1763ab3a43b1e30d90a6f443bab15fa5",
+                "url": "https://api.github.com/repos/symfony/console/zipball/79a050b2acd61a655000208873ed9ff33320fc19",
+                "reference": "79a050b2acd61a655000208873ed9ff33320fc19",
                 "shasum": ""
             },
             "require": {
@@ -13308,7 +13151,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-17T13:51:43+00:00"
+            "time": "2018-12-24T10:03:37+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -13557,12 +13400,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "d2bae4531a8d48ee610ec664d10336c9500e3a64"
+                "reference": "413fc800a335876085d358d3a3cd9e2d59093ed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/d2bae4531a8d48ee610ec664d10336c9500e3a64",
-                "reference": "d2bae4531a8d48ee610ec664d10336c9500e3a64",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/413fc800a335876085d358d3a3cd9e2d59093ed1",
+                "reference": "413fc800a335876085d358d3a3cd9e2d59093ed1",
                 "shasum": ""
             },
             "require": {
@@ -13598,7 +13441,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-13T12:43:21+00:00"
+            "time": "2018-12-24T10:03:37+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -13660,12 +13503,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "69e072692482778df08f4662af2de8cf032cfdfb"
+                "reference": "3f8c00ace3b6acbd886533f153a73e40fe730083"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/69e072692482778df08f4662af2de8cf032cfdfb",
-                "reference": "69e072692482778df08f4662af2de8cf032cfdfb",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/3f8c00ace3b6acbd886533f153a73e40fe730083",
+                "reference": "3f8c00ace3b6acbd886533f153a73e40fe730083",
                 "shasum": ""
             },
             "require": {
@@ -13741,7 +13584,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-17T13:49:19+00:00"
+            "time": "2018-12-24T10:03:37+00:00"
         },
         {
             "name": "symfony/inflector",
@@ -14156,12 +13999,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "36a8cd34efd35f8273f2915b129f0c2f0bc79605"
+                "reference": "7714a872bcffc0c18b46e833316a9c7a6b3bd4dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/36a8cd34efd35f8273f2915b129f0c2f0bc79605",
-                "reference": "36a8cd34efd35f8273f2915b129f0c2f0bc79605",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/7714a872bcffc0c18b46e833316a9c7a6b3bd4dc",
+                "reference": "7714a872bcffc0c18b46e833316a9c7a6b3bd4dc",
                 "shasum": ""
             },
             "require": {
@@ -14225,7 +14068,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-12-17T13:49:19+00:00"
+            "time": "2018-12-24T09:28:22+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -14386,12 +14229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "4ec161b171692c1a4a494dbae5401746fe7ec35e"
+                "reference": "d571be7971d329837f6392d9e8207b40b36d5606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/4ec161b171692c1a4a494dbae5401746fe7ec35e",
-                "reference": "4ec161b171692c1a4a494dbae5401746fe7ec35e",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/d571be7971d329837f6392d9e8207b40b36d5606",
+                "reference": "d571be7971d329837f6392d9e8207b40b36d5606",
                 "shasum": ""
             },
             "require": {
@@ -14405,6 +14248,7 @@
             },
             "require-dev": {
                 "ext-iconv": "*",
+                "symfony/console": "~3.4|~4.0",
                 "symfony/process": "~3.4|~4.0",
                 "twig/twig": "~1.34|~2.4"
             },
@@ -14453,7 +14297,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2018-12-20T12:55:11+00:00"
+            "time": "2018-12-24T13:39:10+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -15405,7 +15249,6 @@
         "amphp/parallel-functions": 20,
         "barryvdh/laravel-snappy": 20,
         "beyondcode/dusk-dashboard": 20,
-        "beyondcode/laravel-self-diagnosis": 20,
         "beyondcode/laravel-vouchers": 20,
         "beyondcode/laravel-websockets": 20,
         "doctrine/dbal": 20,

@@ -23,7 +23,6 @@
         "amphp/parallel-functions": "dev-master",
         "barryvdh/laravel-snappy": "^0.4.0@dev",
         "beyondcode/dusk-dashboard": "dev-master",
-        "beyondcode/laravel-self-diagnosis": "dev-master",
         "beyondcode/laravel-vouchers": "dev-master",
         "beyondcode/laravel-websockets": "dev-master",
         "doctrine/dbal": "^2.9@dev",
