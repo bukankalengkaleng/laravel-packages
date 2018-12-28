@@ -64,6 +64,7 @@
         "spatie/laravel-google-calendar": "dev-master",
         "spatie/laravel-googletagmanager": "^1.0@dev",
         "spatie/laravel-html": "dev-master",
+        "spatie/laravel-honeypot": "dev-master",
         "spatie/laravel-http-logger": "dev-master",
         "spatie/laravel-image-optimizer": "dev-master",
         "spatie/laravel-json-api-paginate": "dev-master",
@@ -79,6 +80,7 @@
         "spatie/laravel-referer": "dev-master",
         "spatie/laravel-robots-middleware": "dev-master",
         "spatie/robots-txt": "dev-master",
+        "spatie/laravel-searchable": "dev-master",
         "spatie/laravel-server-monitor": "^1.0",
         "spatie/laravel-server-side-rendering": "dev-master",
         "spatie/laravel-slack-slash-command": "dev-master",
@@ -101,9 +103,7 @@
         "yajra/laravel-datatables-editor": "^1.0",
         "yajra/laravel-datatables-fractal": "^1.0",
         "yajra/laravel-datatables-html": "^4.0",
-        "yajra/laravel-datatables-oracle": "~8.0",
-        "spatie/laravel-searchable": "dev-master",
-        "spatie/laravel-honeypot": "dev-master"
+        "yajra/laravel-datatables-oracle": "~8.0"
     },
     "require-dev": {
         "orchestra/testbench": "3.7.*",
