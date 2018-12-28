@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0868da4c29ab11a7124c279deb168a87",
+    "content-hash": "6dc85af5e7c2cd093ab15719a837d85b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -140,16 +140,16 @@
         },
         {
             "name": "amphp/byte-stream",
-            "version": "v1.5.0",
+            "version": "v1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/byte-stream.git",
-                "reference": "37b9ab16bb8f69c825c3c4e553fe00da73dd6926"
+                "reference": "6bbfcb6f47e92577e739586ba0c87e867be70a23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/byte-stream/zipball/37b9ab16bb8f69c825c3c4e553fe00da73dd6926",
-                "reference": "37b9ab16bb8f69c825c3c4e553fe00da73dd6926",
+                "url": "https://api.github.com/repos/amphp/byte-stream/zipball/6bbfcb6f47e92577e739586ba0c87e867be70a23",
+                "reference": "6bbfcb6f47e92577e739586ba0c87e867be70a23",
                 "shasum": ""
             },
             "require": {
@@ -195,7 +195,7 @@
                 "non-blocking",
                 "stream"
             ],
-            "time": "2018-10-22T19:37:37+00:00"
+            "time": "2018-12-27T18:08:06+00:00"
         },
         {
             "name": "amphp/parallel",
@@ -1220,12 +1220,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "447a44cc37b64751b0f266c58ecb6b059f64c512"
+                "reference": "bdf3e32d07a8978c713a726d9bc60b7fa6b4dbff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/447a44cc37b64751b0f266c58ecb6b059f64c512",
-                "reference": "447a44cc37b64751b0f266c58ecb6b059f64c512",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/bdf3e32d07a8978c713a726d9bc60b7fa6b4dbff",
+                "reference": "bdf3e32d07a8978c713a726d9bc60b7fa6b4dbff",
                 "shasum": ""
             },
             "require": {
@@ -1295,7 +1295,7 @@
                 "riak",
                 "xcache"
             ],
-            "time": "2018-12-19T12:36:48+00:00"
+            "time": "2018-12-27T18:07:28+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -1303,12 +1303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "51635feed3506c8ac112130bac5d95dd0f2c51c2"
+                "reference": "df4071e157e5acf3872b72496c915302780ad1c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/51635feed3506c8ac112130bac5d95dd0f2c51c2",
-                "reference": "51635feed3506c8ac112130bac5d95dd0f2c51c2",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/df4071e157e5acf3872b72496c915302780ad1c7",
+                "reference": "df4071e157e5acf3872b72496c915302780ad1c7",
                 "shasum": ""
             },
             "require": {
@@ -1377,7 +1377,7 @@
                 "php",
                 "queryobject"
             ],
-            "time": "2018-12-14T07:47:03+00:00"
+            "time": "2018-12-27T20:36:59+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -2152,16 +2152,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.78",
+            "version": "v0.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "16a71009a5b402012e00e0d46628ace599c1abb2"
+                "reference": "74f7cdab80c6f2766d5fb9e484fe4fe8334c96e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/16a71009a5b402012e00e0d46628ace599c1abb2",
-                "reference": "16a71009a5b402012e00e0d46628ace599c1abb2",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/74f7cdab80c6f2766d5fb9e484fe4fe8334c96e3",
+                "reference": "74f7cdab80c6f2766d5fb9e484fe4fe8334c96e3",
                 "shasum": ""
             },
             "require": {
@@ -2185,7 +2185,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-12-16T00:22:52+00:00"
+            "time": "2018-12-22T00:23:08+00:00"
         },
         {
             "name": "google/auth",
@@ -4622,12 +4622,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "382ca0128f0a792884c81f9014d6ce02bfe73048"
+                "reference": "90ee36a7fcef4f27446148b67cd2a45abe783170"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/382ca0128f0a792884c81f9014d6ce02bfe73048",
-                "reference": "382ca0128f0a792884c81f9014d6ce02bfe73048",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/90ee36a7fcef4f27446148b67cd2a45abe783170",
+                "reference": "90ee36a7fcef4f27446148b67cd2a45abe783170",
                 "shasum": ""
             },
             "require": {
@@ -4665,7 +4665,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-12-08T15:37:28+00:00"
+            "time": "2018-12-26T13:19:18+00:00"
         },
         {
             "name": "nwidart/laravel-modules",
@@ -6068,12 +6068,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c23d78776ad415d5506e0679723cb461d71f488f"
+                "reference": "0e50225bd4e4b0580aa7f03891733e68d13d8a5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c23d78776ad415d5506e0679723cb461d71f488f",
-                "reference": "c23d78776ad415d5506e0679723cb461d71f488f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0e50225bd4e4b0580aa7f03891733e68d13d8a5b",
+                "reference": "0e50225bd4e4b0580aa7f03891733e68d13d8a5b",
                 "shasum": ""
             },
             "require": {
@@ -6144,7 +6144,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-12-12T07:20:32+00:00"
+            "time": "2018-12-24T05:52:27+00:00"
         },
         {
             "name": "predis/predis",
@@ -8707,31 +8707,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-backup.git",
-                "reference": "784e29180dc77916266e7d9a2feda90e736080e8"
+                "reference": "e942832f1caf7c720bf50287bab326173b90fa52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-backup/zipball/784e29180dc77916266e7d9a2feda90e736080e8",
-                "reference": "784e29180dc77916266e7d9a2feda90e736080e8",
+                "url": "https://api.github.com/repos/spatie/laravel-backup/zipball/e942832f1caf7c720bf50287bab326173b90fa52",
+                "reference": "e942832f1caf7c720bf50287bab326173b90fa52",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/contracts": "~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/events": "~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/filesystem": "~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/notifications": "~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
-                "league/flysystem": "^1.0.27",
-                "php": "^7.1",
-                "spatie/db-dumper": "^2.11.1",
+                "illuminate/console": "~5.7.0",
+                "illuminate/contracts": "~5.7.0",
+                "illuminate/events": "~5.7.0",
+                "illuminate/filesystem": "~5.7.0",
+                "illuminate/notifications": "~5.7.0",
+                "illuminate/support": "~5.7.0",
+                "league/flysystem": "^1.0.49",
+                "php": "^7.2",
+                "spatie/db-dumper": "^2.12",
                 "spatie/temporary-directory": "^1.1",
-                "symfony/finder": "^3.3|^4.0"
+                "symfony/finder": "^4.2"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
-                "phpunit/phpunit": "^7.3"
+                "orchestra/testbench": "~3.7.0",
+                "phpunit/phpunit": "^7.5"
             },
             "suggest": {
                 "guzzlehttp/guzzle": "Allows notifications to be sent via Slack"
@@ -8764,7 +8764,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "A Laravel 5 package to backup your application",
+            "description": "A Laravel package to backup your application",
             "homepage": "https://github.com/spatie/laravel-backup",
             "keywords": [
                 "backup",
@@ -8772,7 +8772,7 @@
                 "laravel-backup",
                 "spatie"
             ],
-            "time": "2018-11-27T08:12:57+00:00"
+            "time": "2018-12-28T16:43:29+00:00"
         },
         {
             "name": "spatie/laravel-blade-javascript",
@@ -10498,12 +10498,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "7253e10114f319c4a88407216250cee56fc5edf6"
+                "reference": "0d2bd2ae84fcff084bb0f73827df985748d87b0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/7253e10114f319c4a88407216250cee56fc5edf6",
-                "reference": "7253e10114f319c4a88407216250cee56fc5edf6",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/0d2bd2ae84fcff084bb0f73827df985748d87b0d",
+                "reference": "0d2bd2ae84fcff084bb0f73827df985748d87b0d",
                 "shasum": ""
             },
             "require": {
@@ -10555,7 +10555,7 @@
                 "security",
                 "spatie"
             ],
-            "time": "2018-12-18T16:41:25+00:00"
+            "time": "2018-12-27T16:34:20+00:00"
         },
         {
             "name": "spatie/laravel-query-builder",
@@ -11816,12 +11816,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/once.git",
-                "reference": "e9c8b0f77d880e23f2ffc8c058f1eee1c929971c"
+                "reference": "a7170af0a984cfcb5004e426edd6799113eb7fcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/once/zipball/e9c8b0f77d880e23f2ffc8c058f1eee1c929971c",
-                "reference": "e9c8b0f77d880e23f2ffc8c058f1eee1c929971c",
+                "url": "https://api.github.com/repos/spatie/once/zipball/a7170af0a984cfcb5004e426edd6799113eb7fcc",
+                "reference": "a7170af0a984cfcb5004e426edd6799113eb7fcc",
                 "shasum": ""
             },
             "require": {
@@ -11861,7 +11861,7 @@
                 "once",
                 "spatie"
             ],
-            "time": "2018-10-29T09:04:14+00:00"
+            "time": "2018-12-27T15:11:46+00:00"
         },
         {
             "name": "spatie/opening-hours",
@@ -14124,20 +14124,21 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "dev-master",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "53927dddf3afa2088b355188e143bba42159bf5d"
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/53927dddf3afa2088b355188e143bba42159bf5d",
-                "reference": "53927dddf3afa2088b355188e143bba42159bf5d",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.3 || ^7.0"
+                "php": "^5.3.3 || ^7.0",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.6",
@@ -14170,7 +14171,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2018-05-29T14:25:02+00:00"
+            "time": "2018-12-25T11:19:39+00:00"
         },
         {
             "name": "yajra/laravel-datatables-buttons",
@@ -14823,12 +14824,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "b5c97f3f3ae488c9e92196c2a7fcf3def9d23e36"
+                "reference": "563e828710ccd27567506ec5a84dd977bf0fe53c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/b5c97f3f3ae488c9e92196c2a7fcf3def9d23e36",
-                "reference": "b5c97f3f3ae488c9e92196c2a7fcf3def9d23e36",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/563e828710ccd27567506ec5a84dd977bf0fe53c",
+                "reference": "563e828710ccd27567506ec5a84dd977bf0fe53c",
                 "shasum": ""
             },
             "require": {
@@ -14879,7 +14880,7 @@
                 "orchestral",
                 "testing"
             ],
-            "time": "2018-12-04T00:47:44+00:00"
+            "time": "2018-12-23T13:10:06+00:00"
         }
     ],
     "aliases": [],
@@ -14928,6 +14929,7 @@
         "spatie/laravel-google-calendar": 20,
         "spatie/laravel-googletagmanager": 20,
         "spatie/laravel-html": 20,
+        "spatie/laravel-honeypot": 20,
         "spatie/laravel-http-logger": 20,
         "spatie/laravel-image-optimizer": 20,
         "spatie/laravel-json-api-paginate": 20,
@@ -14942,6 +14944,7 @@
         "spatie/laravel-referer": 20,
         "spatie/laravel-robots-middleware": 20,
         "spatie/robots-txt": 20,
+        "spatie/laravel-searchable": 20,
         "spatie/laravel-server-side-rendering": 20,
         "spatie/laravel-slack-slash-command": 20,
         "spatie/laravel-sluggable": 20,
@@ -14959,9 +14962,7 @@
         "spatie/packagist-api": 20,
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
-        "spatie/valuestore": 20,
-        "spatie/laravel-searchable": 20,
-        "spatie/laravel-honeypot": 20
+        "spatie/valuestore": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
