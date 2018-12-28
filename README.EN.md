@@ -54,7 +54,6 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
 1. [BeyondCode's Laravel Vouchers](https://github.com/beyondcode/laravel-vouchers)
 1. [BeyondCode's Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
-1. [Doctrine's DBAL](https://www.doctrine-project.org/projects/dbal.html)
 1. [Hyn's Multi-Tenant](https://github.com/hyn/multi-tenant)
 1. [Laravel Cashier](https://laravel.com/docs/5.7/billing)
 1. [Laravel Dusk](https://laravel.com/docs/5.7/dusk)
@@ -147,6 +146,7 @@ Here is the list of a must-have, mostly my favorite, Laravel packages that comes
 
 1. [AWS' PHP SNS Message Validator](https://github.com/aws/aws-php-sns-message-validator)
 1. [Barryvdh's Laravel Snappy](https://github.com/barryvdh/laravel-snappy)
+1. [Doctrine's DBAL](https://www.doctrine-project.org/projects/dbal.html)
 1. [Yajra's DataTables Editor](https://github.com/yajra/laravel-datatables-editor)
 1. [Yajra's DataTables HTML](https://github.com/yajra/laravel-datatables-html)
 1. [Yajra's DataTables Button](https://github.com/yajra/laravel-datatables-buttons)
