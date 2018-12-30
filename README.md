@@ -6,11 +6,11 @@
 
 ## Deskripsi
 
-Kumpulan packages Laravel terbaek, menurut aku.
+Kumpulan packages Laravel terbaik, pilihan pribadi.
 
 ## Motivasi
 
-Package ini kubuat agar aku (ato kalean) tak perlu lagi susah payah masukin satu-per-satu packages favorit ke suatu proyek berbasis Laravel.
+Package ini saya buat agar saya (atau kalian) tak perlu lagi bersusah-payah memasukkann satu-per-satu packages favorit kesuatu proyek.
 
 ## Instalasi
 
