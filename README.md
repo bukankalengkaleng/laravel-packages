@@ -51,6 +51,7 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 
 1. [Algolia's PHP SDK](https://github.com/algolia/algoliasearch-client-php)
 1. [AWS' Laravel PHP SDK](https://github.com/aws/aws-sdk-php-laravel)
+1. [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar)
 1. [BeyondCode's Dusk Dashboard](https://github.com/beyondcode/dusk-dashboard)
 1. [BeyondCode's Laravel Vouchers](https://github.com/beyondcode/laravel-vouchers)
 1. [BeyondCode's Laravel Websockets](https://docs.beyondco.de/laravel-websockets/)
