@@ -2,6 +2,16 @@
 
 All notable changes will be documented in this file.
 
+## [v1.7.1 (2018-12-31)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.7.0...v1.7.1)
+
+### Added
+
+- Add badge: Codeclimate's maintainability
+- Add badge: Codeclimate's coverage test
+- Add badge: Scrutinizer's code quality
+- Add badge: Codecov's code coverage
+- Add screenshots
+
 ## [v1.7.0 (2018-12-29)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.6.0...v1.7.0)
 
 ### Added
