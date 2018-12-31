@@ -1,37 +1,8 @@
 <p align="center"><img src="screenshots/logo.png" width="50%"></p>
 
 | Development | Versions | Statistics |
-| ----------- | -------- | ---------- |
+| ----------- | :------: | ---------- |
 | [![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/?branch=master) <br> [![Code Coverage](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/?branch=master) [![Code Intelligence Status](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) <br> [![composer.lock](https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![Latest Stable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) <br> [![Latest Unstable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/unstable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![Total Downloads](https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
-
-<table border="1" width="100%">
-    <thead>
-        <tr>
-            <th align="center">Development</th>
-            <th align="center">Versions</th>
-            <th align="center">Statistics</th>
-            <th align="center">About</th>
-        </tr>
-    </thead>
-    <tr>
-        <td align="top">
-            <img src="https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master"> 
-            <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/quality-score.png?b=master">
-            <br>
-            <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/coverage.png?b=master">
-            <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/code-intelligence.svg?b=master">
-            <br>
-            <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock">
-        </td>
-        <td align="top">
-            <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable">
-            <br>
-            <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/unstable">
-        </td>
-        <td align="top"><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads"></td>
-        <td align="top"><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/license"></td>
-    </tr>
-</table>
 
 > This readme is written in Bahasa. [English version is here](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md).
 
