@@ -3,10 +3,10 @@
 <table border="1" width="100%">
     <thead>
         <tr>
-            <th>Development</th>
-            <th>Versions</th>
-            <th>Statistics</th>
-            <th>About</th>
+            <th align="center">Development</th>
+            <th align="center">Versions</th>
+            <th align="center">Statistics</th>
+            <th align="center">About</th>
         </tr>
     </thead>
     <tr>
