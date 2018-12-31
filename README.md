@@ -1,10 +1,37 @@
-# <img src="https://seeklogo.com/images/L/laravel-logo-9B01588B1F-seeklogo.com.png" width="24px"> Laravel Packages 📦
+<p align="center"><img src="screenshots/logo.png" width="50%"></p>
 
-[![License](https://poser.pugx.org/bukankalengkaleng/laravel-packages/license)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
-[![composer.lock](https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![Latest Stable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![Total Downloads](https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages)
+<p align="center">
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Development</th>
+            <th>Versions</th>
+            <th>Statistics</th>
+            <th>About</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>
+            <img src="https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master"> 
+            <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/quality-score.png?b=master">
+            <br>
+            <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/coverage.png?b=master">
+            <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/code-intelligence.svg?b=master">
+            <br>
+            <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock">
+        </td>
+        <td>
+            <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable">
+            <br>
+            <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/unstable">
+        </td>
+        <td><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads"></td>
+        <td><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/license"></td>
+    </tr>
+</table>
+
+</p>
 
 > This readme is written in Bahasa. [English version is here](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md).
 
