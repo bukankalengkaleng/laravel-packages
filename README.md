@@ -1,8 +1,6 @@
 <p align="center"><img src="screenshots/logo.png" width="50%"></p>
 
-<p align="center">
 > This readme is written in Bahasa. [English version is here](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md).
-</p>
 
 | Development | Code Quality | Versions | Statistics | About |
 | :---------: | :----------: | :------: | :--------: | :---: |
