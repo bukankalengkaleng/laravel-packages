@@ -1,9 +1,9 @@
 # <img src="https://seeklogo.com/images/L/laravel-logo-9B01588B1F-seeklogo.com.png" width="24px"> Laravel Packages 📦
 
 [![License](https://poser.pugx.org/bukankalengkaleng/laravel-packages/license)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
+[![composer.lock](https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
 [![Latest Stable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
 [![Total Downloads](https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![composer.lock](https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
 [![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages)
 
 > Readme ini ditulis dalam bahasa Inggris. [Versi bahasa Indonesianya ada disini](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.md).
