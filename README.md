@@ -175,3 +175,8 @@ Catatan revisi dapat dilihat di [Changelog](https://github.com/bukankalengkaleng
 ## Lisensi
 
 Lisensi dari package ini adalah MIT License (MIT). Silahkan lihat bagian [Lisensi](https://github.com/bukankalengkaleng/laravel-packages/blob/master/LICENSE.md) ini untuk lebih jelasnya.
+
+
+## Screenshots
+
+<img src="screenshots/01.png" width="30%"> <img src="screenshots/02.png" width="30%"> <img src="screenshots/03.png" width="30%"> <img src="screenshots/04.png" width="30%"> <img src="screenshots/05.png" width="30%">
