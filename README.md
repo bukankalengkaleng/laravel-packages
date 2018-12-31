@@ -1,10 +1,14 @@
 <p align="center"><img src="screenshots/logo.png" width="50%"></p>
 
-> This readme is written in Bahasa. [English version is here](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md).
+<p align="center">This readme is written in Bahasa. <a href="https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.EN.md">English version is here</a></p>
+
+<p align="center">
 
 | Development | Code Quality | Versions | Statistics | About |
 | :---------: | :----------: | :------: | :--------: | :---: |
 | [![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages) <br> [![composer.lock](https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/?branch=master) <br> [![Code Coverage](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/?branch=master) <br> [![Code Intelligence Status](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) | [![Latest Stable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) <br> [![Latest Unstable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/unstable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![Total Downloads](https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![License](https://poser.pugx.org/bukankalengkaleng/laravel-packages/license)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
+
+</p>
 
 ## Deskripsi
 
