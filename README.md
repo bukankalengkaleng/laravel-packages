@@ -10,7 +10,7 @@
         </tr>
     </thead>
     <tr>
-        <td>
+        <td align="top">
             <img src="https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master"> 
             <img src="https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/quality-score.png?b=master">
             <br>
@@ -19,13 +19,13 @@
             <br>
             <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock">
         </td>
-        <td>
+        <td align="top">
             <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable">
             <br>
             <img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/unstable">
         </td>
-        <td><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads"></td>
-        <td><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/license"></td>
+        <td align="top"><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads"></td>
+        <td align="top"><img src="https://poser.pugx.org/bukankalengkaleng/laravel-packages/license"></td>
     </tr>
 </table>
 
