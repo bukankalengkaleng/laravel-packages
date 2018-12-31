@@ -161,7 +161,7 @@ Here is the list of all packages that comes with this package (A-Z):
 
 How about the other packages that are not listed above? Plese see [Roadmap](https://github.com/bukankalengkaleng/laravel-packages/blob/master/ROADMAP.md) for more information.
 
-## Contributing
+## Contributing [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/engkaleng/laravel-packages/issues)
 
 Am I missing other good packages?
 
