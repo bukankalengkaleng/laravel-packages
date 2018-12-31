@@ -1,12 +1,12 @@
-# <img src="https://seeklogo.com/images/L/laravel-logo-9B01588B1F-seeklogo.com.png" width="24px"> Laravel Packages 📦
+<p align="center"><img src="screenshots/logo.png" width="50%"></p>
 
-[![License](https://poser.pugx.org/bukankalengkaleng/laravel-packages/license)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
-[![composer.lock](https://poser.pugx.org/bukankalengkaleng/laravel-packages/composerlock)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![Latest Stable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![Total Downloads](https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) 
-[![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages)
+<p align="center">Readme ini ditulis dalam bahasa Inggris. <a href="https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.md">Versi bahasa Indonesianya ada disini</a>.</p>
 
-> Readme ini ditulis dalam bahasa Inggris. [Versi bahasa Indonesianya ada disini](https://github.com/bukankalengkaleng/laravel-packages/blob/master/README.md).
+---
+
+| Development | Code Quality | Versions | Statistics | About |
+| :---------: | :----------: | :------: | :--------: | :---: |
+| [![Build Status](https://travis-ci.org/bukankalengkaleng/laravel-packages.svg?branch=master)](https://travis-ci.org/bukankalengkaleng/laravel-packages) <br> [![Maintainability](https://api.codeclimate.com/v1/badges/b655557dfdefa30a7064/maintainability)](https://codeclimate.com/github/bukankalengkaleng/laravel-packages/maintainability) <br> [![Test Coverage](https://api.codeclimate.com/v1/badges/b655557dfdefa30a7064/test_coverage)](https://codeclimate.com/github/bukankalengkaleng/laravel-packages/test_coverage) | [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/?branch=master) <br> [![Code Coverage](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/?branch=master) <br> [![Code Intelligence Status](https://scrutinizer-ci.com/g/bukankalengkaleng/laravel-packages/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence) | [![Latest Stable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/stable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) <br> [![Latest Unstable Version](https://poser.pugx.org/bukankalengkaleng/laravel-packages/v/unstable)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![Total Downloads](https://poser.pugx.org/bukankalengkaleng/laravel-packages/downloads)](https://packagist.org/packages/bukankalengkaleng/laravel-packages) | [![License](https://poser.pugx.org/bukankalengkaleng/laravel-packages/license)](https://packagist.org/packages/bukankalengkaleng/laravel-packages)
 
 ## Description
 
