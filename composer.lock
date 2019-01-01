@@ -199,16 +199,16 @@
         },
         {
             "name": "amphp/parallel",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/amphp/parallel.git",
-                "reference": "4c3c93e46a0108f04990352b0d084ded2ec2cc17"
+                "reference": "ccf285bdcc38f355a1a113175291e1bfe87205ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/amphp/parallel/zipball/4c3c93e46a0108f04990352b0d084ded2ec2cc17",
-                "reference": "4c3c93e46a0108f04990352b0d084ded2ec2cc17",
+                "url": "https://api.github.com/repos/amphp/parallel/zipball/ccf285bdcc38f355a1a113175291e1bfe87205ad",
+                "reference": "ccf285bdcc38f355a1a113175291e1bfe87205ad",
                 "shasum": ""
             },
             "require": {
@@ -258,7 +258,7 @@
                 "multi-processing",
                 "multi-threading"
             ],
-            "time": "2018-10-27T16:19:01+00:00"
+            "time": "2018-12-30T19:32:25+00:00"
         },
         {
             "name": "amphp/parallel-functions",
@@ -1303,12 +1303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "df4071e157e5acf3872b72496c915302780ad1c7"
+                "reference": "f28f3a83e29baca5d9b4ee6bebc11465053055aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/df4071e157e5acf3872b72496c915302780ad1c7",
-                "reference": "df4071e157e5acf3872b72496c915302780ad1c7",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/f28f3a83e29baca5d9b4ee6bebc11465053055aa",
+                "reference": "f28f3a83e29baca5d9b4ee6bebc11465053055aa",
                 "shasum": ""
             },
             "require": {
@@ -1377,7 +1377,7 @@
                 "php",
                 "queryobject"
             ],
-            "time": "2018-12-27T20:36:59+00:00"
+            "time": "2018-12-30T04:00:37+00:00"
         },
         {
             "name": "doctrine/event-manager",
@@ -2809,12 +2809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b79bb0fb997f5f0f4655738c6a920362337c9342"
+                "reference": "2219c7deeb24cb1603cf3fc31abd26b87eb7e27a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b79bb0fb997f5f0f4655738c6a920362337c9342",
-                "reference": "b79bb0fb997f5f0f4655738c6a920362337c9342",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2219c7deeb24cb1603cf3fc31abd26b87eb7e27a",
+                "reference": "2219c7deeb24cb1603cf3fc31abd26b87eb7e27a",
                 "shasum": ""
             },
             "require": {
@@ -2947,7 +2947,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2018-12-30T03:24:32+00:00"
+            "time": "2018-12-31T14:25:02+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -3574,12 +3574,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "2528dbeee5cebc5066625da1487486b9e22c0706"
+                "reference": "5d8868f01469ade7df65ecebbf98c8c9efc354a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/2528dbeee5cebc5066625da1487486b9e22c0706",
-                "reference": "2528dbeee5cebc5066625da1487486b9e22c0706",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/5d8868f01469ade7df65ecebbf98c8c9efc354a9",
+                "reference": "5d8868f01469ade7df65ecebbf98c8c9efc354a9",
                 "shasum": ""
             },
             "require": {
@@ -3650,7 +3650,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-12-09T20:53:18+00:00"
+            "time": "2018-12-31T13:16:43+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -8707,12 +8707,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-backup.git",
-                "reference": "e942832f1caf7c720bf50287bab326173b90fa52"
+                "reference": "a49e9543e401abe56859385f857149ae3d76b6e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-backup/zipball/e942832f1caf7c720bf50287bab326173b90fa52",
-                "reference": "e942832f1caf7c720bf50287bab326173b90fa52",
+                "url": "https://api.github.com/repos/spatie/laravel-backup/zipball/a49e9543e401abe56859385f857149ae3d76b6e8",
+                "reference": "a49e9543e401abe56859385f857149ae3d76b6e8",
                 "shasum": ""
             },
             "require": {
@@ -8772,7 +8772,7 @@
                 "laravel-backup",
                 "spatie"
             ],
-            "time": "2018-12-28T16:43:29+00:00"
+            "time": "2018-12-29T11:27:15+00:00"
         },
         {
             "name": "spatie/laravel-blade-javascript",
@@ -9062,12 +9062,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-cookie-consent.git",
-                "reference": "e64a0a0b902c65aa60ae9220f3e2830403563ed9"
+                "reference": "6bb070ad357b613573ec1a1a32834aa4484c3117"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/e64a0a0b902c65aa60ae9220f3e2830403563ed9",
-                "reference": "e64a0a0b902c65aa60ae9220f3e2830403563ed9",
+                "url": "https://api.github.com/repos/spatie/laravel-cookie-consent/zipball/6bb070ad357b613573ec1a1a32834aa4484c3117",
+                "reference": "6bb070ad357b613573ec1a1a32834aa4484c3117",
                 "shasum": ""
             },
             "require": {
@@ -9122,7 +9122,7 @@
                 "law",
                 "spatie"
             ],
-            "time": "2018-11-27T08:01:21+00:00"
+            "time": "2018-12-29T21:37:48+00:00"
         },
         {
             "name": "spatie/laravel-cors",
@@ -10257,12 +10257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-missing-page-redirector.git",
-                "reference": "58faaacbc6586747a86fa79a59de6e776ecdfc8b"
+                "reference": "909987996ed175443aeed441efa2fa29d63b8c3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-missing-page-redirector/zipball/58faaacbc6586747a86fa79a59de6e776ecdfc8b",
-                "reference": "58faaacbc6586747a86fa79a59de6e776ecdfc8b",
+                "url": "https://api.github.com/repos/spatie/laravel-missing-page-redirector/zipball/909987996ed175443aeed441efa2fa29d63b8c3e",
+                "reference": "909987996ed175443aeed441efa2fa29d63b8c3e",
                 "shasum": ""
             },
             "require": {
@@ -10305,7 +10305,7 @@
                 "laravel-missing-page-redirector",
                 "spatie"
             ],
-            "time": "2018-08-27T11:53:28+00:00"
+            "time": "2018-12-29T21:43:18+00:00"
         },
         {
             "name": "spatie/laravel-model-cleanup",
@@ -11869,12 +11869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/opening-hours.git",
-                "reference": "c14204befd0a9e7eb914b47677a76798c2fd8927"
+                "reference": "f6507d805db64c6a1f3f9573a54cb59218a27861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/opening-hours/zipball/c14204befd0a9e7eb914b47677a76798c2fd8927",
-                "reference": "c14204befd0a9e7eb914b47677a76798c2fd8927",
+                "url": "https://api.github.com/repos/spatie/opening-hours/zipball/f6507d805db64c6a1f3f9573a54cb59218a27861",
+                "reference": "f6507d805db64c6a1f3f9573a54cb59218a27861",
                 "shasum": ""
             },
             "require": {
@@ -11910,7 +11910,7 @@
                 "schedule",
                 "spatie"
             ],
-            "time": "2018-12-13T07:59:20+00:00"
+            "time": "2018-12-29T22:33:42+00:00"
         },
         {
             "name": "spatie/packagist-api",
