@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "153c51d02d716be54d2e4f0ec4771c6b",
+    "content-hash": "8cb94fd60388ac6654513aa1a3c31e78",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -842,6 +842,64 @@
                 "dusk-dashboard"
             ],
             "time": "2018-12-18T11:42:25+00:00"
+        },
+        {
+            "name": "beyondcode/laravel-credentials",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beyondcode/laravel-credentials.git",
+                "reference": "9ac30f57f7a61f01bfc4da21dcbc6980c2d72db6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beyondcode/laravel-credentials/zipball/9ac30f57f7a61f01bfc4da21dcbc6980c2d72db6",
+                "reference": "9ac30f57f7a61f01bfc4da21dcbc6980c2d72db6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/encryption": ">=5.6",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.6",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BeyondCode\\Credentials\\CredentialsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BeyondCode\\Credentials\\": "src"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "marcel@beyondco.de",
+                    "homepage": "https://beyondcode.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Store and access encrypted credentials in your Laravel application.",
+            "homepage": "https://github.com/beyondcode/laravel-credentials",
+            "keywords": [
+                "Laravel-Credentials",
+                "beyondcode"
+            ],
+            "time": "2018-09-18T20:09:11+00:00"
         },
         {
             "name": "beyondcode/laravel-vouchers",
@@ -14962,7 +15020,8 @@
         "spatie/packagist-api": 20,
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
-        "spatie/valuestore": 20
+        "spatie/valuestore": 20,
+        "beyondcode/laravel-credentials": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
