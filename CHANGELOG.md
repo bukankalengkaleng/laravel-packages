@@ -2,6 +2,13 @@
 
 All notable changes will be documented in this file.
 
+## [v1.8.0 (2019-01-08)](https://github.com/bukankalengkaleng/laravel-packages/compare/v1.7.1...v1.8.0)
+
+### Added
+
+- Add beyondcode/laravel-credentials
+- Add beyondcode/laravel-comments
+
 ## [v1.7.1 (2018-12-31)](https://github.com/bukankalengkaleng/laravel-packages/compare/1.7.0...v1.7.1)
 
 ### Added
