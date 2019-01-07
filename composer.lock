@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8cb94fd60388ac6654513aa1a3c31e78",
+    "content-hash": "a7b9801fa198ca94129427a4a6965e5b",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -842,6 +842,61 @@
                 "dusk-dashboard"
             ],
             "time": "2018-12-18T11:42:25+00:00"
+        },
+        {
+            "name": "beyondcode/laravel-comments",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beyondcode/laravel-comments.git",
+                "reference": "7bbc0243025e152cedeb57b53ac05bb2702e8590"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beyondcode/laravel-comments/zipball/7bbc0243025e152cedeb57b53ac05bb2702e8590",
+                "reference": "7bbc0243025e152cedeb57b53ac05bb2702e8590",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.6",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BeyondCode\\Comments\\CommentsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BeyondCode\\Comments\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Pociot",
+                    "email": "marcel@beyondco.de",
+                    "homepage": "https://beyondcode.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add comments to your Laravel application",
+            "homepage": "https://github.com/beyondcode/laravel-comments",
+            "keywords": [
+                "beyondcode",
+                "comments",
+                "laravel-comments"
+            ],
+            "time": "2018-12-12T21:19:44+00:00"
         },
         {
             "name": "beyondcode/laravel-credentials",
@@ -14948,6 +15003,7 @@
         "amphp/parallel-functions": 20,
         "barryvdh/laravel-snappy": 20,
         "beyondcode/dusk-dashboard": 20,
+        "beyondcode/laravel-credentials": 20,
         "beyondcode/laravel-vouchers": 20,
         "beyondcode/laravel-websockets": 20,
         "doctrine/dbal": 20,
@@ -15021,7 +15077,7 @@
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
         "spatie/valuestore": 20,
-        "beyondcode/laravel-credentials": 20
+        "beyondcode/laravel-comments": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
