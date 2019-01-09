@@ -38,6 +38,7 @@
         "league/flysystem-aws-s3-v3": "^1.0@dev",
         "maatwebsite/excel": "3.1.x-dev",
         "nunomaduro/laravel-console-dusk": "dev-master",
+        "nunomaduro/laravel-console-menu": "dev-master",
         "nwidart/laravel-modules": "^4.0@dev",
         "owen-it/laravel-auditing": "^8.0@dev",
         "spatie/array-to-xml": "dev-master",

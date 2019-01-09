@@ -71,6 +71,7 @@ Berikut adalah daftar packages yang tersedia saat ini (urut A-Z):
 1. [League's Flysystem AWS S3](https://github.com/thephpleague/flysystem-aws-s3-v3)
 1. [Maatwebsite's Laravel Excel](https://github.com/maatwebsite/Laravel-Excel)
 1. [Nunomaduro's Laravel Console Dusk](https://github.com/nunomaduro/laravel-console-dusk)
+1. [Nunomaduro's Laravel Console Menu](https://github.com/nunomaduro/laravel-console-menu)
 1. [nWidart's Laravel Modules](https://github.com/nWidart/laravel-modules)
 1. [Owen-IT's Laravel Auditing](https://github.com/owen-it/laravel-auditing)
 1. [Spatie's Array-to-XML](https://github.com/spatie/array-to-xml)
