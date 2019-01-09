@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "46b495b0755ad56c0be9d45b936ffd40",
+    "content-hash": "59219a4e5a300d6c6b5fb0e61818b0c7",
     "packages": [
         {
             "name": "algolia/algoliasearch-client-php",
@@ -14626,6 +14626,58 @@
             "time": "2018-12-25T11:19:39+00:00"
         },
         {
+            "name": "writingink/wink",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/writingink/wink.git",
+                "reference": "b1707772d3775c80bf3361e358f50eb31811c0db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/writingink/wink/zipball/b1707772d3775c80bf3361e358f50eb31811c0db",
+                "reference": "b1707772d3775c80bf3361e358f50eb31811c0db",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.7",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "nunomaduro/larastan": "^0.3.8"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wink\\WinkServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wink\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mohamed Said",
+                    "email": "mohamed@laravel.com"
+                }
+            ],
+            "description": "Wink Publishing Framework.",
+            "keywords": [
+                "blog",
+                "framework",
+                "laravel"
+            ],
+            "time": "2019-01-09T10:30:50+00:00"
+        },
+        {
             "name": "yajra/laravel-datatables-buttons",
             "version": "v4.5.0",
             "source": {
@@ -15357,6 +15409,7 @@
         "league/flysystem-aws-s3-v3": 20,
         "maatwebsite/excel": 20,
         "nunomaduro/laravel-console-dusk": 20,
+        "nunomaduro/laravel-console-menu": 20,
         "nwidart/laravel-modules": 20,
         "owen-it/laravel-auditing": 20,
         "spatie/array-to-xml": 20,
@@ -15418,7 +15471,7 @@
         "spatie/pdf-to-text": 20,
         "spatie/url-signer": 20,
         "spatie/valuestore": 20,
-        "nunomaduro/laravel-console-menu": 20
+        "writingink/wink": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

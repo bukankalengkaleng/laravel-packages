@@ -149,6 +149,7 @@ Here is the list of all packages that comes with this package (A-Z):
 1. [Spatie's URL](https://github.com/spatie/url)
 1. [Spatie's URL Signer](https://github.com/spatie/url-signer)
 1. [Spatie's Value Store](https://github.com/spatie/valuestore)
+1. [Themsaid's Wink](https://github.com/writingink/wink)
 1. [Yajra's DataTables](https://github.com/yajra/laravel-datatables)
 
 ### Main package's plugins / libraries

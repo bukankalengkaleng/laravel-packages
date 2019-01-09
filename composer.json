@@ -104,6 +104,7 @@
         "spatie/pdf-to-text": "dev-master",
         "spatie/url-signer": "^1.0@dev",
         "spatie/valuestore": "dev-master",
+        "writingink/wink": "dev-master",
         "yajra/laravel-datatables-editor": "^1.0",
         "yajra/laravel-datatables-fractal": "^1.0",
         "yajra/laravel-datatables-html": "^4.0",
