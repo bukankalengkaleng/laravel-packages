@@ -31,7 +31,8 @@ Here is the packages that are planned to coming on the next release(s). These pa
 
 Here is the packages that can not / will not added. The reason is that they are: dev-env only, substituted, unmaintained, or abandoned.
 
-1. [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-env only
+1. [Barryvdh's Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar) : dev-only
 1. [BeyondCode's Laravel View X-Ray](https://github.com/beyondcode/laravel-view-xray) : dev-only
 1. [Nickurt's Laravel Stop Forum Spam](https://github.com/nickurt/laravel-stopforumspam) substituted by [Spatie's Laravel Honeypot](https://github.com/spatie/laravel-honeypot)
-1. [Spatie's Snapshot Assertion](https://github.com/spatie/phpunit-snapshot-assertions) : dev-env only
+1. [Nunomaduro's Larastan](https://github.com/nunomaduro/larastan) : dev-only
+1. [Spatie's Snapshot Assertion](https://github.com/spatie/phpunit-snapshot-assertions) : dev-only
