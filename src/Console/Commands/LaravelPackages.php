@@ -57,6 +57,9 @@ class LaravelPackages extends Command
         $this->installLaravelPassport();
         $this->line('');
 
+        $this->installWink();
+        $this->line('');
+
         $this->printReport();
         $this->line('');
     }
@@ -130,6 +133,20 @@ class LaravelPackages extends Command
         $this->call('telescope:install');
 
         $this->info('[DONE ] Laravel Telescope installation.');
+    }
+
+    /**
+     * Install Wink
+     *
+     * @return void
+     */
+    protected function installWink()
+    {
+        $this->info('[START] Wink installation..........');
+
+        $this->call('wink:install');
+
+        $this->info('[DONE ] Wink installation.');
     }
 
     /**
