@@ -15,8 +15,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "illuminate/contracts": "5.7.*",
-        "illuminate/support": "5.7.*",
+        "php": "^7.3",
+        "laravel/framework": "~5.8.0",
+        "illuminate/console": "~5.8.0",
         "algolia/algoliasearch-client-php": "^1.27",
         "aws/aws-php-sns-message-validator": "dev-master",
         "aws/aws-sdk-php-laravel": "~3.0",
@@ -40,7 +41,7 @@
         "nunomaduro/laravel-console-dusk": "dev-master",
         "nunomaduro/laravel-console-menu": "dev-master",
         "nwidart/laravel-modules": "^4.0@dev",
-        "owen-it/laravel-auditing": "^8.0@dev",
+        "owen-it/laravel-auditing": "~9.2.0",
         "spatie/array-to-xml": "dev-master",
         "spatie/browsershot": "dev-master",
         "spatie/calendar-links": "dev-master",
@@ -108,11 +109,11 @@
         "yajra/laravel-datatables-editor": "^1.0",
         "yajra/laravel-datatables-fractal": "^1.0",
         "yajra/laravel-datatables-html": "^4.0",
-        "yajra/laravel-datatables-oracle": "~8.0"
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
-        "orchestra/testbench": "3.7.*",
-        "phpunit/phpunit": "^7.0"
+        "orchestra/testbench": "~3.8.0",
+        "phpunit/phpunit": "^8.0"
     },
     "autoload": {
         "psr-4": {
